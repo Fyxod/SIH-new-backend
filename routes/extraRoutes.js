@@ -88,8 +88,7 @@ router.get('/home', safeHandler(async (req, res) => {
     const openSubjects = subjects.filter(subject => subject.status === "open");
     const closedSubjects = subjects.filter(subject => subject.status === "closed");
 
-    res.success(200, "Data fetched successfully", { candidates: candidates.length, experts: experts.length, openSubjects: openSubjects.length, closedSubjects: closedSubjects.length });
+    res.success(200, "Data fetched successfully", { candidates: candidates.length, experts: experts.length, subjects: subjects.length, openSubjects: openSubjects.length, closedSubjects: closedSubjects.length });
 }));
-
 
 export default router;
