@@ -7,6 +7,9 @@ import FormData from 'form-data';
 import axios from 'axios';
 import { generateToken } from '../utils/jwtFuncs.js';
 import dotenv from 'dotenv';
+import Candidate from '../models/candidate.js';
+import Expert from '../models/expert.js';
+import Subject from '../models/subject.js';
 dotenv.config();
 
 const router = express.Router();
@@ -77,6 +80,16 @@ router.get('/parse', resumeUpload.single("resume"), safeHandler(async (req, res)
     }
 }));
 
+
+router.get('/home', safeHandler(async (req, res) => {
+    const candidates = await Candidate.find();
+    const experts = await Expert.find();
+    const subjects = await Subject.find();
+    const openSubjects = subjects.filter(subject => subject.status === "open");
+    const closedSubjects = subjects.filter(subject => subject.status === "closed");
+
+    res.success(200, "Data fetched successfully", { candidates: candidates.length, experts: experts.length, openSubjects: openSubjects.length, closedSubjects: closedSubjects.length });
+}));
 
 
 export default router;

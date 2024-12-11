@@ -381,23 +381,17 @@ router.route('/:id/panel')
 
         const panel = candidate.panel;
         for (const expertId of expertIds) {
-            const alreadyAdded = panel.some(panel => panel.expert.equals(expertId));
-
-            if (alreadyAdded) {
-                throw new ApiError(400, 'Expert already added', 'EXPERT_ALREADY_ADDED');
-            }
-
             if (!alreadyAdded) {
+                panel = [];
                 panel.push({ expert: expertId, feedback: null });
                 const expert = experts.find(expert => expert._id.equals(expertId));
                 expert.candidates.push(id);
             }
         }
-
         
         // push candidateId in candidates field of all experts
         await Promise.all([candidate.save(), ...experts.map(expert => expert.save())]);
-        return res.success(201, "Panel member added successfully", { panel: candidate.panel });
+        return res.success(201, "Panel members added successfully", { panel: candidate.panel });
     }))
 
     .delete(checkAuth('admin'), safeHandler(async (req, res) => {
