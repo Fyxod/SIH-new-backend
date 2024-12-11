@@ -77,4 +77,6 @@ router.get('/parse', resumeUpload.single("resume"), safeHandler(async (req, res)
     }
 }));
 
+
+
 export default router;

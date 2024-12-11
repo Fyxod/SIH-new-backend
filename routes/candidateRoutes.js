@@ -363,29 +363,40 @@ router.route('/:id/panel')
 
     .post(checkAuth('admin'), safeHandler(async (req, res) => {
         const { id } = req.params;
-        const { expertId } = req.body;
+        const { expertIds } = req.body;
         if (!isValidObjectId(id)) throw new ApiError(400, 'Invalid candidate id', 'INVALID_ID');
-        if (!isValidObjectId(expertId)) throw new ApiError(400, 'Invalid expert id', 'INVALID_ID');
+        if (!expertIds || expertIds.length === 0) throw new ApiError(400, 'No expert ids provided', 'NO_EXPERT_IDS_PROVIDED');
+        //check if all expert ids are valid
+        if (!expertIds.every(isValidObjectId)) throw new ApiError(400, 'Invalid expert id', 'INVALID_ID');
 
         const candidate = await Candidate.findById(id);
         if (!candidate) {
             throw new ApiError(404, 'Candidate not found', 'CANDIDATE_NOT_FOUND');
         }
 
-        const alreadyAdded = candidate.panel.some(panel => panel.expert.equals(expertId));
-        if (alreadyAdded) {
-            throw new ApiError(400, 'Expert already added', 'EXPERT_ALREADY_ADDED');
+        const experts = await Expert.find({ _id: { $in: expertIds } });
+        if (!experts || experts.length === 0) {
+            throw new ApiError(404, 'No experts found', 'EXPERTS_NOT_FOUND');
         }
 
-        const expert = await Expert.findById(expertId);
-        if (!expert) {
-            throw new ApiError(404, 'Expert not found', 'EXPERT_NOT_FOUND');
+        const panel = candidate.panel;
+        for (const expertId of expertIds) {
+            const alreadyAdded = panel.some(panel => panel.expert.equals(expertId));
+
+            if (alreadyAdded) {
+                throw new ApiError(400, 'Expert already added', 'EXPERT_ALREADY_ADDED');
+            }
+
+            if (!alreadyAdded) {
+                panel.push({ expert: expertId, feedback: null });
+                const expert = experts.find(expert => expert._id.equals(expertId));
+                expert.candidates.push(id);
+            }
         }
 
-        candidate.panel.push({ expert: expertId, feedback: null });
-        expert.candidates.push(id);
-        await Promise.all([candidate.save(), expert.save()]);
-
+        
+        // push candidateId in candidates field of all experts
+        await Promise.all([candidate.save(), ...experts.map(expert => expert.save())]);
         return res.success(201, "Panel member added successfully", { panel: candidate.panel });
     }))
 

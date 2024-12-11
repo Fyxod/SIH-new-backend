@@ -266,8 +266,24 @@ router.route('/:id/expert')
             candidates: subject.candidates.sort((a, b) => b.relevancyScore - a.relevancyScore),
             experts: subject.experts.sort((a, b) => b.relevancyScore - a.relevancyScore)
         };
+        const newSortedData = {
+            candidates: sortedData.candidates.map(candidate => {
+                return {
+                    profileScore: candidate.profileScore,
+                    relevancyScore: candidate.relevancyScore,
+                    ...candidate.id
+                };
+            }),
+            experts: sortedData.experts.map(expert => {
+                return {
+                    profileScore: expert.profileScore,
+                    relevancyScore: expert.relevancyScore,
+                    ...expert.id
+                };
+            })
+        };
 
-        return res.success(200, 'Sorted data retrieved', { sortedData });
+        return res.success(200, 'Sorted data retrieved', { experts: newSortedData.experts, candidates: newSortedData.candidates });
     }
     ));
 
