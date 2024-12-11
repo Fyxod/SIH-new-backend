@@ -6,7 +6,6 @@ export default function checkAuth(role) { // role = minimum access level require
         let token = null;
 
         if (req.headers['ismobile'] === "true" || req.headers['ismobile'] === true) {
-            console.log("in the first block");
             const authHeader = req.headers['authorization'];
             if (!authHeader || !authHeader.startsWith('Bearer ')) {
                 return res.error(401, 'Missing or malformed token', 'UNAUTHORIZED');
@@ -15,7 +14,6 @@ export default function checkAuth(role) { // role = minimum access level require
         }
 
         else if (req.cookies?.userToken) {
-            console.log("in the second block");
             token = req.cookies?.userToken;
         }
 
@@ -28,7 +26,6 @@ export default function checkAuth(role) { // role = minimum access level require
         }
 
         else if (req.headers.cookie) {
-            console.log("in the third block");
             try {
                 const userToken = req.headers?.cookie
                     .split('; ')
@@ -39,8 +36,6 @@ export default function checkAuth(role) { // role = minimum access level require
                 return res.error(401, 'Missing or malformed token', 'UNAUTHORIZED');
             }
         }
-
-        console.log("Token printing here: ", token);
 
         const payload = verifyToken(token);
         if (!payload) {
