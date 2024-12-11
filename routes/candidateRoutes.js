@@ -381,12 +381,10 @@ router.route('/:id/panel')
 
         const panel = candidate.panel;
         for (const expertId of expertIds) {
-            if (!alreadyAdded) {
                 panel = [];
                 panel.push({ expert: expertId, feedback: null });
                 const expert = experts.find(expert => expert._id.equals(expertId));
                 expert.candidates.push(id);
-            }
         }
         
         // push candidateId in candidates field of all experts
