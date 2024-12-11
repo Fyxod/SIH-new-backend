@@ -1,0 +1,47 @@
+{
+    "subjectData": {
+        "title": "React Developer",
+        "recommendedSkills": [
+            "React",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    "candidateData": [
+        {
+            "name": "John Doe",
+            "skills": [
+                "React",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "name": "Jane Doe",
+            "skills": [
+                "React",
+                "JavaScript",
+                "HTML"
+            ]
+        },
+        {
+            "name": "Jim Doe",
+            "skills": [
+                "React",
+                "JavaScript",
+                "CSS"
+            ]
+        }
+    ],
+    "expertData": {
+        "name": "Expert",
+        "skills": [
+            "React",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    }
+}

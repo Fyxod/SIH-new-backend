@@ -1,0 +1,1681 @@
+[
+    {
+        "name": "Radhika Sharma",
+        "email": "radhika.sharma@example.com",
+        "mobileNo": "9876543210",
+        "gender": "female",
+        "dateOfBirth": "1990-05-12",
+        "skills": [
+            {
+                "skill": "Machine Learning",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Data Analysis",
+                "duration": 15778800000
+            },
+            {
+                "skill": "React",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Node.js",
+                "duration": 126230400000
+            },
+            {
+                "skill": "PostgreSQL",
+                "duration": 31557600000
+            },
+            {
+                "skill": "AWS",
+                "duration": 15778800000
+            }
+        ],
+        "currentPosition": "Data Scientist",
+        "currentDepartment": "Analytics",
+        "experience": [
+            {
+                "position": "Data Analyst",
+                "department": "Business Intelligence",
+                "startDate": "2018-06-01",
+                "endDate": "2020-12-31",
+                "companyName": "Infosys"
+            },
+            {
+                "position": "Machine Learning Engineer",
+                "department": "R&D",
+                "startDate": "2021-01-15",
+                "endDate": "2023-06-30",
+                "companyName": "Tech Solutions Inc."
+            }
+        ],
+        "education": [
+            {
+                "degree": "BSc",
+                "field": "Computer Science",
+                "startDate": "2008-07-15",
+                "endDate": "2011-05-10",
+                "institute": "Delhi University"
+            },
+            {
+                "degree": "MSc",
+                "field": "Data Science",
+                "startDate": "2012-08-10",
+                "endDate": "2014-07-25",
+                "institute": "IIT Delhi"
+            },
+            {
+                "degree": "PhD",
+                "field": "Artificial Intelligence",
+                "startDate": "2015-09-01",
+                "endDate": "2019-05-30",
+                "institute": "MIT"
+            }
+        ]
+    },
+    {
+        "name": "Arjun Mehta",
+        "email": "arjun.mehta@outlook.com",
+        "mobileNo": "9123456789",
+        "gender": "male",
+        "dateOfBirth": "1985-03-28",
+        "skills": [
+            {
+                "skill": "Cloud Computing",
+                "duration": 31557600000
+            },
+            {
+                "skill": "DevOps",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Kubernetes",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Docker",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Java",
+                "duration": 126230400000
+            },
+            {
+                "skill": "SQL",
+                "duration": 31557600000
+            }
+        ],
+        "currentPosition": "Senior DevOps Engineer",
+        "currentDepartment": "Infrastructure",
+        "experience": [
+            {
+                "position": "System Administrator",
+                "department": "IT",
+                "startDate": "2008-01-15",
+                "endDate": "2012-06-30",
+                "companyName": "Tata Consultancy Services"
+            },
+            {
+                "position": "Cloud Engineer",
+                "department": "Cloud Solutions",
+                "startDate": "2013-02-01",
+                "endDate": "2018-09-15",
+                "companyName": "HCL Technologies"
+            },
+            {
+                "position": "DevOps Lead",
+                "department": "Engineering",
+                "startDate": "2019-01-10",
+                "endDate": "2023-11-30",
+                "companyName": "Amazon Web Services"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BTech",
+                "field": "Information Technology",
+                "startDate": "2003-07-10",
+                "endDate": "2007-05-20",
+                "institute": "VIT University"
+            },
+            {
+                "degree": "MTech",
+                "field": "Software Engineering",
+                "startDate": "2008-08-05",
+                "endDate": "2010-06-15",
+                "institute": "Anna University"
+            },
+            {
+                "degree": "Postgraduate Diploma",
+                "field": "Cloud Computing",
+                "startDate": "2011-01-10",
+                "endDate": "2012-12-10",
+                "institute": "University of Melbourne"
+            }
+        ]
+    },
+    {
+        "name": "Sneha Kapoor",
+        "email": "sneha.kapoor@gmail.com",
+        "mobileNo": "9988776655",
+        "gender": "female",
+        "dateOfBirth": "1992-11-05",
+        "skills": [
+            {
+                "skill": "UI/UX Design",
+                "duration": 31557600000
+            },
+            {
+                "skill": "HTML",
+                "duration": 9460800000
+            },
+            {
+                "skill": "CSS",
+                "duration": 15778800000
+            },
+            {
+                "skill": "JavaScript",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Adobe Photoshop",
+                "duration": 126230400000
+            },
+            {
+                "skill": "Figma",
+                "duration": 3155760000
+            }
+        ],
+        "currentPosition": "Product Designer",
+        "currentDepartment": "Design",
+        "experience": [
+            {
+                "position": "Junior UI Designer",
+                "department": "Web Development",
+                "startDate": "2015-03-20",
+                "endDate": "2018-04-30",
+                "companyName": "Wipro"
+            },
+            {
+                "position": "UX Designer",
+                "department": "Mobile Applications",
+                "startDate": "2018-06-15",
+                "endDate": "2022-08-31",
+                "companyName": "Accenture"
+            },
+            {
+                "position": "Lead Product Designer",
+                "department": "E-Commerce",
+                "startDate": "2022-09-01",
+                "endDate": "2024-12-07",
+                "companyName": "Flipkart"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BA",
+                "field": "Visual Communication",
+                "startDate": "2010-08-01",
+                "endDate": "2013-05-10",
+                "institute": "Loyola College"
+            },
+            {
+                "degree": "MA",
+                "field": "Interaction Design",
+                "startDate": "2014-09-01",
+                "endDate": "2016-06-30",
+                "institute": "National Institute of Design"
+            },
+            {
+                "degree": "Certification",
+                "field": "Human-Computer Interaction",
+                "startDate": "2020-01-15",
+                "endDate": "2020-06-15",
+                "institute": "Stanford University"
+            }
+        ]
+    },
+    {
+        "name": "Ravi Verma",
+        "email": "ravi.verma@yahoo.com",
+        "mobileNo": "9012345678",
+        "gender": "male",
+        "dateOfBirth": "1995-04-10",
+        "skills": [
+            {
+                "skill": "Android Development",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Kotlin",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Java",
+                "duration": 94608000000
+            },
+            {
+                "skill": "Firebase",
+                "duration": 3155760000
+            },
+            {
+                "skill": "REST APIs",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Git",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "Mobile App Developer",
+        "currentDepartment": "Software Development",
+        "experience": [
+            {
+                "position": "Junior Android Developer",
+                "department": "Mobile Apps",
+                "startDate": "2017-01-15",
+                "endDate": "2019-12-31",
+                "companyName": "Tech Mahindra"
+            },
+            {
+                "position": "Android Developer",
+                "department": "Development",
+                "startDate": "2020-02-01",
+                "endDate": "2023-05-31",
+                "companyName": "Infosys"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BCA",
+                "field": "Computer Applications",
+                "startDate": "2012-08-01",
+                "endDate": "2015-05-15",
+                "institute": "Amity University"
+            },
+            {
+                "degree": "MCA",
+                "field": "Computer Applications",
+                "startDate": "2016-08-01",
+                "endDate": "2018-05-15",
+                "institute": "Manipal University"
+            }
+        ]
+    },
+    {
+        "name": "Pooja Desai",
+        "email": "pooja.desai@gmail.com",
+        "mobileNo": "8765432109",
+        "gender": "female",
+        "dateOfBirth": "1988-12-15",
+        "skills": [
+            {
+                "skill": "Project Management",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Agile Methodologies",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Scrum",
+                "duration": 9460800000
+            },
+            {
+                "skill": "JIRA",
+                "duration": 63072000000
+            },
+            {
+                "skill": "MS Project",
+                "duration": 126230400000
+            },
+            {
+                "skill": "Communication",
+                "duration": 3155760000
+            }
+        ],
+        "currentPosition": "Project Manager",
+        "currentDepartment": "IT Services",
+        "experience": [
+            {
+                "position": "Software Developer",
+                "department": "Development",
+                "startDate": "2010-06-01",
+                "endDate": "2014-03-31",
+                "companyName": "Cognizant"
+            },
+            {
+                "position": "Team Lead",
+                "department": "Software Development",
+                "startDate": "2014-04-01",
+                "endDate": "2018-09-30",
+                "companyName": "IBM"
+            },
+            {
+                "position": "Project Manager",
+                "department": "IT Services",
+                "startDate": "2018-10-01",
+                "endDate": "2024-12-07",
+                "companyName": "Capgemini"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BSc",
+                "field": "Information Technology",
+                "startDate": "2006-07-01",
+                "endDate": "2009-05-15",
+                "institute": "St. Xavier's College"
+            },
+            {
+                "degree": "MBA",
+                "field": "IT Management",
+                "startDate": "2009-08-01",
+                "endDate": "2011-06-30",
+                "institute": "IIM Bangalore"
+            }
+        ]
+    },
+    {
+        "name": "Karan Gupta",
+        "email": "karan.gupta@live.com",
+        "mobileNo": "7894561230",
+        "gender": "male",
+        "dateOfBirth": "1990-09-05",
+        "skills": [
+            {
+                "skill": "Full Stack Development",
+                "duration": 31557600000
+            },
+            {
+                "skill": "React",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Node.js",
+                "duration": 15778800000
+            },
+            {
+                "skill": "MongoDB",
+                "duration": 63072000000
+            },
+            {
+                "skill": "GraphQL",
+                "duration": 3155760000
+            },
+            {
+                "skill": "TypeScript",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "Full Stack Developer",
+        "currentDepartment": "Product Engineering",
+        "experience": [
+            {
+                "position": "Frontend Developer",
+                "department": "Web Applications",
+                "startDate": "2014-05-01",
+                "endDate": "2017-12-31",
+                "companyName": "Wipro"
+            },
+            {
+                "position": "Full Stack Developer",
+                "department": "Development",
+                "startDate": "2018-02-01",
+                "endDate": "2022-11-30",
+                "companyName": "Zoho"
+            },
+            {
+                "position": "Senior Full Stack Developer",
+                "department": "Engineering",
+                "startDate": "2023-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "Freshworks"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BE",
+                "field": "Computer Science",
+                "startDate": "2008-07-01",
+                "endDate": "2012-06-15",
+                "institute": "PES University"
+            },
+            {
+                "degree": "MSc",
+                "field": "Software Engineering",
+                "startDate": "2013-08-01",
+                "endDate": "2015-06-30",
+                "institute": "University of Glasgow"
+            }
+        ]
+    },
+    {
+        "name": "Aryan Singh",
+        "email": "aryan.singh@gmail.com",
+        "mobileNo": "9845123678",
+        "gender": "male",
+        "dateOfBirth": "1993-08-21",
+        "skills": [
+            {
+                "skill": "Java",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Spring Boot",
+                "duration": 15778800000
+            },
+            {
+                "skill": "MySQL",
+                "duration": 9460800000
+            },
+            {
+                "skill": "AWS",
+                "duration": 63072000000
+            },
+            {
+                "skill": "REST APIs",
+                "duration": 3155760000
+            },
+            {
+                "skill": "Git",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "Backend Developer",
+        "currentDepartment": "Software Engineering",
+        "experience": [
+            {
+                "position": "Software Engineer",
+                "department": "Backend",
+                "startDate": "2016-02-15",
+                "endDate": "2020-03-01",
+                "companyName": "Infosys"
+            },
+            {
+                "position": "Senior Backend Developer",
+                "department": "Engineering",
+                "startDate": "2020-04-01",
+                "endDate": "2024-12-07",
+                "companyName": "Capgemini"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BTech",
+                "field": "Computer Science",
+                "startDate": "2011-07-01",
+                "endDate": "2015-06-15",
+                "institute": "IIT Bombay"
+            }
+        ]
+    },
+    {
+        "name": "Priya Nair",
+        "email": "priya.nair@outlook.com",
+        "mobileNo": "9001214567",
+        "gender": "female",
+        "dateOfBirth": "1990-11-11",
+        "skills": [
+            {
+                "skill": "Python",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Data Science",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Pandas",
+                "duration": 9460800000
+            },
+            {
+                "skill": "NumPy",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Machine Learning",
+                "duration": 126230400000
+            },
+            {
+                "skill": "SQL",
+                "duration": 3155760000
+            }
+        ],
+        "currentPosition": "Data Scientist",
+        "currentDepartment": "Analytics",
+        "experience": [
+            {
+                "position": "Data Analyst",
+                "department": "BI",
+                "startDate": "2014-01-01",
+                "endDate": "2018-12-31",
+                "companyName": "Wipro"
+            },
+            {
+                "position": "Data Scientist",
+                "department": "AI",
+                "startDate": "2019-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "Deloitte"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BSc",
+                "field": "Mathematics",
+                "startDate": "2008-07-01",
+                "endDate": "2011-05-15",
+                "institute": "University of Kerala"
+            },
+            {
+                "degree": "MSc",
+                "field": "Data Science",
+                "startDate": "2012-08-01",
+                "endDate": "2014-05-15",
+                "institute": "IIT Madras"
+            }
+        ]
+    },
+    {
+        "name": "Manoj Kumar",
+        "email": "manoj.kumar@example.com",
+        "mobileNo": "9876543210",
+        "gender": "male",
+        "dateOfBirth": "1987-05-15",
+        "skills": [
+            {
+                "skill": "Cloud Computing",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Azure",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Terraform",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Docker",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Kubernetes",
+                "duration": 3155760000
+            },
+            {
+                "skill": "Linux",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "Cloud Architect",
+        "currentDepartment": "Infrastructure",
+        "experience": [
+            {
+                "position": "System Administrator",
+                "department": "IT",
+                "startDate": "2009-08-01",
+                "endDate": "2014-12-31",
+                "companyName": "HCL"
+            },
+            {
+                "position": "Cloud Engineer",
+                "department": "Cloud Services",
+                "startDate": "2015-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "TCS"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BTech",
+                "field": "Information Technology",
+                "startDate": "2005-07-01",
+                "endDate": "2009-06-15",
+                "institute": "VIT University"
+            }
+        ]
+    },
+    {
+        "name": "Anjali Sharma",
+        "email": "anjali.sharma@gmail.com",
+        "mobileNo": "9123456789",
+        "gender": "female",
+        "dateOfBirth": "1995-09-25",
+        "skills": [
+            {
+                "skill": "UI/UX Design",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Figma",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Adobe XD",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Sketch",
+                "duration": 3155760000
+            },
+            {
+                "skill": "HTML",
+                "duration": 63072000000
+            },
+            {
+                "skill": "CSS",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "UI/UX Designer",
+        "currentDepartment": "Design",
+        "experience": [
+            {
+                "position": "Graphic Designer",
+                "department": "Design",
+                "startDate": "2017-01-15",
+                "endDate": "2020-06-30",
+                "companyName": "Infosys"
+            },
+            {
+                "position": "UI/UX Designer",
+                "department": "Product Design",
+                "startDate": "2020-07-01",
+                "endDate": "2024-12-07",
+                "companyName": "Adobe"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BDes",
+                "field": "Graphic Design",
+                "startDate": "2013-07-01",
+                "endDate": "2017-06-15",
+                "institute": "National Institute of Design"
+            }
+        ]
+    },
+    {
+        "name": "Rajesh Patel",
+        "email": "rajesh.patel@example.com",
+        "mobileNo": "9188776655",
+        "gender": "male",
+        "dateOfBirth": "1980-03-10",
+        "skills": [
+            {
+                "skill": "Project Management",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Agile",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Scrum",
+                "duration": 9460800000
+            },
+            {
+                "skill": "JIRA",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Risk Management",
+                "duration": 126230400000
+            },
+            {
+                "skill": "Leadership",
+                "duration": 3155760000
+            }
+        ],
+        "currentPosition": "Project Manager",
+        "currentDepartment": "Operations",
+        "experience": [
+            {
+                "position": "Operations Manager",
+                "department": "IT",
+                "startDate": "2008-05-01",
+                "endDate": "2015-12-31",
+                "companyName": "Accenture"
+            },
+            {
+                "position": "Senior Project Manager",
+                "department": "IT",
+                "startDate": "2016-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "IBM"
+            }
+        ],
+        "education": [
+            {
+                "degree": "MBA",
+                "field": "Operations Management",
+                "startDate": "2003-07-01",
+                "endDate": "2005-06-15",
+                "institute": "IIM Ahmedabad"
+            }
+        ]
+    },
+    {
+        "name": "Neha Gupta",
+        "email": "neha.gupta@yahoo.com",
+        "mobileNo": "9123456789",
+        "gender": "female",
+        "dateOfBirth": "1992-01-14",
+        "skills": [
+            {
+                "skill": "Marketing",
+                "duration": 31557600000
+            },
+            {
+                "skill": "SEO",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Google Analytics",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Content Writing",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Brand Strategy",
+                "duration": 126230400000
+            },
+            {
+                "skill": "Social Media",
+                "duration": 3155760000
+            }
+        ],
+        "currentPosition": "Marketing Manager",
+        "currentDepartment": "Marketing",
+        "experience": [
+            {
+                "position": "SEO Specialist",
+                "department": "Digital Marketing",
+                "startDate": "2014-01-01",
+                "endDate": "2018-12-31",
+                "companyName": "Flipkart"
+            },
+            {
+                "position": "Marketing Manager",
+                "department": "E-Commerce",
+                "startDate": "2019-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "Amazon"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BBA",
+                "field": "Marketing",
+                "startDate": "2009-07-01",
+                "endDate": "2012-06-15",
+                "institute": "Delhi University"
+            },
+            {
+                "degree": "MBA",
+                "field": "Digital Marketing",
+                "startDate": "2013-08-01",
+                "endDate": "2015-06-15",
+                "institute": "IIM Kolkata"
+            }
+        ]
+    },
+    {
+        "name": "Vikram Rao",
+        "email": "vikram.rao@example.com",
+        "mobileNo": "9876543210",
+        "gender": "male",
+        "dateOfBirth": "1989-07-20",
+        "skills": [
+            {
+                "skill": "Cybersecurity",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Network Security",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Penetration Testing",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Ethical Hacking",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Firewalls",
+                "duration": 3155760000
+            },
+            {
+                "skill": "Incident Response",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "Cybersecurity Analyst",
+        "currentDepartment": "IT Security",
+        "experience": [
+            {
+                "position": "Network Engineer",
+                "department": "Networking",
+                "startDate": "2010-06-01",
+                "endDate": "2016-05-31",
+                "companyName": "Cisco"
+            },
+            {
+                "position": "Cybersecurity Specialist",
+                "department": "Security",
+                "startDate": "2016-06-01",
+                "endDate": "2024-12-07",
+                "companyName": "KPMG"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BSc",
+                "field": "Information Security",
+                "startDate": "2006-07-01",
+                "endDate": "2009-06-15",
+                "institute": "BITS Pilani"
+            }
+        ]
+    },
+    {
+        "name": "Meera Iyer",
+        "email": "meera.iyer@gmail.com",
+        "mobileNo": "9988772655",
+        "gender": "female",
+        "dateOfBirth": "1994-02-11",
+        "skills": [
+            {
+                "skill": "HR Management",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Recruitment",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Employee Relations",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Payroll",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Training",
+                "duration": 3155760000
+            },
+            {
+                "skill": "Compliance",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "HR Manager",
+        "currentDepartment": "Human Resources",
+        "experience": [
+            {
+                "position": "HR Executive",
+                "department": "Talent Acquisition",
+                "startDate": "2015-01-01",
+                "endDate": "2018-12-31",
+                "companyName": "Infosys"
+            },
+            {
+                "position": "HR Manager",
+                "department": "Employee Management",
+                "startDate": "2019-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "Cognizant"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BBA",
+                "field": "Human Resources",
+                "startDate": "2011-07-01",
+                "endDate": "2014-06-15",
+                "institute": "Christ University"
+            }
+        ]
+    },
+    {
+        "name": "Amit Bansal",
+        "email": "amit.bansal@gmail.com",
+        "mobileNo": "9001234567",
+        "gender": "male",
+        "dateOfBirth": "1985-10-12",
+        "skills": [
+            {
+                "skill": "Finance",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Risk Management",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Auditing",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Compliance",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Taxation",
+                "duration": 3155760000
+            },
+            {
+                "skill": "Financial Analysis",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "Financial Analyst",
+        "currentDepartment": "Finance",
+        "experience": [
+            {
+                "position": "Junior Accountant",
+                "department": "Accounts",
+                "startDate": "2007-05-01",
+                "endDate": "2012-12-31",
+                "companyName": "Deloitte"
+            },
+            {
+                "position": "Senior Financial Analyst",
+                "department": "Finance",
+                "startDate": "2013-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "Ernst & Young"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BCom",
+                "field": "Accounting",
+                "startDate": "2003-07-01",
+                "endDate": "2006-06-15",
+                "institute": "Mumbai University"
+            }
+        ]
+    },
+    {
+        "name": "Kavya Reddy",
+        "email": "kavya.reddy@gmail.com",
+        "mobileNo": "9876543210",
+        "gender": "female",
+        "dateOfBirth": "1990-06-15",
+        "skills": [
+            {
+                "skill": "Full Stack Development",
+                "duration": 31557600000
+            },
+            {
+                "skill": "JavaScript",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Node.js",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Angular",
+                "duration": 6307200000
+            },
+            {
+                "skill": "MongoDB",
+                "duration": 31557600000
+            },
+            {
+                "skill": "AWS",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "Software Engineer",
+        "currentDepartment": "Development",
+        "experience": [
+            {
+                "position": "Frontend Developer",
+                "department": "Web Applications",
+                "startDate": "2012-07-01",
+                "endDate": "2017-03-31",
+                "companyName": "Tech Mahindra"
+            },
+            {
+                "position": "Full Stack Developer",
+                "department": "Engineering",
+                "startDate": "2017-04-01",
+                "endDate": "2024-12-07",
+                "companyName": "Google"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BE",
+                "field": "Computer Science",
+                "startDate": "2007-07-01",
+                "endDate": "2011-06-15",
+                "institute": "IIT Hyderabad"
+            }
+        ]
+    },
+    {
+        "name": "Pankaj Narula",
+        "email": "pankaj.narula@gmail.com",
+        "mobileNo": "9876543219",
+        "gender": "male",
+        "dateOfBirth": "1988-04-18",
+        "skills": [
+            {
+                "skill": "Java",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Hibernate",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Microservices",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Spring Boot",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Kafka",
+                "duration": 3155760000
+            },
+            {
+                "skill": "MySQL",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "Senior Software Engineer",
+        "currentDepartment": "Development",
+        "experience": [
+            {
+                "position": "Junior Developer",
+                "department": "Engineering",
+                "startDate": "2010-05-01",
+                "endDate": "2015-11-30",
+                "companyName": "Cognizant"
+            },
+            {
+                "position": "Software Engineer",
+                "department": "Backend",
+                "startDate": "2016-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "Oracle"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BTech",
+                "field": "Computer Science",
+                "startDate": "2006-07-01",
+                "endDate": "2010-06-15",
+                "institute": "IIT Delhi"
+            }
+        ]
+    },
+    {
+        "name": "Sanya Kapoor",
+        "email": "sanya.kapoor@yahoo.com",
+        "mobileNo": "9123456781",
+        "gender": "female",
+        "dateOfBirth": "1991-09-25",
+        "skills": [
+            {
+                "skill": "Digital Marketing",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Google Ads",
+                "duration": 15778800000
+            },
+            {
+                "skill": "SEO",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Email Marketing",
+                "duration": 6307200000
+            },
+            {
+                "skill": "Content Strategy",
+                "duration": 126230400000
+            },
+            {
+                "skill": "Web Analytics",
+                "duration": 3155760000
+            }
+        ],
+        "currentPosition": "Digital Marketing Specialist",
+        "currentDepartment": "Marketing",
+        "experience": [
+            {
+                "position": "Marketing Coordinator",
+                "department": "Campaigns",
+                "startDate": "2013-01-15",
+                "endDate": "2018-12-31",
+                "companyName": "Zomato"
+            },
+            {
+                "position": "Digital Marketing Specialist",
+                "department": "Online Marketing",
+                "startDate": "2019-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "Uber"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BBA",
+                "field": "Marketing",
+                "startDate": "2009-07-01",
+                "endDate": "2012-06-15",
+                "institute": "Symbiosis International"
+            },
+            {
+                "degree": "MBA",
+                "field": "Digital Marketing",
+                "startDate": "2013-08-01",
+                "endDate": "2015-06-15",
+                "institute": "IIM Bangalore"
+            }
+        ]
+    },
+    {
+        "name": "Nitin Verma",
+        "email": "nitin.verma@example.com",
+        "mobileNo": "9998887776",
+        "gender": "male",
+        "dateOfBirth": "1984-02-17",
+        "skills": [
+            {
+                "skill": "Accounting",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Taxation",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Financial Analysis",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Auditing",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Payroll",
+                "duration": 3155760000
+            },
+            {
+                "skill": "Compliance",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "Senior Accountant",
+        "currentDepartment": "Finance",
+        "experience": [
+            {
+                "position": "Accountant",
+                "department": "Finance",
+                "startDate": "2007-04-01",
+                "endDate": "2015-08-31",
+                "companyName": "PwC"
+            },
+            {
+                "position": "Senior Accountant",
+                "department": "Finance",
+                "startDate": "2015-09-01",
+                "endDate": "2024-12-07",
+                "companyName": "KPMG"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BCom",
+                "field": "Accounting",
+                "startDate": "2003-07-01",
+                "endDate": "2006-06-15",
+                "institute": "Delhi University"
+            }
+        ]
+    },
+    {
+        "name": "Radhika Menon",
+        "email": "radhika.menon@gmail.com",
+        "mobileNo": "8887779990",
+        "gender": "female",
+        "dateOfBirth": "1993-03-22",
+        "skills": [
+            {
+                "skill": "Machine Learning",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Deep Learning",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Python",
+                "duration": 9460800000
+            },
+            {
+                "skill": "TensorFlow",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Natural Language Processing",
+                "duration": 3155760000
+            },
+            {
+                "skill": "Data Visualization",
+                "duration": 126230400000
+            }
+        ],
+        "currentPosition": "AI Researcher",
+        "currentDepartment": "AI Lab",
+        "experience": [
+            {
+                "position": "Data Scientist",
+                "department": "Analytics",
+                "startDate": "2016-07-01",
+                "endDate": "2020-03-31",
+                "companyName": "Flipkart"
+            },
+            {
+                "position": "AI Researcher",
+                "department": "AI",
+                "startDate": "2020-04-01",
+                "endDate": "2024-12-07",
+                "companyName": "Microsoft"
+            }
+        ],
+        "education": [
+            {
+                "degree": "MTech",
+                "field": "Data Science",
+                "startDate": "2014-07-01",
+                "endDate": "2016-06-15",
+                "institute": "IIT Hyderabad"
+            }
+        ]
+    },
+    {
+        "name": "Karthik Vaidyanathan",
+        "email": "karthik.v@gmail.com",
+        "mobileNo": "9876543212",
+        "gender": "male",
+        "dateOfBirth": "1990-07-12",
+        "skills": [
+            {
+                "skill": "Embedded Systems",
+                "duration": 31557600000
+            },
+            {
+                "skill": "C",
+                "duration": 9460800000
+            },
+            {
+                "skill": "C++",
+                "duration": 15778800000
+            },
+            {
+                "skill": "RTOS",
+                "duration": 6307200000
+            },
+            {
+                "skill": "MATLAB",
+                "duration": 126230400000
+            },
+            {
+                "skill": "ARM Cortex",
+                "duration": 3155760000
+            }
+        ],
+        "currentPosition": "Embedded Software Engineer",
+        "currentDepartment": "R&D",
+        "experience": [
+            {
+                "position": "Junior Embedded Engineer",
+                "department": "Development",
+                "startDate": "2013-08-01",
+                "endDate": "2017-12-31",
+                "companyName": "Samsung"
+            },
+            {
+                "position": "Embedded Software Engineer",
+                "department": "R&D",
+                "startDate": "2018-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "Qualcomm"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BE",
+                "field": "Electronics and Communication",
+                "startDate": "2009-07-01",
+                "endDate": "2013-06-15",
+                "institute": "Anna University"
+            }
+        ]
+    },
+    {
+        "name": "Alisha Thomas",
+        "email": "alisha.thomas@gmail.com",
+        "mobileNo": "8123456789",
+        "gender": "female",
+        "dateOfBirth": "1997-05-30",
+        "skills": [
+            {
+                "skill": "Graphic Design",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Illustration",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Adobe Photoshop",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Adobe Illustrator",
+                "duration": 6307200000
+            },
+            {
+                "skill": "UI Design",
+                "duration": 126230400000
+            },
+            {
+                "skill": "Prototyping",
+                "duration": 3155760000
+            }
+        ],
+        "currentPosition": "Graphic Designer",
+        "currentDepartment": "Creative",
+        "experience": [
+            {
+                "position": "Junior Designer",
+                "department": "Design",
+                "startDate": "2019-01-01",
+                "endDate": "2021-06-30",
+                "companyName": "Amazon"
+            },
+            {
+                "position": "Graphic Designer",
+                "department": "Creative",
+                "startDate": "2021-07-01",
+                "endDate": "2024-12-07",
+                "companyName": "Adobe"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BFA",
+                "field": "Fine Arts",
+                "startDate": "2014-07-01",
+                "endDate": "2018-06-15",
+                "institute": "Shantiniketan University"
+            }
+        ]
+    },
+    {
+        "name": "Varun Jain",
+        "email": "varun.jain@gmail.com",
+        "mobileNo": "8889997776",
+        "gender": "male",
+        "dateOfBirth": "1992-06-18",
+        "skills": [
+            {
+                "skill": "Supply Chain Management",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Logistics",
+                "duration": 15778800000
+            },
+            {
+                "skill": "SAP",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Inventory Management",
+                "duration": 6307200000
+            },
+            {
+                "skill": "Vendor Management",
+                "duration": 126230400000
+            },
+            {
+                "skill": "Data Analytics",
+                "duration": 3155760000
+            }
+        ],
+        "currentPosition": "Logistics Manager",
+        "currentDepartment": "Supply Chain",
+        "experience": [
+            {
+                "position": "Operations Executive",
+                "department": "Logistics",
+                "startDate": "2015-01-15",
+                "endDate": "2019-04-30",
+                "companyName": "Nestle"
+            },
+            {
+                "position": "Logistics Manager",
+                "department": "Supply Chain",
+                "startDate": "2019-05-01",
+                "endDate": "2024-12-07",
+                "companyName": "Procter & Gamble"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BBA",
+                "field": "Operations Management",
+                "startDate": "2011-07-01",
+                "endDate": "2014-06-15",
+                "institute": "IIM Indore"
+            }
+        ]
+    },
+    {
+        "name": "Shruti Agarwal",
+        "email": "shruti.agarwal@gmail.com",
+        "mobileNo": "7988889990",
+        "gender": "female",
+        "dateOfBirth": "1994-11-10",
+        "skills": [
+            {
+                "skill": "Public Relations",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Communication",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Event Planning",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Media Relations",
+                "duration": 6307200000
+            },
+            {
+                "skill": "Branding",
+                "duration": 126230400000
+            },
+            {
+                "skill": "Strategic Planning",
+                "duration": 3155760000
+            }
+        ],
+        "currentPosition": "PR Specialist",
+        "currentDepartment": "Public Relations",
+        "experience": [
+            {
+                "position": "PR Coordinator",
+                "department": "PR",
+                "startDate": "2016-01-01",
+                "endDate": "2019-12-31",
+                "companyName": "Ogilvy"
+            },
+            {
+                "position": "PR Specialist",
+                "department": "Communications",
+                "startDate": "2020-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "Edelman"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BA",
+                "field": "Mass Communication",
+                "startDate": "2012-07-01",
+                "endDate": "2015-06-15",
+                "institute": "Delhi University"
+            }
+        ]
+    },
+    {
+        "name": "Siddharth Roy",
+        "email": "siddharth.roy@gmail.com",
+        "mobileNo": "9023456781",
+        "gender": "male",
+        "dateOfBirth": "1991-03-01",
+        "skills": [
+            {
+                "skill": "DevOps",
+                "duration": 31557600000
+            },
+            {
+                "skill": "CI/CD",
+                "duration": 15778800000
+            },
+            {
+                "skill": "Docker",
+                "duration": 9460800000
+            },
+            {
+                "skill": "Kubernetes",
+                "duration": 6307200000
+            },
+            {
+                "skill": "AWS",
+                "duration": 126230400000
+            },
+            {
+                "skill": "Terraform",
+                "duration": 3155760000
+            }
+        ],
+        "currentPosition": "DevOps Engineer",
+        "currentDepartment": "IT",
+        "experience": [
+            {
+                "position": "System Engineer",
+                "department": "IT",
+                "startDate": "2015-01-01",
+                "endDate": "2018-12-31",
+                "companyName": "IBM"
+            },
+            {
+                "position": "DevOps Engineer",
+                "department": "Cloud",
+                "startDate": "2019-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "Google Cloud"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BTech",
+                "field": "Computer Science",
+                "startDate": "2011-07-01",
+                "endDate": "2015-06-15",
+                "institute": "IIT Roorkee"
+            }
+        ]
+    },
+    {
+        "name": "Rohini Desai",
+        "email": "rohini.desai@gmail.com",
+        "mobileNo": "9034567891",
+        "gender": "female",
+        "dateOfBirth": "1989-12-12",
+        "skills": [
+            {
+                "skill": "Teaching",
+                "duration": 315576000000
+            },
+            {
+                "skill": "Educational Research",
+                "duration": 157788000000
+            },
+            {
+                "skill": "Curriculum Development",
+                "duration": 94608000000
+            },
+            {
+                "skill": "Online Learning",
+                "duration": 63072000000
+            },
+            {
+                "skill": "Mentoring",
+                "duration": 31557600000
+            },
+            {
+                "skill": "Public Speaking",
+                "duration": 2629800000
+            }
+        ],
+        "currentPosition": "Assistant Professor",
+        "currentDepartment": "Education",
+        "experience": [
+            {
+                "position": "Lecturer",
+                "department": "Humanities",
+                "startDate": "2012-06-01",
+                "endDate": "2017-12-31",
+                "companyName": "Delhi University"
+            },
+            {
+                "position": "Assistant Professor",
+                "department": "Education",
+                "startDate": "2018-01-01",
+                "endDate": "2024-12-07",
+                "companyName": "University of Mumbai"
+            }
+        ],
+        "education": [
+            {
+                "degree": "MA",
+                "field": "Education",
+                "startDate": "2009-07-01",
+                "endDate": "2011-06-15",
+                "institute": "JNU"
+            },
+            {
+                "degree": "PhD",
+                "field": "Education",
+                "startDate": "2012-01-01",
+                "endDate": "2015-12-31",
+                "institute": "University of Mumbai"
+            }
+        ]
+    }
+]
