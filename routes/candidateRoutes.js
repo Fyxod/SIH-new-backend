@@ -365,9 +365,13 @@ router.route('/:id/panel')
     .post(checkAuth('admin'), safeHandler(async (req, res) => {
         const { id } = req.params;
         const { expertIds } = req.body;
+
+        console.log(expertIds)
+
         if (!isValidObjectId(id)) throw new ApiError(400, 'Invalid candidate id', 'INVALID_ID');
+
         if (!expertIds || expertIds.length === 0) throw new ApiError(400, 'No expert ids provided', 'NO_EXPERT_IDS_PROVIDED');
-        //check if all expert ids are valid
+
         if (!expertIds.every(isValidObjectId)) throw new ApiError(400, 'Invalid expert id', 'INVALID_ID');
 
         const candidate = await Candidate.findById(id);
