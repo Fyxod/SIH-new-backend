@@ -23,6 +23,9 @@ router
    if(params.college==="IIT Kanpur"){
     params.url="https://iitk.irins.org/searchc/search";
    }
+   if(params.college==="TIET"){
+    params.url="https://thapar.irins.org/searchc/search";
+   }
 
    const response = await axios.post('http://43.204.236.108:8000/extraExpert/giveme',params);
     if (!response.ok) {
