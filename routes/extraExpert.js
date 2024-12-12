@@ -84,15 +84,17 @@ router.post("/search/", safeHandler(async (req, res) => {
     // Use an empty array as fallback if no filters are provided.
     let experts = await extraExperts.find(query.length ? { $or: query } : {});
 
-    let slicedExperts = experts.slice(0, 10).map(expert => ({
+    let slicedExperts = experts.map(expert => ({
         ...expert.toObject(),
         relevancyScore: Math.floor(Math.random() * 10) + 1
     }));
-    
-    
     slicedExperts.sort((a, b) => b.relevancyScore - a.relevancyScore);
     
-    res.success(200, 'Experts fetched successfully', { experts: slicedExperts });
+    let randomExperts = randomizeArray(slicedExperts);
+    randomExperts = randomExperts.slice(0, 10);
+    
+    
+    res.success(200, 'Experts fetched successfully', { experts: randomExperts });
 }));
 
 
@@ -135,8 +137,16 @@ router.post('/search/beta', safeHandler(async (req, res) => {
         expert.skills = expertiseArray;
         // console.log("expert", expert);
         // console.log("query", query)
+        const newSubjectObject = {
+            name: query.name,
+            recommendedSkills: query.recommendedSkills
+        }
+        const newCandidateData = {
+            name: expert.name,
+            skills: expert.skills
+        }
 
-        const response = await axios.post('http://43.204.236.108:8000/matching/candy', { subjectData:query, candidateData: expert },
+        const response = await axios.post('http://43.204.236.108:8000/matching/candy', { subjectData:newSubjectObject, candidateData: newCandidateData },
             {'X-API-KEY': "9bec235d70a084cf1092f7491c73c073"}
         );
         const data = response.data;
@@ -155,6 +165,12 @@ function escapeRegExp(string) {
 }
 
 
-
+function randomizeArray(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]]; // Swap elements
+    }
+    return arr;
+}
 
 export default router;
