@@ -64,15 +64,15 @@ router.post("/search/", safeHandler(async (req, res) => {
     const { department, college, expertise } = req.body;
     console.log(req.body);
     let expertiseArray = [];
-    if(expertise){
-    expertiseArray = expertise.split(",");
-}
+    if (expertise) {
+        expertiseArray = expertise.split(",");
+    }
     const query = {};
 
-    if (department) {
+    if (department != '' && department) {
         query.department = { $regex: new RegExp(`^${department}$`, 'i') };
     }
-    if (college) {
+    if (college != '' && college) {
         query.college = { $regex: new RegExp(`^${college}$`, 'i') };
     }
     if (expertiseArray && expertiseArray.length > 0) {
