@@ -69,10 +69,10 @@ router.post("/search/", safeHandler(async (req, res) => {
     }
     const query = [];
 
-    if (department != '' && department) {
+    if (department != "" && department) {
         query.push({ department: { $regex: new RegExp(`^${department}$`, 'i') } });
     }
-    if (college != '' && college) {
+    if (college != "" && college) {
         query.push({ college: { $regex: new RegExp(`^${college}$`, 'i') } });
     }
     if (expertiseArray && expertiseArray.length > 0) {
@@ -84,7 +84,7 @@ router.post("/search/", safeHandler(async (req, res) => {
     });
     
     console.log(experts);
-    const sliced = experts.slice(10);
+    const sliced = experts.slice(0, 10);
     res.success(200, 'Experts fetched successfully', {experts: sliced});
 
 }));

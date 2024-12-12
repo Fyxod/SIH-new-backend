@@ -278,7 +278,7 @@ router.route('/:id/expert')
         }
         // keep only the first six elements in the array
         if (experts.length > 6) {
-            experts = experts.splice(6);
+            experts = experts.splice(0, 6);
         }
         return res.success(200, 'Sorted data retrieved', { sortedData: experts });
     }
