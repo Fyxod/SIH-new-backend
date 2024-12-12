@@ -5,12 +5,12 @@ import { extraExpertSchema } from "../utils/zodSchemas";
 import { safeHandler } from "../middlewares/safeHandler";
 import ApiError from "../utils/errorClass";
 import axios from 'axios'
-import express from "express";
 
 const router = express.Router();
 
 router.route
     .post("/giveme", safeHandler(async (req, res) => {
+        console.log(req.body)
    const params =req.body;
    if(!params){
        throw new ApiError(400,"no experts found");
