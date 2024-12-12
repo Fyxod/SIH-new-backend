@@ -67,19 +67,22 @@ router.post("/search/", safeHandler(async (req, res) => {
     if (expertise) {
         expertiseArray = expertise.split(",");
     }
-    const query = {};
+    const query = [];
 
     if (department != '' && department) {
-        query.department = { $regex: new RegExp(`^${department}$`, 'i') };
+        query.push({ department: { $regex: new RegExp(`^${department}$`, 'i') } });
     }
     if (college != '' && college) {
-        query.college = { $regex: new RegExp(`^${college}$`, 'i') };
+        query.push({ college: { $regex: new RegExp(`^${college}$`, 'i') } });
     }
     if (expertiseArray && expertiseArray.length > 0) {
-        query.expertise = { $in: expertiseArray };
+        query.push({ expertise: { $in: expertiseArray } });
     }
-
-    const experts = await extraExperts.find(query);
+    
+    const experts = await extraExperts.find({
+        $or: query.length > 0 ? query : [{}]
+    });
+    
     console.log(experts);
     res.success(200, 'Experts fetched successfully', experts);
 
