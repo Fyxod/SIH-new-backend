@@ -77,9 +77,9 @@ router.post("/search/", safeHandler(async (req, res) => {
     if (college && college !== "") {
         query.push({ college: { $regex: new RegExp(`^${escapeRegExp(college)}$`, 'i') } });
     }
-    if (expertiseArray.length > 0) {
-        query.push({ expertise: { $in: expertiseArray } });
-    }
+    // if (expertiseArray.length > 0) {
+    //     query.push({ expertise: { $in: expertiseArray } });
+    // }
 
     // Use an empty array as fallback if no filters are provided.
     let experts = await extraExperts.find({ $or: query });
