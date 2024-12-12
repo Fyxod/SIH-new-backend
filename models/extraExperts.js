@@ -1,22 +1,27 @@
 import mongoose from "mongoose";
  const extraExpert= new mongoose.Schema({   
-    name: {
+    expertId: {
         type: String,
         required: true
     },
-    link: { 
+    name: { 
         type: String,
         required: true
     },
-    institution: {
+    designation: {
         type: String,
         required: true
     },
-    interests: {
+    expertise: [{
+        type: String,
+        required: true
+    }],
+    profileLink: {
         type: String,
         required: true
     }
 });
+
 const extraExperts = mongoose.model("extraExperts", extraExpert);
 export default extraExperts;
 

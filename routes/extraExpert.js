@@ -5,7 +5,7 @@ import { extraExpertSchema } from "../utils/zodSchemas";
 import { safeHandler } from "../middlewares/safeHandler";
 import ApiError from "../utils/errorClass";
 import axios from 'axios'
-import e from "express";
+import express from "express";
 
 const router = express.Router();
 
@@ -15,30 +15,44 @@ router.route
    if(!params){
        throw new ApiError(400,"no experts found");
    }
-   if(Collage==="IIT Delhi"){
+   if(params.college==="IIT Delhi"){
     params.url="https://iitd.irins.org/searchc/search";
    }
-   if(Collage==="IIT Bombay"){
+   if(params.college==="IIT Bombay"){
     params.url="https://iitb.irins.org/searchc/search";
    }
-   if(Collage==="IIT Kanpur"){
+   if(params.college==="IIT Kanpur"){
     params.url="https://iitk.irins.org/searchc/search";
    }
-
-
 
    const response = await axios.post('http://43.204.236.108:8000/extraExpert/giveme',params);
     if (!response.ok) {
         throw new ApiError(response.status, "Failed to fetch experts");
     }
-    const experts = await response.json();
-
-
     
-    res.send(200,"all experts",experts);
+    const experts = response.data
+    let newExpertData = [];
+    for(const expert of experts){
+        const fields = expert;
+        const newExpert = {
+            expertId: fields.Expert_ID,
+            name: fields.Name,
+            designation: fields.Designation,
+            expertise: fields.Expertise,
+            profileLink: fields.Profile_Link
+        };
+        // const newDoc = extraExperts.create({
+        //     expertId: fields.Expert_ID,
+        //     name: fields.Name,
+        //     designation: fields.Designation,
+        //     expertise: fields.Expertise,
+        //     profileLink: fields.Profile_Link
+        // });
 
-
+        newExpertData.push(newExpert);
+    }
     
+    res.success(200, 'Experts fetched successfully', newExpertData);
 
 }))
 

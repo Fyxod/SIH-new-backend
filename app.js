@@ -11,6 +11,7 @@ import expertRoutes from './routes/expertRoutes.js';
 import subjectRoutes from './routes/subjectRoutes.js';
 import extraRoutes from './routes/extraRoutes.js';
 import sendErrorMail from './utils/sendErrorMail.js';
+import extraExpertRoutes from './routes/extraExpert.js'
 const app = express();
 const __dirname = path.resolve();
 
@@ -42,6 +43,7 @@ app.use('/candidate', candidateRoutes);
 app.use('/expert', expertRoutes);
 app.use('/subject', subjectRoutes);
 app.use('/', extraRoutes);
+app.use('/extraexperts', extraExpertRoutes);
 
 
 //TEST OUT THIS ERROR JARGON FIRST
