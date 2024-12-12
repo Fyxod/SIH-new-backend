@@ -372,22 +372,31 @@ router.route('/:id/panel')
 
         if (!expertIds || expertIds.length === 0) throw new ApiError(400, 'No expert ids provided', 'NO_EXPERT_IDS_PROVIDED');
 
-        if (!expertIds.every(isValidObjectId)) throw new ApiError(400, 'Invalid expert id', 'INVALID_ID');
+        try {
+            for (let expertId of expertIds) {
+                if (!isValidObjectId(expertId)) throw new ApiError(400, 'Invalid expert id', 'INVALID_ID');
+            }
+        }
+        catch (error) {
+            console.log("replace of with in")
+        }
 
-        const candidate = await Candidate.findById(id);
+        const candidate = await Candidate.findByIdAndUpdate(id,
+            { $set: { panel: [] } },
+            {new: true}
+        );
+        
         if (!candidate) {
             throw new ApiError(404, 'Candidate not found', 'CANDIDATE_NOT_FOUND');
         }
 
         const experts = await Expert.find({ _id: { $in: expertIds } });
-        if (!experts || experts.length === 0) {
+        if (!experts || experts.length == 0 || experts == []) {
             throw new ApiError(404, 'No experts found', 'EXPERTS_NOT_FOUND');
         }
 
-        let panel = candidate.panel;
         for (let expertId of expertIds) {
-            panel = [];
-            panel.push({ expert: expertId, feedback: null });
+            candidate.panel.push({ expert: expertId, feedback: null });
             let expert = experts.find(expert => expert._id.equals(expertId));
             expert.candidates.push(id);
             // sendEmail(expert.email, "Interview Details", "Please find the attached pdf for the interview details", candidate.resume);
