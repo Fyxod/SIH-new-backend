@@ -90,7 +90,7 @@ router.post("/search/", safeHandler(async (req, res) => {
     }));
     
     
-    slicedExperts.sort((a, b) => b.relevancyScore - a.relevancyScore);
+    // slicedExperts.sort((a, b) => b.relevancyScore - a.relevancyScore);
     
     res.success(200, 'Experts fetched successfully', { experts: slicedExperts });
 }));
