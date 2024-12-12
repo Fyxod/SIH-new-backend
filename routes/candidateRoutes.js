@@ -380,11 +380,11 @@ router.route('/:id/panel')
             throw new ApiError(404, 'No experts found', 'EXPERTS_NOT_FOUND');
         }
 
-        const panel = candidate.panel;
-        for (const expertId of expertIds) {
+        let panel = candidate.panel;
+        for (let expertId of expertIds) {
             panel = [];
             panel.push({ expert: expertId, feedback: null });
-            const expert = experts.find(expert => expert._id.equals(expertId));
+            let expert = experts.find(expert => expert._id.equals(expertId));
             expert.candidates.push(id);
             // sendEmail(expert.email, "Interview Details", "Please find the attached pdf for the interview details", candidate.resume);
         }
