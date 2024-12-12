@@ -82,7 +82,7 @@ router.post("/search/", safeHandler(async (req, res) => {
     }
 
     // Use an empty array as fallback if no filters are provided.
-    let experts = await extraExperts.find(query.length ? { $or: query } : {});
+    let experts = await extraExperts.find({ $or: query });
 
     let slicedExperts = experts.slice(0, 10).map(expert => ({
         ...expert.toObject(),
