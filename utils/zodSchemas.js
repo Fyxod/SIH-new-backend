@@ -550,3 +550,10 @@ export const interviewDetailsSchema = z.object({
     venue: z.string().optional(),
     conducted: z.boolean().optional(),
 });
+
+export const extraExpertSchema = z.object({ 
+    name: z.string().min(3).max(50).optional(),
+    link: z.string().url().optional(),
+    institution: z.string().min(3).max(50).optional(),
+    interests: z.string().min(3).max(50).optional(),
+});

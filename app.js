@@ -33,9 +33,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(responseHandler);
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('*', function(req, res) {
-    res.redirect('https://experelate.black-swan.tech/');
-  });
 app.get('/', (req, res) => {
     res.send('<h1>SIH 2024</h1>');
 });
