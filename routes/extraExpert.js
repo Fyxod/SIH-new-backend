@@ -63,30 +63,35 @@ router.post("/giveme", safeHandler(async (req, res) => {
 router.post("/search/", safeHandler(async (req, res) => {
     const { department, college, expertise } = req.body;
     console.log(req.body);
+
     let expertiseArray = [];
     if (expertise) {
         expertiseArray = expertise.split(",");
     }
+    
     const query = [];
 
-    if (department != "" && department) {
-        query.push({ department: { $regex: new RegExp(`^${department}$`, 'i') } });
+    if (department && department !== "") {
+        query.push({ department: { $regex: new RegExp(`^${escapeRegExp(department)}$`, 'i') } });
     }
-    if (college != "" && college) {
-        query.push({ college: { $regex: new RegExp(`^${college}$`, 'i') } });
+    if (college && college !== "") {
+        query.push({ college: { $regex: new RegExp(`^${escapeRegExp(college)}$`, 'i') } });
     }
-    if (expertiseArray && expertiseArray.length > 0) {
+    if (expertiseArray.length > 0) {
         query.push({ expertise: { $in: expertiseArray } });
     }
-    
-    let experts = await extraExperts.find({
-        $or: query.length > 0 ? query : [{}]
-    });
-    
-    console.log(experts);
-    const sliced = experts.slice(0, 10);
-    res.success(200, 'Experts fetched successfully', {experts: sliced});
 
+    // Use an empty array as fallback if no filters are provided.
+    const experts = await extraExperts.find(query.length ? { $or: query } : {});
+    
+    const slicedExperts = experts.slice(0, 10); // Limiting to 10 experts
+    res.success(200, 'Experts fetched successfully', { experts: slicedExperts });
 }));
+
+// Utility to escape regex special characters
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^=!:${}()|\[\]\/\\]/g, '\\$&');
+}
+
 
 export default router;
