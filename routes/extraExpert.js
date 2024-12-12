@@ -112,7 +112,6 @@ router.post('/search/beta', safeHandler(async (req, res) => {
             query.recommendedSkills = expertiseArray
         }
     }
-
     if (department && department !== "") {
         query.department = department;
     }
@@ -156,14 +155,12 @@ router.post('/search/beta', safeHandler(async (req, res) => {
     });
 
     await Promise.all(updatePromises);
+    const expertss = await extraExperts.find({ department });
 
-    res.success(200, 'Experts fetched successfully', data); // what am i giving back here
+    res.success(200, 'Experts fetched successfully', expertss); // what am i giving back here
 }));
 
-// Utility to escape regex special characters
-function escapeRegExp(string) {
-    return string.replace(/[.*+?^=!:${}()|\[\]\/\\]/g, '\\$&');
-}
+
 
 
 
