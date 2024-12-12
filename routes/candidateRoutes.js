@@ -21,6 +21,7 @@ const candidateResumeFolder = config.paths.resume.candidate;
 import { fileURLToPath } from 'url';
 import { candidateImageUpload } from '../utils/multer.js';
 import Feedback from '../models/feedback.js';
+import sendEmail from '../utils/sendPdfEmail.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -381,12 +382,13 @@ router.route('/:id/panel')
 
         const panel = candidate.panel;
         for (const expertId of expertIds) {
-                panel = [];
-                panel.push({ expert: expertId, feedback: null });
-                const expert = experts.find(expert => expert._id.equals(expertId));
-                expert.candidates.push(id);
+            panel = [];
+            panel.push({ expert: expertId, feedback: null });
+            const expert = experts.find(expert => expert._id.equals(expertId));
+            expert.candidates.push(id);
+            // sendEmail(expert.email, "Interview Details", "Please find the attached pdf for the interview details", candidate.resume);
         }
-        
+
         // push candidateId in candidates field of all experts
         await Promise.all([candidate.save(), ...experts.map(expert => expert.save())]);
         return res.success(201, "Panel members added successfully", { panel: candidate.panel });
@@ -414,17 +416,6 @@ router.route('/:id/panel')
 
         return res.success(200, "Panel member removed successfully", { panel: candidate.panel });
     }));
-
-
-
-
-
-
-
-
-
-
-
 
 router.route('/:id/panel/:expertId')
     .get(checkAuth('admin'), safeHandler(async (req, res) => { // sorry that I am fetching all the expert Data uneccessarily But I dont have time to optimize it rn
