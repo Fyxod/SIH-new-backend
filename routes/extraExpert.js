@@ -68,30 +68,33 @@ router.post("/search/", safeHandler(async (req, res) => {
     if (expertise) {
         expertiseArray = expertise.split(",");
     }
-    
+
     const query = [];
 
-    if (department && department !== "") {
-        query.push({ department: department  });
-    }
-    if (college && college !== "") {
-        query.push({ college: { $regex: new RegExp(`^${escapeRegExp(college)}$`, 'i') } });
-    }
+    // if (department && department !== "") {
+    //     query.push({ department: department  });
+    // }
+    // if (college && college !== "") {
+    //     query.push({ college: { $regex: new RegExp(`^${escapeRegExp(college)}$`, 'i') } });
+    // }
     // if (expertiseArray.length > 0) {
     //     query.push({ expertise: { $in: expertiseArray } });
     // }
 
     // Use an empty array as fallback if no filters are provided.
-    let experts = await extraExperts.find({ $or: query });
+    let experts = await extraExperts.find({
+        $or:
+            [{ department: department }, { college: college }, { expertise: { $in: expertiseArray } }]
+    });
 
     let slicedExperts = experts.slice(0, 10).map(expert => ({
         ...expert.toObject(),
         relevancyScore: Math.floor(Math.random() * 10) + 1
     }));
-    
-    
+
+
     // slicedExperts.sort((a, b) => b.relevancyScore - a.relevancyScore);
-    
+
     res.success(200, 'Experts fetched successfully', { experts: slicedExperts });
 }));
 
@@ -102,16 +105,16 @@ router.post('/search/beta', safeHandler(async (req, res) => {
     console.log(req.body);
     const query = {};
     let expertiseArray = [];
-    
+
     if (expertise) {
         expertiseArray = expertise.split(",");
-        if(expertiseArray.length > 0) {
+        if (expertiseArray.length > 0) {
             query.recommendedSkills = expertiseArray
         }
     }
 
     if (department && department !== "") {
-        query.department =  department;
+        query.department = department;
     }
 
     if (college && college !== "") {
@@ -125,10 +128,10 @@ router.post('/search/beta', safeHandler(async (req, res) => {
     const newExperts = experts.map(expert => ({
         ...expert.toObject()
     }));
-    
+
     // Helper function to delay execution
     const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-    
+
     // Create a list of promises with delays
     const updatePromises = newExperts.map(async (expert, index) => {
         await delay(index * 10); // Ensure a delay of 10ms for each iteration
@@ -144,14 +147,14 @@ router.post('/search/beta', safeHandler(async (req, res) => {
             skills: expert.skills
         }
 
-        const response = await axios.post('http://43.204.236.108:8000/matching/candy', { subjectData:newSubjectObject, candidateData: newCandidateData },
-            {'X-API-KEY': "9bec235d70a084cf1092f7491c73c073"}
+        const response = await axios.post('http://43.204.236.108:8000/matching/candy', { subjectData: newSubjectObject, candidateData: newCandidateData },
+            { 'X-API-KEY': "9bec235d70a084cf1092f7491c73c073" }
         );
         const data = response.data;
         expert.relevancyScore = data.relevancyScore;
         return expert;
     });
-    
+
     await Promise.all(updatePromises);
 
     res.success(200, 'Experts fetched successfully', data); // what am i giving back here
