@@ -72,7 +72,7 @@ router.post("/search/", safeHandler(async (req, res) => {
     const query = [];
 
     if (department && department !== "") {
-        query.push({ department: { $regex: new RegExp(`^${escapeRegExp(department)}$`, 'i') } });
+        query.push({ department: department  });
     }
     if (college && college !== "") {
         query.push({ college: { $regex: new RegExp(`^${escapeRegExp(college)}$`, 'i') } });
