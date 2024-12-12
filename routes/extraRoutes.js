@@ -80,7 +80,6 @@ router.get('/parse', resumeUpload.single("resume"), safeHandler(async (req, res)
     }
 }));
 
-
 router.get('/home', safeHandler(async (req, res) => {
     const candidates = await Candidate.find();
     const experts = await Expert.find();

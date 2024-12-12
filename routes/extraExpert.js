@@ -62,6 +62,7 @@ router.post("/giveme", safeHandler(async (req, res) => {
 
 router.post("/search/", safeHandler(async (req, res) => {
     const { department, college, expertise } = req.body;
+    console.log(req.body);
     const expertiseArray = expertise.split(",");
     const query = {};
 
