@@ -79,12 +79,13 @@ router.post("/search/", safeHandler(async (req, res) => {
         query.push({ expertise: { $in: expertiseArray } });
     }
     
-    const experts = await extraExperts.find({
+    let experts = await extraExperts.find({
         $or: query.length > 0 ? query : [{}]
     });
     
     console.log(experts);
-    res.success(200, 'Experts fetched successfully', experts);
+    const sliced = experts.slice(10);
+    res.success(200, 'Experts fetched successfully', {experts: sliced});
 
 }));
 
