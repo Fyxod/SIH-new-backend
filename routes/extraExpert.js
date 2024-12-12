@@ -1,14 +1,13 @@
-import mongoose, { Collection } from "mongoose";
 import  extraExperts from "../models/extraExperts.js";
 import express from 'express';
-import { extraExpertSchema } from "../utils/zodSchemas";
-import { safeHandler } from "../middlewares/safeHandler";
-import ApiError from "../utils/errorClass";
+import { extraExpertSchema } from "../utils/zodSchemas.js";
+import { safeHandler } from "../middlewares/safeHandler.js";
+import ApiError from "../utils/errorClass.js";
 import axios from 'axios'
 
 const router = express.Router();
 
-router.route
+router
     .post("/giveme", safeHandler(async (req, res) => {
         console.log(req.body)
    const params =req.body;

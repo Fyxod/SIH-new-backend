@@ -21,7 +21,7 @@ const candidateResumeFolder = config.paths.resume.candidate;
 import { fileURLToPath } from 'url';
 import { candidateImageUpload } from '../utils/multer.js';
 import Feedback from '../models/feedback.js';
-import sendEmail from '../utils/sendPdfEmail.js';
+// import sendEmail from '../utils/sendPdfEmail.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
