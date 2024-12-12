@@ -25,9 +25,6 @@ router
    }
 
    const response = await axios.post('http://43.204.236.108:8000/extraExpert/giveme',params);
-    if (!response.ok) {
-        throw new ApiError(response.status, "Failed to fetch experts");
-    }
     
     const experts = response.data
     let newExpertData = [];
