@@ -62,7 +62,7 @@ router.post("/giveme", safeHandler(async (req, res) => {
 
 router.post("/search/", safeHandler(async (req, res) => {
     const { department, college, expertise } = req.body;
-
+    const expertiseArray = expertise.split(",");
     const query = {};
 
     if (department) {
@@ -71,8 +71,8 @@ router.post("/search/", safeHandler(async (req, res) => {
     if (college) {
         query.college = { $regex: new RegExp(`^${college}$`, 'i') };
     }
-    if (expertise && expertise.length > 0) {
-        query.expertise = { $in: expertise };
+    if (expertiseArray && expertiseArray.length > 0) {
+        query.expertise = { $in: expertiseArray };
     }
 
     const experts = await extraExperts.find(query);
