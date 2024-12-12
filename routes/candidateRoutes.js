@@ -400,7 +400,7 @@ router.route('/:id/panel')
             let expert = experts.find(expert => expert._id.equals(expertId));
             expert.candidates.push(id);
             // sendEmail(expert.email, "Interview Details", "Please find the attached pdf for the interview details", candidate.resume);
-            sendPdf(expert.email, `Your interview is scheduled with ${candidate.name} on 14/12/24 at 3 p.m.\nFurther Details`, "Interview Details", "pass123");
+            sendPdf(expert.email, `Your interview is scheduled with ${candidate.name} on 14/12/24 at 3 p.m.\n\nFurther Details:`, "Interview Details", "pass123");
         }
 
         // push candidateId in candidates field of all experts
