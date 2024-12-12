@@ -91,6 +91,10 @@ router.post("/search/", safeHandler(async (req, res) => {
     slicedExperts.sort((a, b) => b.relevancyScore - a.relevancyScore);
     
     let randomExperts = randomizeArray(slicedExperts);
+
+    randomExperts.sort((a, b) => b.relevancyScore - a.relevancyScore);
+
+
     randomExperts = randomExperts.slice(0, 10);
     
     
