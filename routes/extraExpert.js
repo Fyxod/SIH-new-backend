@@ -84,21 +84,15 @@ router.post("/search/", safeHandler(async (req, res) => {
     // Use an empty array as fallback if no filters are provided.
     let experts = await extraExperts.find(query.length ? { $or: query } : {});
 
-    let slicedExperts = experts.map(expert => ({
+    let slicedExperts = experts.slice(0, 10).map(expert => ({
         ...expert.toObject(),
         relevancyScore: Math.floor(Math.random() * 10) + 1
     }));
+    
+    
     slicedExperts.sort((a, b) => b.relevancyScore - a.relevancyScore);
     
-    let randomExperts = randomizeArray(slicedExperts);
-
-    randomExperts.sort((a, b) => b.relevancyScore - a.relevancyScore);
-
-
-    randomExperts = randomExperts.slice(0, 10);
-    
-    
-    res.success(200, 'Experts fetched successfully', { experts: randomExperts });
+    res.success(200, 'Experts fetched successfully', { experts: slicedExperts });
 }));
 
 
@@ -169,12 +163,6 @@ function escapeRegExp(string) {
 }
 
 
-function randomizeArray(arr) {
-    for (let i = arr.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [arr[i], arr[j]] = [arr[j], arr[i]]; // Swap elements
-    }
-    return arr;
-}
+
 
 export default router;
