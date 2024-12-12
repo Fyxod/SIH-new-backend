@@ -12,11 +12,19 @@ import mongoose from "mongoose";
         type: String,
         required: true
     },
+    department: {
+        type: String,
+        required: true
+    },
     expertise: [{
         type: String,
         required: true
     }],
     profileLink: {
+        type: String,
+        required: true
+    },
+    college: {
         type: String,
         required: true
     }
