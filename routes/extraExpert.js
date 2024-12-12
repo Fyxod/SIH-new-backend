@@ -88,6 +88,32 @@ router.post("/search/", safeHandler(async (req, res) => {
     res.success(200, 'Experts fetched successfully', { experts: slicedExperts });
 }));
 
+router.post('/search/beta', safeHandler(async (req, res) => {
+    const { department, college, expertise } = req.body;
+    console.log(req.body);
+    const query = {};
+    let expertiseArray = [];
+    
+    if (expertise) {
+        expertiseArray = expertise.split(",");
+        if(expertiseArray.length > 0) {
+            query.expertise = expertiseArray
+        }
+    }
+
+    if (department && department !== "") {
+        query.department =  department;
+    }
+
+    if (college && college !== "") {
+        query.college = college;
+    }
+
+    const experts = await extraExperts.find({});
+
+    res.success(200, 'Experts fetched successfully', { experts, query });
+}));
+
 // Utility to escape regex special characters
 function escapeRegExp(string) {
     return string.replace(/[.*+?^=!:${}()|\[\]\/\\]/g, '\\$&');
