@@ -1,0 +1,3823 @@
+[
+    {
+        "Expert_ID": "415",
+        "Name": "Dr Shabbir Merchant",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Signal Processing",
+            "Adaptive Signal Processing"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/415"
+    },
+    {
+        "Expert_ID": "4976",
+        "Name": "Dr Mahesh B Patil",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Semiconductor device modelling for circuit simulation",
+            "circuit simulation"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/4976"
+    },
+    {
+        "Expert_ID": "11026",
+        "Name": "Dr Harihar Narayanan",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Building large scale circuit simulators",
+            "Combinatorial optimization including submodular function theory",
+            "Large scale system partitioning"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11026"
+    },
+    {
+        "Expert_ID": "11109",
+        "Name": "Dr Shrikrishna A Khaparde",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Deregulation in Power Industry",
+            "optimal bidding and congestion management .Object Oriented Power System Analysis .Controlled series compensation using SSSC .Harmonic Distortion in Distribution systems"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11109"
+    },
+    {
+        "Expert_ID": "11116",
+        "Name": "Dr Dinesh K Sharma",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "MOS device modeling",
+            "VLSI design and technology.Microelectronics - technology and device characterisation",
+            "and mixed signal design"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11116"
+    },
+    {
+        "Expert_ID": "11174",
+        "Name": "Dr. Raghunath K Shevgaonkar",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Fiber optic communication and photonics",
+            "Numerical electromagnetics and antennas",
+            "Image processing",
+            "Radio astronomy"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11174"
+    },
+    {
+        "Expert_ID": "11176",
+        "Name": "Dr Juzer Mohsin Vasi",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Silicon photovoltaic devices",
+            "Nanocrystal based solar cells",
+            "Reliability of solar modules",
+            "CMOS insulators",
+            "transport in MOS insulators",
+            "characterization of bulk and interface traps in these insulators",
+            "Flash memory devices",
+            "CMOS device degradation and reliability",
+            "Study of hot-carrier effects",
+            "radiation effects",
+            "high-field stressing and breakdown in MOS devices",
+            "Nanoelectronics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11176"
+    },
+    {
+        "Expert_ID": "11180",
+        "Name": "Dr Madhav P Desai",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "VLSI design and design automation",
+            "Graph theory and combinatorics",
+            "Circuits and systems"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11180"
+    },
+    {
+        "Expert_ID": "11181",
+        "Name": "Dr Vikram M Gadre",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Communications and signal processing with emphasis on multiresolution and wavelet based methods."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11181"
+    },
+    {
+        "Expert_ID": "11182",
+        "Name": "Dr Prem C Pandey",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Speech and Signal Processing",
+            "Biomedical Signal Processing and Instrumentation",
+            "Electronic Instrumentation",
+            "Embedded Electronic System Design"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11182"
+    },
+    {
+        "Expert_ID": "11183",
+        "Name": "Dr Preeti S Rao",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Speech and Audio Signal Processing Digital Signal Processing Coding of speech at low bit-rates"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11183"
+    },
+    {
+        "Expert_ID": "11184",
+        "Name": "Dr Virendra R Sule",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Linear multivatiavriable systems theory",
+            "H-infinity and robust control",
+            "Nonlinear dynamical systems",
+            "Behavioral theory of dynamical systems",
+            "Computational problems of systems theory",
+            "Control of distri"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11184"
+    },
+    {
+        "Expert_ID": "11186",
+        "Name": "Dr Baylon G Fernandes",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Switch-Mode Rectifiers Switch-Mode Power Supplies Soft switching Techniques for SMPS Permanent magnet machines and Electric Drives Power electronic circuits"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11186"
+    },
+    {
+        "Expert_ID": "11188",
+        "Name": "Dr D Manjunath",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Computer and Communication Network Protocols",
+            "Systems and Algorithms Performance Modeling",
+            "Queueing Theory and Simulation",
+            "Stochastic Systems."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11188"
+    },
+    {
+        "Expert_ID": "11193",
+        "Name": "Dr Kishore Chatterjee",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Utility friendly converter topologies",
+            "Power Factor Correction techniques",
+            "STATCOM",
+            "Switched Mode Rectifiers",
+            "Electronic Ballast",
+            "Control of Electric Drives"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11193"
+    },
+    {
+        "Expert_ID": "11194",
+        "Name": "Dr Anil M Kulkarni",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Power System Dynamics",
+            "Flexible AC Transmission Systems",
+            "HVDC Transmission Systems"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11194"
+    },
+    {
+        "Expert_ID": "11195",
+        "Name": "Dr Shrikrishna V Kulkarni",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "High Voltage insulation design",
+            "Electromagnetic field calculations",
+            "Power transformer design",
+            "Finite Element Method (FEM) applications",
+            "Power Distribution Engineering"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11195"
+    },
+    {
+        "Expert_ID": "11196",
+        "Name": "Dr Harish K Pillai",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Control theory",
+            "optimal control",
+            "Coding theory",
+            "Optimization techniques"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11196"
+    },
+    {
+        "Expert_ID": "12123",
+        "Name": "Dr Vivek Agarwal",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Power Conversion",
+            "Modelling and simualtion of power electronic systems",
+            "EMI problems in Power Electronics",
+            "Microprocessor based control of A.C. Drives."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12123"
+    },
+    {
+        "Expert_ID": "12128",
+        "Name": "Dr Girish Kumar",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Microstrip antennas and arrays",
+            "Broadband antennas",
+            "Microwave integrated circuits",
+            "EMI/ EMC",
+            "RF communication circuits",
+            "Fiber optic communication"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12128"
+    },
+    {
+        "Expert_ID": "52090",
+        "Name": "Dr Vivek Shripad Borkar",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Stochastic Control",
+            "Learning Control Theory",
+            "Random Processes"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52090"
+    },
+    {
+        "Expert_ID": "52098",
+        "Name": "Dr Subhananda Chakrabarti",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "III-V Compound semiconductor materials growth and characterization",
+            "Optoelectronic Devices of interest includes quantum dot photodetectors and Solar cells",
+            "III-V device integration on germanium"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52098"
+    },
+    {
+        "Expert_ID": "52106",
+        "Name": "Dr Mukul C Chandorkar",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Soft Switching Technologies Electrical Engineering"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52106"
+    },
+    {
+        "Expert_ID": "52135",
+        "Name": "Dr Joseph John",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Analog and Digital Circuits",
+            "Optical Fiber Communications",
+            "Indoor Optical Wireless Systems",
+            "Modern Electronic Systems and Instrumentation"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52135"
+    },
+    {
+        "Expert_ID": "52150",
+        "Name": "Dr Anil Kottantharayil",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Silicon photovoltaic cells and module reliability",
+            "impact of dust on module performance",
+            "CMOS device physics",
+            "design and modelling",
+            "Materials for advanced CMOS devices CMOS device physics",
+            "design and modelling",
+            "Materials for advanced CMOS devices",
+            "Electrical characterization",
+            "Gate oxide reliability and hot-carrier effects",
+            "Radiation effects on MOS devices"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52150"
+    },
+    {
+        "Expert_ID": "52164",
+        "Name": "Dr Souvik Mahapatra",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Electrical characterization",
+            "modeling and simulation of micro/nano electronic devices",
+            "NBTI/PBTI and Hot carrier degradation in MOSFETs",
+            "High-k gate dielectrics",
+            "Advanced CMOS device reliability",
+            "Flash EEPROMs - Floating gate",
+            "SONOS/SANOS and Metal Nanopartic"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52164"
+    },
+    {
+        "Expert_ID": "52178",
+        "Name": "Dr Jayanta Mukherjee",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "RF VLSI Design",
+            "Antenna Design",
+            "Biomedical IC Design",
+            "Testing and Characterization",
+            "Analog VLSI",
+            "Digital VLSI",
+            "Noise Modeling."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52178"
+    },
+    {
+        "Expert_ID": "52194",
+        "Name": "Dr Sachin Patkar",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Combinatorial optimization Matroid Theory Submodular Functions Linear/Integer programming Network Flows High Performance Computing FPGA-based accelerated computing GPU based acceleration High Performance Circuit Simulation Algorithms Design and Analysis"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52194"
+    },
+    {
+        "Expert_ID": "52233",
+        "Name": "Dr Maryam Shojaei Baghini",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Analog/Mixed-Signal/RF VLSI",
+            "Circuit and Systems for/in Emerging Technologies",
+            "High-performance Instrumentation Circuits and Sys."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52233"
+    },
+    {
+        "Expert_ID": "52238",
+        "Name": "Dr Shreevardhan A Soman",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Power system analysis",
+            "computation and economics",
+            "Power system protection"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52238"
+    },
+    {
+        "Expert_ID": "155561",
+        "Name": "Prof Madhu N. Belur",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Railway timetabling: development of tools",
+            "Singular and descriptor systems: impulse elimination",
+            "Dissipative systems: algorithms for storage functions",
+            "Operations research: timetabling",
+            "bottleneck identification and congestion control",
+            "Graph theoretic methods and structural control",
+            "Allocation problems and matching techniques"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155561"
+    },
+    {
+        "Expert_ID": "155562",
+        "Name": "Prof Rajesh H. Zele",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "RF",
+            "Analog & Mixed-Signal Circuits for Communication Applications"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155562"
+    },
+    {
+        "Expert_ID": "155780",
+        "Name": "Prof K.L. Narasimhan",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [],
+        "Profile_Link": "https://iitb.irins.org/profile/155780"
+    },
+    {
+        "Expert_ID": "155805",
+        "Name": "Prof B. M. Arora",
+        "Designation": "Professor",
+        "Department": "Department of Electrical Engineering",
+        "Expertise": [
+            "Optoelectronic materials and devices III-IV compound semiconductors solar cells",
+            ""
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155805"
+    },
+    {
+        "Expert_ID": "8961",
+        "Name": "Dr R P Vedula",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Experimental Heat Transfer and Fluid Flow"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/8961"
+    },
+    {
+        "Expert_ID": "9046",
+        "Name": "Dr Milind V. Rane",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Refrigeration"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/9046"
+    },
+    {
+        "Expert_ID": "9078",
+        "Name": "Prof Bhallamudi Ravi",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Metal Casting",
+            "Medical Devices",
+            "Smart Manufacturing",
+            "Innovation and Entrepreneurship"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/9078"
+    },
+    {
+        "Expert_ID": "9415",
+        "Name": "Dr Narayan Rangaraj",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Industrial Engineering and Operations Research"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/9415"
+    },
+    {
+        "Expert_ID": "10675",
+        "Name": "Dr P S Gandhi",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Nonlinear Dynamical Systems and Control",
+            "Nonlinear Dynamical Systems and Control",
+            "Robotic systems",
+            "kinematics and dynamics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/10675"
+    },
+    {
+        "Expert_ID": "11205",
+        "Name": "Dr Prashant P Date",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Metal forming",
+            "Sheet Metal Working",
+            "Production engineering",
+            "Mechanical metallurgy",
+            "Materials testing"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11205"
+    },
+    {
+        "Expert_ID": "11210",
+        "Name": "Dr K P Karunakaran",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Computer Numerical Control",
+            "Adaptive Control of Machining",
+            "Evolutionary Algorithms"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11210"
+    },
+    {
+        "Expert_ID": "11214",
+        "Name": "Dr Dhanesh Manik",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Mechnics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11214"
+    },
+    {
+        "Expert_ID": "11215",
+        "Name": "Dr S.S. Pande",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Intelligent Product Modeling with focus on Feature based solid modeling",
+            "automatic feature extraction from CAD/CADD models",
+            "Geometric reasoning of CAD models for Rapid Prototyping",
+            "Intelligent Process"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11215"
+    },
+    {
+        "Expert_ID": "37160",
+        "Name": "Dr Uday Gaitonde",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Thermodynamics",
+            "Experimental and numerical investigations in heat transfer",
+            "Design and analysis of components of power plants",
+            "Heat transfer problems in industry",
+            "Safety studies related to Indian nuclear power plants"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/37160"
+    },
+    {
+        "Expert_ID": "51523",
+        "Name": "Dr Milind Atrey",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Stirling",
+            "G-M and Pulse Tube Cryocoolers - Design and Development",
+            "Integration of Cryocoolers for Cooling Superconducting Magnets",
+            "MRI ( Magnetic Resonance Imaging ) and NMR ( Nuclear Magnetic Resonance )Cryogenics",
+            "Condensation of Helium at 4 K",
+            "Evaporative Cooling for Air Conditioning",
+            "Mixed Gas Refrigerents for Joule-Thomson Cryocoolers."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51523"
+    },
+    {
+        "Expert_ID": "51526",
+        "Name": "Dr Amitava De",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Welding and Joining",
+            "Additive Manufacturing",
+            "Numerical Modelling of Manufacturing Processes"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51526"
+    },
+    {
+        "Expert_ID": "51561",
+        "Name": "Dr Anirban Guha",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Kinematics and robotics.",
+            "Design of machines for the textile industry.Application of artificial intelligence and machine learning in industrial problems.Impact simulation with finite element analysis."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51561"
+    },
+    {
+        "Expert_ID": "51605",
+        "Name": "Dr Atul Sharma",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Computational Fluid Dynamics and Heat Transfer",
+            "Bluff-Body Wakes and Vortex-Induced Vibrations",
+            "Multi-Phase Flow",
+            "Convective Heat Transfer."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51605"
+    },
+    {
+        "Expert_ID": "51611",
+        "Name": "Dr. Sreedhara Sheshadri",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Direct Numerical Simulations of Reactive flows",
+            "Modelling Turbulent Combustion; Flamelet",
+            "CMC",
+            "Combustion/emission in Gas Turbine",
+            "IC engines; spray",
+            "combustion and emission"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51611"
+    },
+    {
+        "Expert_ID": "51634",
+        "Name": "Dr Ashish Das",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Optimal design of experiments",
+            "Fractional factorials and related combinatorics",
+            "Linear models",
+            "Supersaturated designs",
+            "retail issues in commercial banking and payment systems."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51634"
+    },
+    {
+        "Expert_ID": "51694",
+        "Name": "Dr S V Prabhu",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Fluid Mechanics",
+            "HEAT TRANSFER"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51694"
+    },
+    {
+        "Expert_ID": "51764",
+        "Name": "Dr Rakesh G Mote",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Focused Ion Beam (FIB) and Laser based micro/nano-fabrication",
+            "Plasmonics for sensing and beam manipulation",
+            "Ultra precision machining (UPM) processes",
+            "Non-conventional machining processes",
+            "Machining of advanced materials"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51764"
+    },
+    {
+        "Expert_ID": "155564",
+        "Name": "Dr Bhalchandra Puranik",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Compressible Fluid Dynamics and Shock Waves",
+            "High-Knudsen Number High-Speed Internal and External Flows",
+            "Convective Heat Transfer Applications"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155564"
+    },
+    {
+        "Expert_ID": "155566",
+        "Name": "Dr Seshu S Pasumarthy",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Finite element modeling",
+            "Computational Solid Mechanics",
+            ""
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155566"
+    },
+    {
+        "Expert_ID": "155573",
+        "Name": "Dr Kannan Iyer",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Thermal and Fluid Engineering"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155573"
+    },
+    {
+        "Expert_ID": "155577",
+        "Name": "Dr Amol Anant Gokhale",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Mechanics of Materials and Structures",
+            "Metal Foams",
+            "Rapid Manufacturing",
+            "High temperature materials"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155577"
+    },
+    {
+        "Expert_ID": "155581",
+        "Name": "Dr Makarand Shrikrishna Kulkarni",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Reliability Engineering",
+            "Maintenance Planning",
+            "Quality Engineering",
+            "Digital Twins for Industry 4.0",
+            "Manufacturing Analytics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155581"
+    },
+    {
+        "Expert_ID": "155624",
+        "Name": "Dr Arunkumar Sridharan",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Heat Transfer",
+            "Experimental fluid dynamics and heat transfer",
+            "Two phase flow and heat transfer",
+            "Nuclear Reactor Safety"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155624"
+    },
+    {
+        "Expert_ID": "155661",
+        "Name": "Dr Deepak Marla",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Laser Materials Processing",
+            "Ultra-short Pulsed Laser Ablation",
+            "Electrochemical Machining",
+            "Electric Discharge Machining",
+            "Electroless Plating"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155661"
+    },
+    {
+        "Expert_ID": "155718",
+        "Name": "Dr Amit Agrawal",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Turbulence",
+            "PIV",
+            "Heat Transfer",
+            "Rarefied Gas Flows",
+            "Microfluidics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155718"
+    },
+    {
+        "Expert_ID": "155760",
+        "Name": "Dr Upendra V Bhandarkar",
+        "Designation": "Professor",
+        "Department": "Department of Mechanical Engineering",
+        "Expertise": [
+            "Particulate Characterization and Emission Control",
+            "Heat transfer in nanofluids",
+            "Molecular Modeling and Simulations",
+            "Rarefied Gas Flows",
+            "DSMC",
+            "Appropriate Technology for Rural Areas"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155760"
+    },
+    {
+        "Expert_ID": "11091",
+        "Name": "Dr M. Senthilkumar",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Magnetic multilayers",
+            "Neutron multilayers.",
+            "Investigated magnetic properties of highly magnetostrictive"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11091"
+    },
+    {
+        "Expert_ID": "11982",
+        "Name": "Prof Urjit Yajnik",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Elementary Particle Physics",
+            "Cosmology",
+            "General Theory of Relativity"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11982"
+    },
+    {
+        "Expert_ID": "12209",
+        "Name": "Dr P Das",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Experimental Nuclear Physics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12209"
+    },
+    {
+        "Expert_ID": "12213",
+        "Name": "Dr A.V. Mahajan",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Experimental Condensed Matter Physics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12213"
+    },
+    {
+        "Expert_ID": "12214",
+        "Name": "Dr S.S. Major",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Physics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12214"
+    },
+    {
+        "Expert_ID": "12217",
+        "Name": "Dr Pichai Ramadevi",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "String Theory"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12217"
+    },
+    {
+        "Expert_ID": "12218",
+        "Name": "Dr Bhanu P Singh",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Physics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12218"
+    },
+    {
+        "Expert_ID": "12219",
+        "Name": "Dr Tapanendu Kundu",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Laser Spctroscopy",
+            "Non Linear Spctroscopy",
+            "Photoacoustic Spectroscopy",
+            "Non Linear Optics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12219"
+    },
+    {
+        "Expert_ID": "12220",
+        "Name": "Dr Sankagiri Umasankar",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Constraints on the Left - Right symmetric models from flavour changing neutral currents",
+            "Non - Leptonic decays of B - mesons",
+            "Neutrino oscilations"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12220"
+    },
+    {
+        "Expert_ID": "155563",
+        "Name": "Dr Bhagawantrao N Jagatap",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [],
+        "Profile_Link": "https://iitb.irins.org/profile/155563"
+    },
+    {
+        "Expert_ID": "155568",
+        "Name": "Dr Anirban Sain",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Dynamic processes in the Cell"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155568"
+    },
+    {
+        "Expert_ID": "155572",
+        "Name": "Dr Tomy C V",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Physics and Astronomy",
+            "Materials Science"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155572"
+    },
+    {
+        "Expert_ID": "155575",
+        "Name": "Dr Krishnawarrier G Suresh",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Magnetism and Spintronics",
+            "Topological matter",
+            "Magnetism in intermetallics",
+            "Ferromagnetic shape memory materials",
+            "Magnetic refrigerant materials"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155575"
+    },
+    {
+        "Expert_ID": "155582",
+        "Name": "Dr Alok Shukla",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Thermodynamics",
+            "Computational Methods",
+            "Classical Mechanics",
+            "Mathematical Physics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155582"
+    },
+    {
+        "Expert_ID": "155601",
+        "Name": "Dr Punit Parmananda",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [],
+        "Profile_Link": "https://iitb.irins.org/profile/155601"
+    },
+    {
+        "Expert_ID": "155641",
+        "Name": "Dr Basanta Kumar Nandi",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Multiplarticle production",
+            "Fluctuation and Heavy Flavor in ultra-relativistic heavy-ion collisions"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155641"
+    },
+    {
+        "Expert_ID": "155642",
+        "Name": "Dr Raghava Varma",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "High Energy Experiments"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155642"
+    },
+    {
+        "Expert_ID": "155659",
+        "Name": "Dr M Aslam",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Oxides and other earth abundant compounds (CZTS) for photovoltaic applications"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155659"
+    },
+    {
+        "Expert_ID": "155663",
+        "Name": "Dr Dibyendu Das",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Theory of Stochatic Processes",
+            "and Non-equilibrium Statistical Physics and their applications to physical and biological systems"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155663"
+    },
+    {
+        "Expert_ID": "155687",
+        "Name": "Dr P P Singh",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Fermi surface",
+            "MgB2 alloys",
+            "Variation of Tc",
+            "Electronic structure",
+            "Superconductivity"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155687"
+    },
+    {
+        "Expert_ID": "155747",
+        "Name": "Dr Asmita Mukherjee",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Theoretical Particle Physics",
+            "QCD",
+            "QCD spin physics",
+            "Light-cone wave functions",
+            "collider phenomenology"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155747"
+    },
+    {
+        "Expert_ID": "155752",
+        "Name": "Dr M Senthil Kumar",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Magnetic thin films and multilayers; Nanostructured magnetic thin films; Magnetic-Semiconductor multilayers"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155752"
+    },
+    {
+        "Expert_ID": "155770",
+        "Name": "Dr Subhabrata Dhar",
+        "Designation": "Professor",
+        "Department": "Department of Physics",
+        "Expertise": [
+            "Growth",
+            "transport and optical properties of semiconductors"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155770"
+    },
+    {
+        "Expert_ID": "8504",
+        "Name": "Dr Ravindra D Gudi",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Process control and Optimization",
+            "Statistical Methods",
+            "Biochemical Engineering",
+            "Green Engineering and Energy applications."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/8504"
+    },
+    {
+        "Expert_ID": "11233",
+        "Name": "Dr Sanjay M Mahajani",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Multifunctional Reactors",
+            "Computational Fluid Dynamics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11233"
+    },
+    {
+        "Expert_ID": "11247",
+        "Name": "Dr K M Moudgalya",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Chemical processes",
+            "Virtual Labs for Process Control",
+            "PLCs and arduino based systems."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11247"
+    },
+    {
+        "Expert_ID": "11248",
+        "Name": "Dr Hemant Nanavati",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Network Elasticity",
+            "Structure-Property Relationships",
+            "Membranes",
+            "Emulsion Polymerization."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11248"
+    },
+    {
+        "Expert_ID": "11250",
+        "Name": "Dr Santosh Noronha",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Biochemical Engineering",
+            "recombinant biotechnology",
+            "computational biology"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11250"
+    },
+    {
+        "Expert_ID": "11251",
+        "Name": "Dr S R Patwardhan",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Control relevant dynamic modeling of nonlinear systems",
+            "Nonlinear model predictive control",
+            "On-line fault diagnosis and fault tolerant control",
+            "Nonlinear Bayesian state estimation and particle filtering",
+            "Adaptive control of Chemical and Bio-chemical Processes."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11251"
+    },
+    {
+        "Expert_ID": "11254",
+        "Name": "Mr Sandip Roy",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Colloids and interfacial phenomena",
+            "Molecular thermodynamics",
+            "Supercritical fluid extraction of natural products"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11254"
+    },
+    {
+        "Expert_ID": "11257",
+        "Name": "Dr Akkihebbal Krishnamurthy Suresh",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Reaction Engineering",
+            "Multiphase systems",
+            "Biochemical Engineering",
+            "Interfacial polycondensation",
+            "Liquid phase organic oxidations."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11257"
+    },
+    {
+        "Expert_ID": "11260",
+        "Name": "Dr Pramod Wangikar",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Applied Enzymology",
+            "Experimental and theoretical analysis of bioprocesses."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11260"
+    },
+    {
+        "Expert_ID": "42996",
+        "Name": "Prof Anurag Mehra",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Public Policy",
+            "Sociology of Education",
+            "Science and Technology",
+            "Formation of Nanostructures and use in Drug Delivery",
+            "Hyperthermia",
+            "Transport and Reaction Engineering in Multiphase Systems",
+            "Food Foams and Sponges",
+            "Baking of Bubbly Foods."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/42996"
+    },
+    {
+        "Expert_ID": "43002",
+        "Name": "Dr Devang Vipin Khakhar",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Granular Solids",
+            "Rodlike polymers",
+            "Polyurethane foams."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/43002"
+    },
+    {
+        "Expert_ID": "43034",
+        "Name": "Dr Jayesh Bellare",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Biomedical devices: dialysis membranes",
+            "extracorporeal membrane oxygenator",
+            "ECMO",
+            "ventilator design",
+            "contamination containment",
+            "Electron microscopy",
+            "Nanotechnology"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/43034"
+    },
+    {
+        "Expert_ID": "51562",
+        "Name": "Dr Jhumpa Adhikari",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Molecular Simulation",
+            "Molecular and Statistical Thermodynamics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51562"
+    },
+    {
+        "Expert_ID": "51582",
+        "Name": "Prof Rajdip Bandyopadhyaya",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Colloids and Interfacial science",
+            "Self-assembly",
+            "Microemulsions",
+            "Sol-gel",
+            "Nanomaterials",
+            "Nanoparticles",
+            "Porous materials",
+            "Thin films",
+            "Nanocomposites",
+            "Mathematical modeling",
+            "Population balance",
+            "Monte Carlo simulation ."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51582"
+    },
+    {
+        "Expert_ID": "51585",
+        "Name": "Prof Sharad Bhartiya",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Switched Systems",
+            "State Estimation and control",
+            "Process Control and Optimization",
+            "Explicit MPC",
+            "Systems Biology."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51585"
+    },
+    {
+        "Expert_ID": "51603",
+        "Name": "Prof Sameer Jadhav",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Microfluidics",
+            "cell mechanics",
+            "sperm motility"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51603"
+    },
+    {
+        "Expert_ID": "51662",
+        "Name": "Prof Rochish Madhukar Thaokar",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Electrohydrodynamics in drops",
+            "vesicles and capsules",
+            "Soft Matter",
+            "charged vesicles and colloidal electrokinetics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51662"
+    },
+    {
+        "Expert_ID": "51663",
+        "Name": "Prof Mahesh S Tirumkudulu",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Atomization",
+            "Consolidation of Colloidal Dispersions",
+            "Biophysics of Bacterial Motion."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51663"
+    },
+    {
+        "Expert_ID": "51664",
+        "Name": "Dr Chandra Venkataraman",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Atmospheric aerosols",
+            "Energy use emissions",
+            "climate",
+            "air quality",
+            "Engineered nanoparticles",
+            "Aerosol routes to nanoparticle synthesis for drug and gene delivery."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51664"
+    },
+    {
+        "Expert_ID": "55302",
+        "Name": "Dr Kareenhalli Viswanath Venkatesh",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Systems Biology",
+            "Network analysis and modeling",
+            "Synthetic Biology and Metabolic and regulatory networks research"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/55302"
+    },
+    {
+        "Expert_ID": "155751",
+        "Name": "Dr Guruswamy Kumaraswamy",
+        "Designation": "Professor",
+        "Department": "Department of Chemical Engineering",
+        "Expertise": [
+            "Colloids",
+            "Rheology",
+            "Surfactants"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155751"
+    },
+    {
+        "Expert_ID": "11127",
+        "Name": "Prof Sharat Chandran",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Graphics",
+            "Computer Vision",
+            "Computational Geometry",
+            "Parallel Algorithms",
+            "Visualization",
+            "Medical Imaging."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11127"
+    },
+    {
+        "Expert_ID": "11140",
+        "Name": "Prof Soumen Chakrabarti",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Hypertext databases",
+            "Data mining."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11140"
+    },
+    {
+        "Expert_ID": "11145",
+        "Name": "Dr Supratik Chakraborty",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Formal techniques for analysis",
+            "verification",
+            "validation of digital systems",
+            "Asynchronous timing analysis."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11145"
+    },
+    {
+        "Expert_ID": "11146",
+        "Name": "Dr Ajit A Diwan",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Algorithms",
+            "Theoretical Computer Science."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11146"
+    },
+    {
+        "Expert_ID": "11147",
+        "Name": "Dr Rushikesh Joshi",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Software Architecture",
+            "Programming Paradigms",
+            "Design and Descriptions",
+            "Conceptualization and Ontology."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11147"
+    },
+    {
+        "Expert_ID": "11148",
+        "Name": "Dr Uday Khedker",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Programming Languages",
+            "Compilers",
+            "Data Flow Analysis."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11148"
+    },
+    {
+        "Expert_ID": "11154",
+        "Name": "Dr Amitabha Sanyal",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Functional Programming",
+            "Compilers",
+            "and Programming Languages"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11154"
+    },
+    {
+        "Expert_ID": "11160",
+        "Name": "Dr G Sivakumar",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Automated Reasoning",
+            "Logic Programming",
+            "Rewrite Systems",
+            "Networks",
+            "Distributed Systems."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11160"
+    },
+    {
+        "Expert_ID": "11161",
+        "Name": "Dr S Sudarshan",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Query processing and optimization",
+            "Keyword querying on structured and semi-structured data",
+            "Testing database applications."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11161"
+    },
+    {
+        "Expert_ID": "11162",
+        "Name": "Dr Sundar Viswanathan",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Algorithms",
+            "Combinatorics",
+            "Complexity Theory."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11162"
+    },
+    {
+        "Expert_ID": "42854",
+        "Name": "Prof Krithivasan Ramamritham",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Real time systems",
+            "Databases."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/42854"
+    },
+    {
+        "Expert_ID": "51946",
+        "Name": "Dr Om P Damani",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Program Derivation",
+            "Large Scale Systems",
+            "Technology for Social Development."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51946"
+    },
+    {
+        "Expert_ID": "51995",
+        "Name": "Dr Sridhar Iyer",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Educational Technology",
+            "Computer Science Education Research",
+            "Wireless Networking",
+            "Mobile Applications."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51995"
+    },
+    {
+        "Expert_ID": "52044",
+        "Name": "Dr Bernard Menezes",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Information Appliances",
+            "Electronic Commerce",
+            "Java Security",
+            "Parallel Computing",
+            "Time Series Forecasting"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52044"
+    },
+    {
+        "Expert_ID": "52093",
+        "Name": "Dr Bhaskaran Raman",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Computer networks",
+            "Wireless and mobile networks",
+            "Protocol design and evaluation",
+            "Wireless measurement studies",
+            "Computing and communication system design for the developing world."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52093"
+    },
+    {
+        "Expert_ID": "52107",
+        "Name": "Dr Abhiram G Ranade",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Algorithms and Combinatorial Optimization."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52107"
+    },
+    {
+        "Expert_ID": "155586",
+        "Name": "Dr Pushpak Bhattacharya",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Natural Language Processing",
+            "Machine Learning",
+            "Machine Translation",
+            "Cross Lingual IR and Web Knowledge Processing"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155586"
+    },
+    {
+        "Expert_ID": "155602",
+        "Name": "Prof Ashwin Gumaste",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "SDN",
+            "NFV",
+            "Network Architecture",
+            "Carrier Ethernet"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155602"
+    },
+    {
+        "Expert_ID": "155719",
+        "Name": "Dr Manoj Prabhakaran",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Cryptography",
+            "Theoretical Computer Science"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155719"
+    },
+    {
+        "Expert_ID": "155724",
+        "Name": "Dr Supratim Biswas",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Programming Languages",
+            "Compiler Optimization",
+            "Parallelizing Compilers",
+            "Parallel and Distributed computing",
+            "Combinatorial Optimization"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155724"
+    },
+    {
+        "Expert_ID": "155737",
+        "Name": "Dr Sivakumar G",
+        "Designation": "Professor",
+        "Department": "Department of Computer Science and Engineering",
+        "Expertise": [
+            "Automated Reasoning",
+            "Logic Programming",
+            "Rewrite Systems",
+            "Networks",
+            "Distributed Systems"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155737"
+    },
+    {
+        "Expert_ID": "32",
+        "Name": "Dr Krishna Pillai Kaliappan",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Total Synthesis of Biologically Active Natural Products",
+            "Synthesis of Natural Product like Molecules",
+            "Design and Synthesis of Novel Hybrid Natural Products",
+            "Development of New Chiral Ligands for Asymmetric Synthesis",
+            "Organocatalysis ."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/32"
+    },
+    {
+        "Expert_ID": "33",
+        "Name": "Dr Nand Kishore",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Biothermodynamics",
+            "Biophysical Chemistry"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/33"
+    },
+    {
+        "Expert_ID": "42",
+        "Name": "Prof Irishi N N Namboothiri",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Organic Synthesis",
+            "Physical Organic Chemistry",
+            "Reaction Mechanisms."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/42"
+    },
+    {
+        "Expert_ID": "295",
+        "Name": "Dr Mangalampalli N Ravikanth",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Synthesis and photodynamics of unsymmetrical multiporphyrin arrays",
+            "Synthesis and characterization of porphyrins attached to organometallic systems",
+            "Design",
+            "synthesis and study of nonlinear optics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/295"
+    },
+    {
+        "Expert_ID": "296",
+        "Name": "Dr Y U Sasidhar",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Biophysical Chemistry",
+            "Probing protein folding and protein dynamics with molecular dynamics simulations."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/296"
+    },
+    {
+        "Expert_ID": "12001",
+        "Name": "Dr Anil Kumar",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Liquis Crystalline Polymers",
+            "Dendrimers",
+            "Gas Sensors",
+            "Electrochromic Materials",
+            "Hyperbranched Polymers",
+            "Conducting Polymers",
+            "Bio-Sensors",
+            "Biodegradable Polymers."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12001"
+    },
+    {
+        "Expert_ID": "21436",
+        "Name": "Dr Sambasivarao Kotha",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "New Synthetic Methods",
+            "Unusual Amino Acids",
+            "Suzuki Coupling Reaction",
+            "Metathesis",
+            "Peptide Modifications",
+            "Nanotechnology",
+            "Theoretically Interesting Molecules."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/21436"
+    },
+    {
+        "Expert_ID": "42732",
+        "Name": "Prof Goutam Kumar Lahiri",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Electrochemical",
+            "Spectroscopic",
+            "Magnetic",
+            "Structural and Theoretical manifestations of delicate intramolecular valence and Spin state interactions at the interface of redox sensitive metal-ligand frameworks and Catalysis."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/42732"
+    },
+    {
+        "Expert_ID": "42905",
+        "Name": "Prof Harkesh Bahadur Singh",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Organochalcogen (S",
+            "Se and Te) Chemistry",
+            "Stabilization of Unusual Species",
+            "Selenoenzyme Mimics",
+            "Chalcogen based HYBRID Multidentate Ligands (chiral and macrocyclic) and Role in Catalysis",
+            "Metallophilic Interactions."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/42905"
+    },
+    {
+        "Expert_ID": "51688",
+        "Name": "Prof M S Balakrishna",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Inorganic rings",
+            "cages and clusters and their transition metal chemistry",
+            "Inorganic materials and polymers",
+            "Thermo chemical and electrochemical studies of phosphine bound organometallics",
+            "Homogeneous catalysis",
+            "Spectroscopy."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51688"
+    },
+    {
+        "Expert_ID": "51690",
+        "Name": "Prof Prasenjit Ghosh",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Olefin polymerization",
+            "Homogeneous catalysis",
+            "Inorganic/organometallic chemistry and Bioinorganic chemistry."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51690"
+    },
+    {
+        "Expert_ID": "51695",
+        "Name": "Prof Ramaswamy Murugavel",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Synthetic Main Group Chemistry",
+            "Metallasilicates",
+            "Metallaphosphates and Inorganic Polymers",
+            "Organometallic Chemistry of Early Transition Metals",
+            "Coordination-Polymer Based Supramolecular Assemblies",
+            "Coordination Chemistry of s-Block Elements."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51695"
+    },
+    {
+        "Expert_ID": "51706",
+        "Name": "Prof Gopalan Rajaraman",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Computational inorganic chemistry",
+            "magnetism and materials science",
+            "surface chemistry",
+            "calculation of spectral parameters",
+            "modelling catalytic reactions in relevance to bioinorganic chemistry."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51706"
+    },
+    {
+        "Expert_ID": "51730",
+        "Name": "Prof R B Sunoj",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Information such as structural parameters",
+            "Orbital interactions",
+            "Energetic details",
+            "Effect of media and other external perturbations."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51730"
+    },
+    {
+        "Expert_ID": "51755",
+        "Name": "Prof Rajarshi Chakrabarti",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Theoretical Chemistry",
+            "Statistical Mechanics",
+            "Active Matter",
+            "Rate Theories",
+            "Polymer Physics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51755"
+    },
+    {
+        "Expert_ID": "51763",
+        "Name": "Prof Anindya Datta",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Excited state dynamics of novel fluorophores",
+            "Time resolved spectroscopic investigation of microheterogeneous media",
+            "Ultrafast molecular devices",
+            "Luminescenct nanostructures",
+            "Fluorescence sensing of biophysically relevant analytes."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51763"
+    },
+    {
+        "Expert_ID": "51775",
+        "Name": "Prof G Naresh Patwari",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Spectroscopy and Dynamics of Molecular Clusters",
+            "Hydrogen Storage and Retrieval",
+            "Bio-conjugate Chemistry",
+            "Surface Attachment of Peptides and Proteins",
+            "Fluorine in Structural Biology."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51775"
+    },
+    {
+        "Expert_ID": "155578",
+        "Name": "Dr Pradeep Mathur",
+        "Designation": "Professor",
+        "Department": "Department of Chemistry",
+        "Expertise": [
+            "Organometallic Chemistry"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155578"
+    },
+    {
+        "Expert_ID": "4740",
+        "Name": "Prof Prashant S Phale",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Elucidation of metabolic pathways for degradation of aromatic compounds",
+            "Purification and characterization of oxygenases."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/4740"
+    },
+    {
+        "Expert_ID": "43708",
+        "Name": "Dr Samir K Maji",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Biological Thermodynamics and Kinetics",
+            "Biophysics Laboratory."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/43708"
+    },
+    {
+        "Expert_ID": "43712",
+        "Name": "Prof Ashutosh Kumar",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Structural Biology",
+            "Biophysics",
+            "Solid and Liquid-state NMR Spectroscopy",
+            "Protein-Protein",
+            "Protein-lipid and Protein-drug interactions"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/43712"
+    },
+    {
+        "Expert_ID": "51507",
+        "Name": "Prof Petety V Balaji",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Computational Biology",
+            "Bioinformatics",
+            "Glycobiology."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51507"
+    },
+    {
+        "Expert_ID": "51508",
+        "Name": "Prof Rinti Banerjee",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Nanomedicine",
+            "Nanostructured biomaterials",
+            "Nanotechnology platforms for drug delivery and therapeutics",
+            "",
+            "trigger responsive smart materials",
+            "Pulmonary surfactants",
+            "Cancer nanotechnology",
+            "Liposomes and Lipopolymeric self assembled nanostructures. in situ gels",
+            "medical devices",
+            "point of care diagnostics",
+            "global health technologies",
+            "tissue engineering",
+            "technology translation"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51508"
+    },
+    {
+        "Expert_ID": "51513",
+        "Name": "Dr Santanu Kumar Ghosh",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Molecular and Cell Biology Genetics Biochemistry"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51513"
+    },
+    {
+        "Expert_ID": "51520",
+        "Name": "Prof Rohit Manchanda",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Computational studies on synaptic transmission",
+            "Electrical signalling and Information processing in excitable cells and Tissues."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51520"
+    },
+    {
+        "Expert_ID": "51536",
+        "Name": "Dr Ranjith Padinhateeri",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Equilibrium and Non-equilibrium statistical mechanics",
+            "Polymer physics",
+            "and Soft-matter theory."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51536"
+    },
+    {
+        "Expert_ID": "51540",
+        "Name": "Prof Swati Patankar",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Plasmodium falciparum",
+            "Transcription initiation",
+            "Translation initiation",
+            "Splicing",
+            "Anti-oxidant network."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51540"
+    },
+    {
+        "Expert_ID": "51550",
+        "Name": "Dr Sanjeeva Srivastava",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Proteomics",
+            "Principles and Techniques",
+            "Topics in Biotechnology II",
+            "Cellular and Molecular Biology."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51550"
+    },
+    {
+        "Expert_ID": "59569",
+        "Name": "Prof Ambarish Kunwar",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Biophysics",
+            "Computational Biology",
+            "UVC and Far-UVC radiation",
+            "Disinfection Technologies",
+            "Robotics and IoT in Healthcare",
+            "AI/ML in Healthcare",
+            "Rehabilitation Technologies"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/59569"
+    },
+    {
+        "Expert_ID": "155557",
+        "Name": "Dr Kiran Kondabagil",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Understanding the molecular mechanisms of DNA replication",
+            "repair and packaging in double-stranded DNA viruses. We employ bioinformatics",
+            "molecular genetics",
+            "recombinant DNA",
+            "biochemical and structural biology approaches"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155557"
+    },
+    {
+        "Expert_ID": "155593",
+        "Name": "Dr Shamik Sen",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "One of the most important breakthroughs of this post-genomic era is the finding that in addition to chemical cues",
+            "cell behaviour is equally susceptible to physical cues of the environment",
+            "including the geometry",
+            "topography and physical properties of the extracellular matrix (ECM)."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155593"
+    },
+    {
+        "Expert_ID": "155594",
+        "Name": "Dr Prasenjit Bhaumik",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Understanding the structure function relationship of enzymes and biological macromolecules. Protein crystallography",
+            "Structure based antimalarial drug development",
+            "Structural enzymology"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155594"
+    },
+    {
+        "Expert_ID": "155731",
+        "Name": "Dr Debjani Paul",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Microfluidic devices for healthcare applications",
+            "Biological physics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155731"
+    },
+    {
+        "Expert_ID": "155768",
+        "Name": "Dr Anirban Banerjee",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Bacterial Pathogenesis",
+            "Host-Pathogen Interactions",
+            "Cellular Immunity"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155768"
+    },
+    {
+        "Expert_ID": "308030",
+        "Name": "Dr Roop Mallik",
+        "Designation": "Professor",
+        "Department": "Department of Biosciences and Bioengineering",
+        "Expertise": [
+            "Intracellular Transport",
+            "Biophysics of Lipids and Motor Proteins",
+            "Pathogen degradation",
+            "Metabolism and Liver biology",
+            "Lipid Homeostasis"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/308030"
+    },
+    {
+        "Expert_ID": "11092",
+        "Name": "Dr Tom V Mathew",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Urban Bus Transit Route Network Design",
+            "Equilibrium Network Signal Design",
+            "Optimization of Tansportation Networks",
+            "Genetic Algorithm",
+            "Artificial Neural Network",
+            "Expert Systems",
+            "Simulation."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11092"
+    },
+    {
+        "Expert_ID": "11094",
+        "Name": "Prof M C Deo",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Coastal and ocean engineering",
+            "Water resources",
+            "Climate change impact on coasts",
+            "Artificial intelligence and statistical analysis."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11094"
+    },
+    {
+        "Expert_ID": "11102",
+        "Name": "Dr R S Jangid",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Base isolation for earthquake-resistant design",
+            "Vibration control using tuned mass dampers",
+            "Non-linear dynamic analysis",
+            "Non-classically damped systems",
+            "Stochastic earthquake analysis",
+            "Active control of structures."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11102"
+    },
+    {
+        "Expert_ID": "11104",
+        "Name": "Dr T I Eldho",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Water Resources and Environmental Engineering."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11104"
+    },
+    {
+        "Expert_ID": "11105",
+        "Name": "Dr Kamalkishor Bajoria",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Nuclear Structures",
+            "Smart Structures",
+            "Design of structures",
+            "Earthquake resistant structures",
+            "Nonlinear structures",
+            "Nuclear containment structures",
+            "Structural stability",
+            "Structural dynamics",
+            "Smart Materials"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11105"
+    },
+    {
+        "Expert_ID": "11111",
+        "Name": "Dr Yogesh M Desai",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Analysis and Control of Vibrations with focus on Wind Induced Vibrations",
+            "Finite Element Analysis",
+            "Structural Dynamics",
+            "Composite Mechanics",
+            "Rehabilitation of Deteriorated Structures."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11111"
+    },
+    {
+        "Expert_ID": "11114",
+        "Name": "Prof Devendra Narain Singh",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Environmentalgeotechnology",
+            "Centrifuge modelling",
+            "Geomaterial characterization",
+            "Industrial waste disposal and utilization",
+            "Porous media characterization."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11114"
+    },
+    {
+        "Expert_ID": "11120",
+        "Name": "Dr JNANENDRA NATH MANDAL",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Centrifuge Modeling Of Geosynthetic Reinforced Soil Structures; Municipal/Hazardous Waste Landfills; Tsunami Reconstruction With Geosynthetic Containment Systems; Ground Improvement Techniques; Geo-synthetic Testing; Nano Technology (Smart Geosynthetic); Numerical Analysis And Computer Aided Design Of Geosynthetic Reinforced Soil Retaining Walls And Slopes",
+            "Pavements",
+            "Embankments",
+            "Reflection Cracking",
+            "Coastal And Waterway Erosion Control",
+            "Dewatering",
+            "Filtration And Drainage"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11120"
+    },
+    {
+        "Expert_ID": "11121",
+        "Name": "Dr B V S Viswanadham",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Geosynthetics and ground improvement",
+            "Environmental geotechnology",
+            "Coal ash utilisation",
+            "Design and performance of waste containment systems",
+            "Natural hazard mitigation."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11121"
+    },
+    {
+        "Expert_ID": "12118",
+        "Name": "Dr Kapil Gupta",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Urban Water Management",
+            "Urban Climate systems and Urban Flood Mitigation",
+            "Urban Drainage and Flood management",
+            "Flood Protection Structures",
+            "Hydrologic Disaster Management",
+            "Automation and Early Warning Systems for Urban Flood Alerts."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12118"
+    },
+    {
+        "Expert_ID": "39487",
+        "Name": "Dr Alok Goyal",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Structural Dynamics and Earthquake Engineering",
+            "Disaster Resistant Design of Reinfored Concrete Buildings",
+            "Service Life Assessment",
+            "Repair",
+            "Rehabilitation and Retrofitting of RC Buildings",
+            "Earthquake"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/39487"
+    },
+    {
+        "Expert_ID": "51798",
+        "Name": "Prof Pradipta Banerji",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Earthquake vibration control",
+            "Damage detection in structures",
+            "Guided wave propagation and Scattering in structures",
+            "Condition/health monitoring of bridge structures."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51798"
+    },
+    {
+        "Expert_ID": "51806",
+        "Name": "Prof Ravi Sinha",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Dynamic behaviour of structures and Equipment",
+            "Development and design of energy-absorbing and base-isolating devices",
+            "Earthquake resistant design and vulnerability evaluation of structures and facilities",
+            "disaster management",
+            "urban climate change adaptation"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51806"
+    },
+    {
+        "Expert_ID": "51843",
+        "Name": "Prof K V Krishna Rao",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Travel demand modelling and Forecasting",
+            "Behavioural travel modelling",
+            "Urban land use transport modelling",
+            "Public transit network design."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51843"
+    },
+    {
+        "Expert_ID": "51866",
+        "Name": "Prof Naresh K Chandiramani",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Nonlinear dynamics",
+            "Stability and control",
+            "Computational mechanics",
+            "Solid mechanics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51866"
+    },
+    {
+        "Expert_ID": "51878",
+        "Name": "Dr V Jothiprakash",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Water Resources Systems Analysis",
+            "Reservoir Operation",
+            "Policy Issues",
+            "Multi-objective Analysis",
+            "Conventional as well as Soft Computing",
+            "optimization Techniques",
+            "Stochastic Hydrological Modeling",
+            "Reservoir Sedimentation",
+            "Rain Water Harvesting",
+            "Airport and Road Side Storm",
+            "Water Drainage System",
+            "Water Supply and Sewerage Systems",
+            "Irrigation Water Management",
+            "Genetic Algorithms and Genetic",
+            "Programming",
+            "Artificial Neural Networks",
+            "Single site and Multi site reservoir inflow predi"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51878"
+    },
+    {
+        "Expert_ID": "155720",
+        "Name": "Prof BELLIE Siva Kumar",
+        "Designation": "Professor",
+        "Department": "Department of Civil Engineering",
+        "Expertise": [
+            "Rainfall and Streamflow Modeling; Hydrologic Extremes; Sediment Transport in Rivers; Large-scale Water Projects; Transboundary Water Management; Groundwater Flow and Transport; Water quality in Rivers; Ecosystem Modeling; Human-Water Interactions; Hydrology Education; Complex Systems and Networks; Chaos Theory; Scaling and Fractals"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155720"
+    },
+    {
+        "Expert_ID": "11065",
+        "Name": "Dr Rajiv O Dusane",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Synthesis and characterization of amorphous and nanocrystalline thin films of elemental semiconductors and alloys",
+            "silicon nano devices",
+            "for applications such as thin film solar cells",
+            "thin film transistors for flat panel displays",
+            "MEMS devices",
+            "nuclear detections",
+            "Plasma processing and surface nano-engineering."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11065"
+    },
+    {
+        "Expert_ID": "11069",
+        "Name": "Dr Nirdosh K Khosla",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Mineral Processing",
+            "Instrumentation"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11069"
+    },
+    {
+        "Expert_ID": "11070",
+        "Name": "Dr Ajit R Kulkarni",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Dielectric Ceramics and Ferroelectric Thin Films",
+            "Sensors and Batteries",
+            "Ion Dynamics in Solids",
+            "Broad Band Dielectric Specroscopy of Materials",
+            "IR Transmitting Glasses"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11070"
+    },
+    {
+        "Expert_ID": "11073",
+        "Name": "Dr K Narasimhan",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "FEM and CAE applications",
+            "constitutive modelling and rolling"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11073"
+    },
+    {
+        "Expert_ID": "11079",
+        "Name": "Dr Nithyananad Prabhu",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Phase Transformations",
+            "Structure - Property Relationships",
+            "Electron Microscopy"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11079"
+    },
+    {
+        "Expert_ID": "11082",
+        "Name": "Dr T.R.S. Prasanna",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Developing new oxide-ion conductors to act as electrolytes in solid oxide fuel cells (sofc). Efforts are focussed on engin eering known electrolytes and synthesizing new materials to develop an oxide-"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11082"
+    },
+    {
+        "Expert_ID": "11086",
+        "Name": "Dr Satish Vitta",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Magnetic and electrical properties of metals",
+            "alloys and oxides"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11086"
+    },
+    {
+        "Expert_ID": "12264",
+        "Name": "Prof Indradev S Samajdar",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Crystallographic Texture",
+            "Microstructural Engineering",
+            "Thermomechanical Processing."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12264"
+    },
+    {
+        "Expert_ID": "12265",
+        "Name": "Dr Nurni N Viswanathan",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Modelling and Simulation",
+            "Transport Phenomena",
+            "Process Metallurgy",
+            "Continuous casting"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12265"
+    },
+    {
+        "Expert_ID": "51393",
+        "Name": "Dr Parag Bhargava",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Powder Processing",
+            "Near Net Shape Forming of Advanced Ceramics",
+            "Gel casting",
+            "Rapid prototyping",
+            "Rheology of Suspensions",
+            "Indentation Cracking of Ceramics",
+            "Ceramic composites",
+            "Quantitative microscopy"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51393"
+    },
+    {
+        "Expert_ID": "51395",
+        "Name": "Dr A R Bhattacharyya",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Polymer blends",
+            "Polymer nanocomposites."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51395"
+    },
+    {
+        "Expert_ID": "51423",
+        "Name": "Dr S Mallick",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Dye Sensitized Solar Cells",
+            "Electroceramics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51423"
+    },
+    {
+        "Expert_ID": "51482",
+        "Name": "Dr Prita Pant",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Mechanical Behavior of Thin Films",
+            "Dislocation Dynamics Simulation of deformation",
+            "Nanoindentation studies of heterogeneous deformation in metals",
+            "Ni-Ti based shape memory materials"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51482"
+    },
+    {
+        "Expert_ID": "51488",
+        "Name": "Dr V S Raja",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Structure-processing-corrosion property relation",
+            "Light Metals",
+            "Electrochemical Impedance Spectroscopy",
+            "Stress Corrosion Cracking",
+            "Graded Coating",
+            "High Temperature and High Pressure Aqueous Corrosion",
+            "Weld Related Corrosion",
+            "Failure Analysis"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51488"
+    },
+    {
+        "Expert_ID": "51498",
+        "Name": "Dr N Venkataramani",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "Ferrimagnetics - Bulk and thin film",
+            "Electronic materials",
+            "Structure property correlations in nanocrystalline systems",
+            "Scanning probe microscopy"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51498"
+    },
+    {
+        "Expert_ID": "155783",
+        "Name": "Dr Ashutosh S Gandhi",
+        "Designation": "Professor",
+        "Department": "Department of Metallurgical Engineering and Materials Science",
+        "Expertise": [
+            "High Temperature Protective Coatings"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155783"
+    },
+    {
+        "Expert_ID": "51796",
+        "Name": "Dr Pushpa L Trivedi",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Open Economy Macroeconomics",
+            "International Trade and Finance",
+            "Indian Economy",
+            "Environmental Economics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51796"
+    },
+    {
+        "Expert_ID": "51800",
+        "Name": "Dr K Narayanan",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Development Economics",
+            "Industrial Economics",
+            "International Business",
+            "Industry-Environment Linkages",
+            "Socio-Economic Impacts of Climate Change"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51800"
+    },
+    {
+        "Expert_ID": "51805",
+        "Name": "Dr Haripriya Gundimeda",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Natural resource and environmental economics",
+            "Water resource Economics",
+            "Development Economics",
+            "Green Accounting",
+            "Climate change",
+            "Environmental Policy."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51805"
+    },
+    {
+        "Expert_ID": "51808",
+        "Name": "Dr Puja Padhi",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "inancial Economics",
+            "Monetary Economics",
+            "Macro Economics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51808"
+    },
+    {
+        "Expert_ID": "51810",
+        "Name": "Dr Surajit Bhattacharyya",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Micro and Macroeconomic Theory(Teaching)",
+            "Industrial Organization (Research)",
+            "Corporate Investment and Econometric Applications(Research)."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51810"
+    },
+    {
+        "Expert_ID": "51875",
+        "Name": "Dr Ranjan K Panda",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Philosophy of Mind."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51875"
+    },
+    {
+        "Expert_ID": "51883",
+        "Name": "Prof Azizuddin Khan",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Cognitive Psychology",
+            "Educational Psychology",
+            "Human Cognitive Processes",
+            "Developmental Neuropsychology",
+            "Biological Psychology",
+            "Cognitive Ergonomics",
+            "Research Methodology"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51883"
+    },
+    {
+        "Expert_ID": "51906",
+        "Name": "Dr Rowena Robinson",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Sociology of religion and kinship",
+            "Conversion",
+            "Christianity in India."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51906"
+    },
+    {
+        "Expert_ID": "51909",
+        "Name": "Dr D Parthasarathy",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Urban studies",
+            "Governance and legal pluralism",
+            "Climate / disaster risk and vulnerability",
+            "Development studies."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51909"
+    },
+    {
+        "Expert_ID": "51931",
+        "Name": "Dr Kushal Deb",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Ethnicity and Multiculturalism",
+            "Urban Studies",
+            "Sociological Theory",
+            "Sociology of Development."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51931"
+    },
+    {
+        "Expert_ID": "51958",
+        "Name": "Dr J K Nayak",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Solar thermal energy",
+            "Passive solar architecture"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51958"
+    },
+    {
+        "Expert_ID": "155662",
+        "Name": "Prof Pooja Purang",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Ph. Organizational Behaviour",
+            "Personality Studies",
+            "Qualified MBTI user",
+            "Organizational Culture and Values."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155662"
+    },
+    {
+        "Expert_ID": "155744",
+        "Name": "Prof Vikram Singh Sirola",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Epistemology:  Social Epistemology",
+            "Evolutionary Epistemology"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155744"
+    },
+    {
+        "Expert_ID": "155772",
+        "Name": "Prof Malhar A. Kulkarni",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Sanskrit language",
+            "Paninian Grammar",
+            "Philosophy of Language."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155772"
+    },
+    {
+        "Expert_ID": "155773",
+        "Name": "Prof K. Ramasubramanian",
+        "Designation": "Professor",
+        "Department": "Department of Humanities and Social Sciences",
+        "Expertise": [
+            "Indian Science and Technology",
+            "Indian Philosophy",
+            "Non-linear Dynamics & Chaos."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155773"
+    },
+    {
+        "Expert_ID": "8993",
+        "Name": "Dr Sanjeev V Sabnis",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Reliability Theory",
+            "Industrial Statistics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/8993"
+    },
+    {
+        "Expert_ID": "9001",
+        "Name": "Dr A Subramanyam",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Geostatistics",
+            "Modelling bivariate distributions"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/9001"
+    },
+    {
+        "Expert_ID": "9136",
+        "Name": "Dr S.R. Ghorpade",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Algebraic Geometry",
+            "Combinatorics",
+            "Coding Theory",
+            "Commutative Algebra",
+            "Invariant Theory"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/9136"
+    },
+    {
+        "Expert_ID": "9381",
+        "Name": "Dr Rajani R. Joshi",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Computational and Theoretical Biology",
+            "Bioinformatics",
+            "Molecular Biostatistics and Operational Research"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/9381"
+    },
+    {
+        "Expert_ID": "9464",
+        "Name": "Dr A K Pani",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Numerical Analysis of Partial Differential Equations",
+            "Theory of Partial Integro-differential Equations",
+            "Parabolic Free Boundary Problems",
+            "Scientific Computing",
+            "Industrial Mathematics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/9464"
+    },
+    {
+        "Expert_ID": "9499",
+        "Name": "Dr P Vellaisamy",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Statistical Inference",
+            "Categorical Data Analysis",
+            "Regression Analysis",
+            "Collapsibility",
+            "Distribution Theory",
+            "Applied Probability",
+            "Probability Approximations",
+            "Fractional Stochastic Processes."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/9499"
+    },
+    {
+        "Expert_ID": "9502",
+        "Name": "Dr M.K. Srinivasan",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Combinatorics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/9502"
+    },
+    {
+        "Expert_ID": "42972",
+        "Name": "Dr Jugal Kishore Verma",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Hilbert functions",
+            "Blowup algebras",
+            "Local cohomology"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/42972"
+    },
+    {
+        "Expert_ID": "51638",
+        "Name": "Dr Neela Nataraj",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Finite Element Methods for Partial Differential Equations."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51638"
+    },
+    {
+        "Expert_ID": "51660",
+        "Name": "Dr Rekha P Kulkarni",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Numerical Functional Analysis",
+            "Approximate solutions of operator equations and eigenvalue problems",
+            "Spline Theory"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51660"
+    },
+    {
+        "Expert_ID": "51666",
+        "Name": "Dr K Suresh Kumar",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Risk-sensitive control theory",
+            "Stochastic control",
+            "Mathematical finance"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51666"
+    },
+    {
+        "Expert_ID": "51673",
+        "Name": "Dr U K Anandavardhanan",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Autmorphic Forms",
+            "Representation Theory of p-adic Groups."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51673"
+    },
+    {
+        "Expert_ID": "155576",
+        "Name": "Dr Dipendra Prasad",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Algebraic number theory",
+            "Automorphic forms",
+            "Representation theory."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155576"
+    },
+    {
+        "Expert_ID": "155658",
+        "Name": "Dr Gopala K Srinivasan",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Partial Differential Equations",
+            "Special functions and Orthogonal polynomials"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155658"
+    },
+    {
+        "Expert_ID": "155757",
+        "Name": "Dr Krishnan Sivasubramanian",
+        "Designation": "Professor",
+        "Department": "Department of Mathematics",
+        "Expertise": [
+            "Combinatorics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155757"
+    },
+    {
+        "Expert_ID": "1517",
+        "Name": "Prof Santanu Banerjee",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Sedimentology",
+            "Stratigraphy",
+            "Petroleum Geology"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/1517"
+    },
+    {
+        "Expert_ID": "11107",
+        "Name": "Dr P K Saraswati",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Micropalaeontology",
+            "Biostratigraphy."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11107"
+    },
+    {
+        "Expert_ID": "11108",
+        "Name": "Dr G Mohan",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Earthquake  Seismology",
+            "Waveform Modeling",
+            "Seismic  Tomography (Body and Surface waves)",
+            "Seismic Anisotropy",
+            "Seismotectonics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11108"
+    },
+    {
+        "Expert_ID": "11130",
+        "Name": "Dr Gajanan Narayan Jadhav",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Ore Petrology",
+            "Fluid Inclusion."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11130"
+    },
+    {
+        "Expert_ID": "11166",
+        "Name": "Dr T K Biswal",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Structural Geology",
+            "Tectonics",
+            "Structural Analysis",
+            "Precambrian Geology."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11166"
+    },
+    {
+        "Expert_ID": "24299",
+        "Name": "Dr Suresh Chandra Patel",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Petrology",
+            "Isotope Geology",
+            "Metamorphic Petrology"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/24299"
+    },
+    {
+        "Expert_ID": "32438",
+        "Name": "Dr. Hari Shankar Pandalai",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Ore Geology",
+            "Geostatistics",
+            "Mining Geology."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/32438"
+    },
+    {
+        "Expert_ID": "52155",
+        "Name": "Prof E Chandrasekhar",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Geo-electromagnetic Induction studies",
+            "Magnetotelluric Studies",
+            "Geomagnetism",
+            "Wavelet Analysis in Geomagnetism and Geophysics",
+            "Fractal Analysis in Geomagnetism and Geophysics",
+            "Geophysical Signal Processing."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52155"
+    },
+    {
+        "Expert_ID": "52165",
+        "Name": "Dr Malay Mukul",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Fold-Thrust Belt Structural Geology",
+            "Neotectonics and Tectonic Geomorphology",
+            "Continental Deformation studies with High Precision GPS",
+            "Spatial Statistics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52165"
+    },
+    {
+        "Expert_ID": "52166",
+        "Name": "Dr George Mathew",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Rock-Mineral Spectroscopy",
+            "Quaternary Geochronoloy (ESR and TL/OSL)",
+            "Active Tectonics and Landscape evolution",
+            "Thermochoronology (FT and Ar-Ar)."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52166"
+    },
+    {
+        "Expert_ID": "52188",
+        "Name": "Dr Kanchan Pande",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Geochronology",
+            "Isotope Geology",
+            "Geochemistry."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52188"
+    },
+    {
+        "Expert_ID": "52193",
+        "Name": "Dr M Radhakrishna",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Gravity and Magnetic methods",
+            "Seismotectonics",
+            "Solid Earth Geophysics",
+            "Continental Margins."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52193"
+    },
+    {
+        "Expert_ID": "52195",
+        "Name": "Dr D Ramakrishnan",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Remote Sensing",
+            "Geomorphology and Hydrogeology."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52195"
+    },
+    {
+        "Expert_ID": "52199",
+        "Name": "Dr Hetu C Sheth",
+        "Designation": "Professor",
+        "Department": "Department of Earth Sciences",
+        "Expertise": [
+            "Volcanology",
+            "Igneous Petrology",
+            "Flood Basalts",
+            "Deccan Volcanism."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52199"
+    },
+    {
+        "Expert_ID": "155674",
+        "Name": "Mr Ravi Poovaiah",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Interaction Design",
+            "Environment Design",
+            "Communication Design",
+            "Social Media",
+            "information Visualization and Structuring"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155674"
+    },
+    {
+        "Expert_ID": "155684",
+        "Name": "Dr Anirudha Joshi",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Visual Design",
+            "Usability Studies",
+            "Human-Computer Interface Design"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155684"
+    },
+    {
+        "Expert_ID": "155710",
+        "Name": "Ms Shilpa Ranade",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Animation",
+            "Illustration",
+            "Graphic Design"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155710"
+    },
+    {
+        "Expert_ID": "155733",
+        "Name": "Mr Nishant Sharma",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Automotive Design",
+            "Vehicle Design Process",
+            "Product Form and Aesthetics",
+            "Participatory Innovation"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155733"
+    },
+    {
+        "Expert_ID": "155740",
+        "Name": "Dr B K Chakravarthy",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "New Product Innovation",
+            "Product Styling and Perception",
+            "Creativity",
+            "Design Strategy",
+            "Humanising Technology",
+            "Collaborative Innovation Methodology",
+            "Form and Aesthetics",
+            "Creativity & Idea Generation",
+            "Innovation Methodology",
+            "User Centered Design"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155740"
+    },
+    {
+        "Expert_ID": "155745",
+        "Name": "Dr Venkatesh Rajamanickam",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Human-Computer Interface Design",
+            "Data Visualization",
+            "Technology and Learning"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155745"
+    },
+    {
+        "Expert_ID": "155804",
+        "Name": "Dr Vijay Bapat",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Product Design",
+            "Creative Engineering",
+            "Details Rapid Prototyping"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155804"
+    },
+    {
+        "Expert_ID": "155807",
+        "Name": "Prof G G Ray",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Muck skeletal issues and load bearing activities",
+            "Workstation Ergonomics",
+            "Design and Geriatric Needs",
+            "Design and Special Needs"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155807"
+    },
+    {
+        "Expert_ID": "155808",
+        "Name": "Dr Sreekumar G V",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Magazine Design Typography",
+            "Information Design",
+            "Publication Design"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155808"
+    },
+    {
+        "Expert_ID": "155813",
+        "Name": "Dr Nina Sabnani",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Illustration",
+            "Visual Narratives",
+            "Animation Studies",
+            "Visual Ethnography",
+            "Storytelling"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155813"
+    },
+    {
+        "Expert_ID": "155814",
+        "Name": "Dr Tetali Phani",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Animation",
+            "Gaming",
+            "New Media in Education"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155814"
+    },
+    {
+        "Expert_ID": "155816",
+        "Name": "Dr Raja Mohanty",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Visual Arts",
+            "Aesthetics Narratives and Storytelling",
+            "CeramicsFurther"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155816"
+    },
+    {
+        "Expert_ID": "155824",
+        "Name": "Mr Sumant M Rao",
+        "Designation": "Professor",
+        "Department": "Department of Industrial Design Center",
+        "Expertise": [
+            "Animation",
+            "Illustration",
+            "Special Effects"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155824"
+    },
+    {
+        "Expert_ID": "8512",
+        "Name": "Prof Avijit Chatterjee",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Mainly numerical simulations  and analysis in high-speed flow and time-domain electromagnetics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/8512"
+    },
+    {
+        "Expert_ID": "11223",
+        "Name": "Prof S P Mahulikar",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Aerothermodynamics",
+            "Heat Transfer and Fluid Flow",
+            "Hypersonics",
+            "Infrared Signature Levels",
+            "Jet Propulsion",
+            "Microchannel Cooling of Gas Turbine Blades."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11223"
+    },
+    {
+        "Expert_ID": "11224",
+        "Name": "Dr Prasanna M Mujumdar",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Vibrations and Structural Dynamics",
+            "Structural Stability",
+            "Aeroelasticity and Aeroservoelasticity",
+            "Composite Structures",
+            "Experimental Techniques."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11224"
+    },
+    {
+        "Expert_ID": "11230",
+        "Name": "Prof Jadav Chandra Mandal",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Development of new computational fluid dynamics (CFD) algorithms for compressible and incompressible fluid flow computations and their applications to practical problems."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11230"
+    },
+    {
+        "Expert_ID": "11235",
+        "Name": "Dr N K Naik",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Polymer  Matrix Composites",
+            "Textile Composites Analysis",
+            "Design and Technology",
+            "Special Interest on Aerospace Manufacturing Technologies."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11235"
+    },
+    {
+        "Expert_ID": "51389",
+        "Name": "Prof Hemendra Arya",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Composite structures",
+            "Systems Design and Engineering",
+            "Mechatronic."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51389"
+    },
+    {
+        "Expert_ID": "51460",
+        "Name": "Dr Prabhu Ramachandran",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Vortex methods",
+            "Particle methods",
+            "Scientific computing",
+            "Computational fluid dynamics."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51460"
+    },
+    {
+        "Expert_ID": "53305",
+        "Name": "Prof Sudarshan Kumar",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Experimental and Computational Investigations on the Flameless Combustion of Gaseous Fuels",
+            "Advanced Aerothermochemistry",
+            "High Temperature Air Combustion",
+            "Flameless/Mild Combustion",
+            "Turbulent Combustion",
+            "Modeling of Combustion Systems",
+            "Reduction of Pollutant Emissions from Combustion Systems",
+            "Combustion in Micro-Channels",
+            "Flame Instabilities",
+            "Pattern Formation of Flames and Catalytic Combustion in Micro-Channels",
+            "High Speed Flows",
+            "Supersonic Combustion. Propulsion",
+            "thermal and mechanical enginee"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/53305"
+    },
+    {
+        "Expert_ID": "65937",
+        "Name": "Prof Viren Menezes",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Aerodynamics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/65937"
+    },
+    {
+        "Expert_ID": "155574",
+        "Name": "Dr Debasis Chakraborty",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Propulsion"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155574"
+    },
+    {
+        "Expert_ID": "155732",
+        "Name": "Prof Dhwanil Shukla",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Aerodynamics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155732"
+    },
+    {
+        "Expert_ID": "155803",
+        "Name": "Prof Aniruddha Sinha",
+        "Designation": "Professor",
+        "Department": "Department of Aerospace Engineering",
+        "Expertise": [
+            "Aerodynamics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/155803"
+    },
+    {
+        "Expert_ID": "52037",
+        "Name": "Dr. Atanu Ghosh",
+        "Designation": "Professor",
+        "Department": "Shailesh J Mehta School of Management",
+        "Expertise": [
+            "Strategic Management",
+            "Leadership",
+            "Innovation Management and Marketing Management"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52037"
+    },
+    {
+        "Expert_ID": "52041",
+        "Name": "Prof Gajendra Kumar Adil",
+        "Designation": "Professor",
+        "Department": "Shailesh J Mehta School of Management",
+        "Expertise": [
+            "Operations Management",
+            "Operations Strategy and Sustainable Supply Chain Management."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52041"
+    },
+    {
+        "Expert_ID": "52055",
+        "Name": "Prof Karuna Jain",
+        "Designation": "Professor",
+        "Department": "Shailesh J Mehta School of Management",
+        "Expertise": [
+            "Technology and Innovation Management",
+            "Intellectual Property Management",
+            "Project Management",
+            "Supply Chain Management."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52055"
+    },
+    {
+        "Expert_ID": "52087",
+        "Name": "Prof Shivganesh Bhargava",
+        "Designation": "Professor",
+        "Department": "Shailesh J Mehta School of Management",
+        "Expertise": [
+            "Giftedness and Talent Management",
+            "Building and Developing Entrepreneurship",
+            "Creating Emotionally Intelligent Leaders",
+            "Challenges of Knowledge Managers",
+            "Reward Management",
+            "Management of Human Service Organizations",
+            "NGOs",
+            "Issues of Outsourcing and Call Centers",
+            "Management of Family and Career",
+            "Competency Assessment."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52087"
+    },
+    {
+        "Expert_ID": "52088",
+        "Name": "Prof S Narayan Rao",
+        "Designation": "Professor",
+        "Department": "Shailesh J Mehta School of Management",
+        "Expertise": [
+            "Corporate Finance",
+            "Behavioral Finance",
+            "Capital Markets",
+            "Security Analysis and Portfolio Management",
+            "Financial Engineering",
+            "Valuation",
+            "Mergers and Acquisitions."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52088"
+    },
+    {
+        "Expert_ID": "52119",
+        "Name": "Prof Usha Ananthakumar",
+        "Designation": "Professor",
+        "Department": "Shailesh J Mehta School of Management",
+        "Expertise": [
+            "Statistical Pattern Recognition",
+            "Statistical Inference and Decision Sciences."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52119"
+    },
+    {
+        "Expert_ID": "52121",
+        "Name": "Prof Vinish Kumar Kathuria",
+        "Designation": "Professor",
+        "Department": "Shailesh J Mehta School of Management",
+        "Expertise": [
+            "Economics of Regulation",
+            "Environmental Economics",
+            "Productivity Measurement",
+            "Economics of Technical Change",
+            "Science",
+            "Technology and Industry Policy",
+            "FDI and Technology Transfer."
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52121"
+    },
+    {
+        "Expert_ID": "164575",
+        "Name": "Prof Sapar Rao",
+        "Designation": "Professor",
+        "Department": "Shailesh J Mehta School of Management",
+        "Expertise": [
+            "Corporate Finance",
+            "Valuation",
+            "Invest Mgt",
+            "Mergers and Acquisitions"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/164575"
+    },
+    {
+        "Expert_ID": "164572",
+        "Name": "Prof Adinarayana J",
+        "Designation": "Professor",
+        "Department": "Centre of Studies in Resources Engineering (CSRE)",
+        "Expertise": [
+            "Remote Sensing",
+            "Image Processing",
+            "Machine Learning",
+            "Geoinformatics"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/164572"
+    },
+    {
+        "Expert_ID": "164574",
+        "Name": "Prof Gulab Singh",
+        "Designation": "Professor",
+        "Department": "Centre of Studies in Resources Engineering (CSRE)",
+        "Expertise": [
+            "Radar Polarimetry & Cryosphere Sciences",
+            "and Microwave Radar Remote Sensing Applications in Glaciology & Forestry"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/164574"
+    },
+    {
+        "Expert_ID": "164576",
+        "Name": "Prof Alok Porwal",
+        "Designation": "Professor",
+        "Department": "Centre of Studies in Resources Engineering (CSRE)",
+        "Expertise": [
+            "Mineral Prospectivity Modeling",
+            "Geologic Remote Sensing"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/164576"
+    },
+    {
+        "Expert_ID": "164579",
+        "Name": "Prof Yalamanchili Subrahmanyeswara Rao",
+        "Designation": "Professor",
+        "Department": "Centre of Studies in Resources Engineering (CSRE)",
+        "Expertise": [
+            "Soil Moisture",
+            "DEM",
+            "Displacement",
+            "Polarimetry"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/164579"
+    },
+    {
+        "Expert_ID": "164581",
+        "Name": "Dr Krishna Mohan Buddhiraju",
+        "Designation": "Professor",
+        "Department": "Centre of Studies in Resources Engineering (CSRE)",
+        "Expertise": [
+            "Digital Image Processing and Analysis",
+            "Geographic Information Systems",
+            "Soft computing techniques for image analysis",
+            "CD-ROM and web based content development of educational kits for GIS and image processing"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/164581"
+    },
+    {
+        "Expert_ID": "164582",
+        "Name": "Prof Surya S Durbha",
+        "Designation": "Professor",
+        "Department": "Centre of Studies in Resources Engineering (CSRE)",
+        "Expertise": [],
+        "Profile_Link": "https://iitb.irins.org/profile/164582"
+    },
+    {
+        "Expert_ID": "164585",
+        "Name": "Prof Shirishkumar Gedam",
+        "Designation": "Professor",
+        "Department": "Centre of Studies in Resources Engineering (CSRE)",
+        "Expertise": [
+            "Remote Sensing and GIS Applications to Terrain Analysis and Hydrology",
+            "Stereo Image Analysis and Digital Terrain Modelling"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/164585"
+    },
+    {
+        "Expert_ID": "24653",
+        "Name": "Dr Shyam R Asolekar",
+        "Designation": "Professor",
+        "Department": "Environmental Science and Engineering Department (ESED)",
+        "Expertise": [
+            "Environmental Science"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/24653"
+    },
+    {
+        "Expert_ID": "158624",
+        "Name": "Dr Sanjeev Chaudhari",
+        "Designation": "Professor",
+        "Department": "Environmental Science and Engineering Department (ESED)",
+        "Expertise": [
+            "Application of Natural coagulants for water and Wastewater treatment",
+            "Arsenic removal from water",
+            "Biological nutrient removal from wastewater"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158624"
+    },
+    {
+        "Expert_ID": "158625",
+        "Name": "Dr Anil Kumar Dikshit",
+        "Designation": "Professor",
+        "Department": "Environmental Science and Engineering Department (ESED)",
+        "Expertise": [
+            "GIS for Environment",
+            "Environmental Management",
+            "Water Supply"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158625"
+    },
+    {
+        "Expert_ID": "158626",
+        "Name": "Dr Anurag Garg",
+        "Designation": "Professor",
+        "Department": "Environmental Science and Engineering Department (ESED)",
+        "Expertise": [
+            "Energy recovery from solid recovered fuel (derived from MSW) and sludge generated from sewage treatment plants and industries",
+            "Management of construction and demolition waste",
+            "Mechanical biological treatment of municipal solid waste (MSW)"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158626"
+    },
+    {
+        "Expert_ID": "158628",
+        "Name": "Dr Suparna Mukherji",
+        "Designation": "Professor",
+        "Department": "Environmental Science and Engineering Department (ESED)",
+        "Expertise": [
+            "Monitoring of bioaerosol",
+            "Bioremediation",
+            "Biotransformation and toxicity evaluation of complex organic pollutants"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158628"
+    },
+    {
+        "Expert_ID": "158629",
+        "Name": "Dr Tabish Nawaz",
+        "Designation": "Professor",
+        "Department": "Environmental Science and Engineering Department (ESED)",
+        "Expertise": [
+            "Electrochemical disinfection",
+            "Ion-exchange and Adsorption systems",
+            "Landfill leachate treatment",
+            "Produced water treatment"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158629"
+    },
+    {
+        "Expert_ID": "158632",
+        "Name": "Prof Virendra Sethi",
+        "Designation": "Professor",
+        "Department": "Environmental Science and Engineering Department (ESED)",
+        "Expertise": [
+            "Aerosol and air quality",
+            "Hot gas clean-up",
+            "Nano-Powder synthesis",
+            "Satellite remote sensing for air quality"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158632"
+    },
+    {
+        "Expert_ID": "11969",
+        "Name": "Dr Shireesh Kedare",
+        "Designation": "Professor",
+        "Department": "Department of Energy Science and Engineering",
+        "Expertise": [
+            "Solar thermal energy",
+            "Solar Concentrators",
+            "Solar thermal power systems",
+            "Solar Industrial Heat Systems",
+            "Solar air heaters and dryers",
+            "Wind Energy",
+            "Hybrid Energy Systems",
+            "Rural Energy and other Technology Development",
+            "Participatory Approach for Development"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/11969"
+    },
+    {
+        "Expert_ID": "12274",
+        "Name": "Dr Manaswita Bose",
+        "Designation": "Professor",
+        "Department": "Department of Energy Science and Engineering",
+        "Expertise": [
+            "Energy Science and Engineering"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/12274"
+    },
+    {
+        "Expert_ID": "51984",
+        "Name": "Dr Prakash C Ghosh",
+        "Designation": "Professor",
+        "Department": "Department of Energy Science and Engineering",
+        "Expertise": [
+            "Hydrogen production from renewable sources |\r\n Development of low-temperature hybrid fuel cells |\r\nOptimum design of fuel cells systems |\r\nCFD modelling of fuel cells to optimised the flow field pattern |\r\nDevelopment of non-destructive methodologies for testing fuel cells |\r\nDevelopment of membrane based humidifier to design compact fuel cells |\r\nDevelopment of HT-PEFC |\r\nRedox Flow Battery"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51984"
+    },
+    {
+        "Expert_ID": "51988",
+        "Name": "Dr Pratibha Sharma",
+        "Designation": "Professor",
+        "Department": "Department of Energy Science and Engineering",
+        "Expertise": [
+            "Solid State Hydrogen Storage Materials",
+            "Fluorescent Core shelled Nano structures for Photovoltaics",
+            "Low cost and abundant materials for Photovoltaic Applications",
+            "Ion Irradiation"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/51988"
+    },
+    {
+        "Expert_ID": "52007",
+        "Name": "Prof Sagar Mitra",
+        "Designation": "Professor",
+        "Department": "Department of Energy Science and Engineering",
+        "Expertise": [
+            "Lithium-ion Battery; Electrode materials; Electrolyte; Fabrication; Na-ion batteries;  \r\nMetal Sulphur Batteries; Hybrid Ionic electrolyte\r\n    Commercial scale battery research\r\n    Lithium ion battery analysis"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/52007"
+    },
+    {
+        "Expert_ID": "54027",
+        "Name": "Prof Santanu Bandyopadhyay",
+        "Designation": "Professor",
+        "Department": "Department of Energy Science and Engineering",
+        "Expertise": [
+            "Process Integration",
+            "Pinch Analysis",
+            "Industrial Energy Conservation",
+            "Modeling and Simulation of Energy Systems",
+            "Design and optimization of renewable energy systems",
+            "Solar Thermal power plant"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/54027"
+    },
+    {
+        "Expert_ID": "158590",
+        "Name": "Prof P S V Nataraj",
+        "Designation": "Professor",
+        "Department": "Department of Systems and Control Engineering",
+        "Expertise": [
+            "Deep Learning",
+            "Modeling",
+            "Simulation",
+            "Control of Gas Turbines",
+            "Modeling",
+            "Simulation and Control of Boilers",
+            "Nonlinear System Analysis and Control",
+            "Reliable Computing using Interval Analysis Techniques",
+            "Robust Stability and Control Especially using Quantitative Feedback Theory Techniques",
+            "SCADA and PLCs"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158590"
+    },
+    {
+        "Expert_ID": "158591",
+        "Name": "Prof Ravi N Banavar",
+        "Designation": "Professor",
+        "Department": "Department of Systems and Control Engineering",
+        "Expertise": [
+            "Cooperative Control of Multi Agent Systems",
+            "Resource Allocation",
+            "Team Theory and its Application",
+            "Game Theory"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158591"
+    },
+    {
+        "Expert_ID": "158592",
+        "Name": "Prof Navin Khaneja",
+        "Designation": "Professor",
+        "Department": "Department of Systems and Control Engineering",
+        "Expertise": [
+            "Control Theory",
+            "NMR Spectroscopy",
+            "Nonlinear and Geometric Control",
+            "Quantum Information and Control"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158592"
+    },
+    {
+        "Expert_ID": "158593",
+        "Name": "Prof Debasish Chatterjee",
+        "Designation": "Professor",
+        "Department": "Department of Systems and Control Engineering",
+        "Expertise": [
+            "Constrained and Optimization Based Control",
+            "Stochastic Model Predictive",
+            "Receding Horizon Control",
+            "switched and Hybrid Systems",
+            "Control Under Communication and Computation Constraints",
+            "Stochastic Control",
+            "Applications of Stochastic Process in Engineering Systems"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158593"
+    },
+    {
+        "Expert_ID": "158599",
+        "Name": "Prof Jayendran Venkateswaran",
+        "Designation": "Professor",
+        "Department": "Industrial Engineering and Operations Research",
+        "Expertise": [
+            "Modeling and Distributed Simulation",
+            "Integrated Supply Chain Analysis"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158599"
+    },
+    {
+        "Expert_ID": "158602",
+        "Name": "Prof N Hemachandra",
+        "Designation": "Professor",
+        "Department": "Industrial Engineering and Operations Research",
+        "Expertise": [
+            "Operations Research Methodologies Like Machine Learning including Reinforcement Learning and Neural Networks",
+            "Markov Decision Models",
+            "Queueing Models",
+            "Game Theory"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158602"
+    },
+    {
+        "Expert_ID": "158606",
+        "Name": "Prof K S Mallikarjuna Rao",
+        "Designation": "Professor",
+        "Department": "Industrial Engineering and Operations Research",
+        "Expertise": [
+            "Deterministic and Stochastic Control",
+            "Game Theory",
+            "Viscosity Solutions",
+            "Markov Decision Processes",
+            "Probability and Mathematical Finance"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158606"
+    },
+    {
+        "Expert_ID": "158612",
+        "Name": "Prof Subhankar Karmakar",
+        "Designation": "Professor",
+        "Department": "Climate Studies",
+        "Expertise": [
+            "Environmental and Water Resources Systems"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158612"
+    },
+    {
+        "Expert_ID": "158607",
+        "Name": "Prof Sahana Murthy",
+        "Designation": "Professor",
+        "Department": "Educational Technology",
+        "Expertise": [
+            "Inquiry Based Environments for STEM Education",
+            "Development of Scientific Abilities through Technology Enhanced Learning"
+        ],
+        "Profile_Link": "https://iitb.irins.org/profile/158607"
+    }
+]

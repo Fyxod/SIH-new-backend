@@ -63,7 +63,10 @@ router.post("/giveme", safeHandler(async (req, res) => {
 router.post("/search/", safeHandler(async (req, res) => {
     const { department, college, expertise } = req.body;
     console.log(req.body);
-    const expertiseArray = expertise.split(",");
+    let expertiseArray = [];
+    if(expertise){
+    expertiseArray = expertise.split(",");
+}
     const query = {};
 
     if (department) {
@@ -77,6 +80,7 @@ router.post("/search/", safeHandler(async (req, res) => {
     }
 
     const experts = await extraExperts.find(query);
+    console.log(experts);
     res.success(200, 'Experts fetched successfully', experts);
 
 }));

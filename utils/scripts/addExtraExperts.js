@@ -10,7 +10,7 @@ import extraExperts from "../../models/extraExperts.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const filePath = path.join(__dirname, '../../sampleData/data.json');
+const filePath = path.join(__dirname, '../../sampleData/iitd.json');
 
 // Connect to MongoDB
 mongoose.connect(config.database.uri).then(() => {
@@ -32,7 +32,7 @@ const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
             department: expert.Department, // Leave department empty initially
             expertise: expert.Expertise,
             profileLink: expert.Profile_Link,
-            college: "IIT Kanpur" // Leave college empty initially
+            college: "IIT Delhi" // Leave college empty initially
         }));
 
         // Insert into MongoDB
