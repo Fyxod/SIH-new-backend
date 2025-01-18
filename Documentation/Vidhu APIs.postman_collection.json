@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "87ae8f9c-0e52-4fe4-8ef2-7fbce4372b56",
+		"name": "Vidhu APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32444618",
+		"_collection_link": "https://black-swan-team.postman.co/workspace/Black-Swan-Backend~8bab9768-95f8-4af9-8c5b-fc37ab0d465d/collection/32444618-87ae8f9c-0e52-4fe4-8ef2-7fbce4372b56?action=share&source=collection_link&creator=32444618"
+	},
+	"item": [
+		{
+			"name": "Resume parser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "9bec235d70a084cf1092f7491c73c073",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": "",
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://43.204.236.108:8000/resume/beta",
+					"protocol": "http",
+					"host": [
+						"43",
+						"204",
+						"236",
+						"108"
+					],
+					"port": "8000",
+					"path": [
+						"resume",
+						"beta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Expert scores generator",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "9bec235d70a084cf1092f7491c73c073",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"subjectData\": {\r\n        \"name\": \"parth\",\r\n        \"recommendedSkills\": [\r\n            \"Machine Learning\"\r\n        ]\r\n    },\r\n    \"candidateData\": {\r\n        \"name\": \"Prof Adrish Banerjee\",\r\n        \"skills\": [\r\n            \"Machine Learning\"\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://43.204.236.108:8000/matching/candy",
+					"protocol": "http",
+					"host": [
+						"43",
+						"204",
+						"236",
+						"108"
+					],
+					"port": "8000",
+					"path": [
+						"matching",
+						"candy"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Expert scores generator",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-API-Key",
+								"value": "9bec235d70a084cf1092f7491c73c073",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"subjectData\": {\r\n        \"title\": \"React Developer\",\r\n        \"recommendedSkills\": [\r\n            \"React\",\r\n            \"JavaScript\",\r\n            \"HTML\",\r\n            \"CSS\"\r\n        ]\r\n    },\r\n    \"candidateData\": [\r\n        {\r\n            \"name\": \"John Doe\",\r\n            \"skills\": [\r\n                \"React\",\r\n                \"JavaScript\",\r\n                \"HTML\",\r\n                \"CSS\"\r\n            ]\r\n        },\r\n        {\r\n            \"name\": \"Jane Doe\",\r\n            \"skills\": [\r\n                \"React\",\r\n                \"JavaScript\",\r\n                \"HTML\"\r\n            ]\r\n        },\r\n        {\r\n            \"name\": \"Jim Doe\",\r\n            \"skills\": [\r\n                \"React\",\r\n                \"JavaScript\",\r\n                \"CSS\"\r\n            ]\r\n        }\r\n    ],\r\n    \"expertData\": {\r\n        \"name\": \"Expert\",\r\n        \"skills\": [\r\n            \"React\",\r\n            \"JavaScript\",\r\n            \"HTML\",\r\n            \"CSS\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://43.204.236.108:8000/matching/longVerbose",
+							"protocol": "http",
+							"host": [
+								"43",
+								"204",
+								"236",
+								"108"
+							],
+							"port": "8000",
+							"path": [
+								"matching",
+								"longVerbose"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Wed, 11 Dec 2024 15:12:50 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "432"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"profile_score\": 87,\n    \"relevancy_score\": 76,\n    \"candidates\": [\n        {\n            \"name\": \"John Doe\",\n            \"intersection_score\": 100,\n            \"cosine_similarity\": 100,\n            \"jaccard_similarity\": 100,\n            \"overall_similarity\": 100\n        },\n        {\n            \"name\": \"Jane Doe\",\n            \"intersection_score\": 75,\n            \"cosine_similarity\": 100,\n            \"jaccard_similarity\": 75,\n            \"overall_similarity\": 83.33\n        },\n        {\n            \"name\": \"Jim Doe\",\n            \"intersection_score\": 75,\n            \"cosine_similarity\": 100,\n            \"jaccard_similarity\": 75,\n            \"overall_similarity\": 83.33\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "crawler",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://43.204.236.108:8000/extraExpert/giveme",
+					"protocol": "http",
+					"host": [
+						"43",
+						"204",
+						"236",
+						"108"
+					],
+					"port": "8000",
+					"path": [
+						"extraExpert",
+						"giveme"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

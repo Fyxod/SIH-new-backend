@@ -1,0 +1,857 @@
+{
+	"info": {
+		"_postman_id": "c21bd28f-2038-4f3b-9621-eaf3e45a7249",
+		"name": "Expert",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32444618",
+		"_collection_link": "https://black-swan-team.postman.co/workspace/Black-Swan-Backend~8bab9768-95f8-4af9-8c5b-fc37ab0d465d/collection/32444618-c21bd28f-2038-4f3b-9621-eaf3e45a7249?action=share&source=collection_link&creator=32444618"
+	},
+	"item": [
+		{
+			"name": "Get all experts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://lobster-app-b66lv.ondigitalocean.app/home",
+					"protocol": "https",
+					"host": [
+						"lobster-app-b66lv",
+						"ondigitalocean",
+						"app"
+					],
+					"path": [
+						"home"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "None found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/expert",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"expert"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "88"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"58-V7606YRATmBY+/rj/YBrDsiyff0\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 07:28:38 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"NO_EXPERTS_FOUND\",\n    \"message\": \"No experts found\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "Register new expert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"Rohini Desai\",\r\n        \"email\": \"rohini.desai@gmail.com\",\r\n        \"mobileNo\": \"9034567891\",\r\n        \"gender\": \"female\",\r\n        \"dateOfBirth\": \"1989-12-12\",\r\n        \"skills\": [\r\n            \"Teaching\",\r\n            \"Educational Research\",\r\n            \"Curriculum Development\",\r\n            \"Online Learning\",\r\n            \"Mentoring\",\r\n            \"Public Speaking\"\r\n        ],\r\n        \"currentPosition\": \"Assistant Professor\",\r\n        \"currentDepartment\": \"Education\",\r\n        \"experience\": [\r\n            {\r\n                \"position\": \"Lecturer\",\r\n                \"department\": \"Humanities\",\r\n                \"startDate\": \"2012-06-01\",\r\n                \"endDate\": \"2017-12-31\",\r\n                \"companyName\": \"Delhi University\"\r\n            },\r\n            {\r\n                \"position\": \"Assistant Professor\",\r\n                \"department\": \"Education\",\r\n                \"startDate\": \"2018-01-01\",\r\n                \"endDate\": \"2024-12-07\",\r\n                \"companyName\": \"University of Mumbai\"\r\n            }\r\n        ],\r\n        \"education\": [\r\n            {\r\n                \"degree\": \"MA\",\r\n                \"field\": \"Education\",\r\n                \"startDate\": \"2009-07-01\",\r\n                \"endDate\": \"2011-06-15\",\r\n                \"institute\": \"JNU\"\r\n            },\r\n            {\r\n                \"degree\": \"PhD\",\r\n                \"field\": \"Education\",\r\n                \"startDate\": \"2012-01-01\",\r\n                \"endDate\": \"2015-12-31\",\r\n                \"institute\": \"University of Mumbai\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/expert",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"expert"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Abhishek Pal\",\r\n    \"email\": \"abhishek.pal@gmail.com\",\r\n    \"mobileNo\": \"6392316025\",\r\n    \"gender\": \"male\",\r\n    \"dateOfBirth\": \"1978-07-15\",\r\n    \"skills\": [\r\n        \"Physics\",\r\n        \"javascript\",\r\n        \"django\",\r\n        \"python\",\r\n        \"mongodb\",\r\n        \"express\"\r\n    ],\r\n    \"currentPosition\": \"Assistant Professor\",\r\n    \"currentDepartment\": \"Ministery of education\",\r\n    \"experience\": [\r\n        {\r\n            \"position\": \"Research Assistant\",\r\n            \"department\": \"NA\",\r\n            \"startDate\": \"2023-04-25\",\r\n            \"endDate\": \"2023-08-24\",\r\n            \"companyName\": \"Calcutta University\"\r\n        },\r\n        {\r\n            \"position\": \"High School Teacher\",\r\n            \"department\": \"Electrical\",\r\n            \"startDate\": \"2023-10-20\",\r\n            \"endDate\": \"2024-02-15\",\r\n            \"companyName\": \"NA\"\r\n        }\r\n    ],\r\n    \"education\": [\r\n        {\r\n            \"degree\": \"BE\",\r\n            \"field\": \"Electrical Engineering\",\r\n            \"startDate\": \"1996-07-03\",\r\n            \"endDate\": \"2000-06-15\",\r\n            \"institute\": \"Kalinga University\"\r\n        },\r\n        {\r\n            \"degree\": \"MTech\",\r\n            \"field\": \"Computer Science\",\r\n            \"startDate\": \"2020-07-20\",\r\n            \"endDate\": \"2022-06-19\",\r\n            \"institute\": \"Chitkara University\"\r\n        },\r\n        {\r\n            \"degree\": \"PhD\",\r\n            \"field\": \"Electronics\",\r\n            \"startDate\": \"2022-08-20\",\r\n            \"endDate\": \"2023-10-05\",\r\n            \"institute\": \"IIT Kanpur\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/expert",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"expert"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "167"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a7-SFck9QTyfroL4ZwQWLfGOw8s4O8\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 09:29:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Expert successfully created\",\n    \"data\": {\n        \"expert\": {\n            \"id\": \"6754158323ff305505513bd0\",\n            \"email\": \"abhishek.pal@gmail.com\",\n            \"name\": \"Abhishek Pal\"\n        }\n    }\n}"
+				},
+				{
+					"name": "exists",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Abhishek Pal\",\r\n    \"email\": \"abhishek.pal@gmail.com\",\r\n    \"mobileNo\": \"6392316025\",\r\n    \"gender\": \"male\",\r\n    \"dateOfBirth\": \"1978-07-15\",\r\n    \"skills\": [\r\n        \"Physics\",\r\n        \"javascript\",\r\n        \"django\",\r\n        \"python\",\r\n        \"mongodb\",\r\n        \"express\"\r\n    ],\r\n    \"currentPosition\": \"Assistant Professor\",\r\n    \"currentDepartment\": \"Ministery of education\",\r\n    \"experience\": [\r\n        {\r\n            \"position\": \"Research Assistant\",\r\n            \"department\": \"NA\",\r\n            \"startDate\": \"2023-04-25\",\r\n            \"endDate\": \"2023-08-24\",\r\n            \"companyName\": \"Calcutta University\"\r\n        },\r\n        {\r\n            \"position\": \"High School Teacher\",\r\n            \"department\": \"Electrical\",\r\n            \"startDate\": \"2023-10-20\",\r\n            \"endDate\": \"2024-02-15\",\r\n            \"companyName\": \"NA\"\r\n        }\r\n    ],\r\n    \"education\": [\r\n        {\r\n            \"degree\": \"BE\",\r\n            \"field\": \"Electrical Engineering\",\r\n            \"startDate\": \"1996-07-03\",\r\n            \"endDate\": \"2000-06-15\",\r\n            \"institute\": \"Kalinga University\"\r\n        },\r\n        {\r\n            \"degree\": \"MTech\",\r\n            \"field\": \"Computer Science\",\r\n            \"startDate\": \"2020-07-20\",\r\n            \"endDate\": \"2022-06-19\",\r\n            \"institute\": \"Chitkara University\"\r\n        },\r\n        {\r\n            \"degree\": \"PhD\",\r\n            \"field\": \"Electronics\",\r\n            \"startDate\": \"2022-08-20\",\r\n            \"endDate\": \"2023-10-05\",\r\n            \"institute\": \"IIT Kanpur\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/expert",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"expert"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "114"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"72-V9VSb2+8ikaXQnsF26HLDKpAwZI\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 09:34:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"EXPERT_ALREADY_EXISTS\",\n    \"message\": \"Expert already exists with this Email\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete all experts",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/expert",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"expert"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Unhandled error",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/expert",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"expert"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "92"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5c-MhLM4JwFiKso8UUWyttYHtwzhf0\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 09:39:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{// Report any errors like these if they happen\n    \"status\": \"error\",\n    \"errorCode\": \"UNHANDLED_ERROR\",\n    \"message\": \"Internal Server Error\",\n    \"data\": {}\n}"
+				},
+				{
+					"name": "None found",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/expert",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"expert"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "88"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"58-V7606YRATmBY+/rj/YBrDsiyff0\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 09:41:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"NO_EXPERTS_FOUND\",\n    \"message\": \"No experts found\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "Get single expert",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sih-backend-xengu.ondigitalocean.app/expert/:detail?education=true&experience=true",
+					"protocol": "https",
+					"host": [
+						"sih-backend-xengu",
+						"ondigitalocean",
+						"app"
+					],
+					"path": [
+						"expert",
+						":detail"
+					],
+					"query": [
+						{
+							"key": "education",
+							"value": "true"
+						},
+						{
+							"key": "experience",
+							"value": "true"
+						}
+					],
+					"variable": [
+						{
+							"key": "detail",
+							"value": "675751e23c1901ed26609d41"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "SImple get",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/expert/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"expert",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67541a90e7c581b24e348179"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "513"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"201-IU2EdW5mzDF+4FlYu7kDsa128qU\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 10:03:38 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{// Normally you will not get education and experience along with the request\n//   You'll have to specify education = true and experience = true to get those fields as well\n    \"status\": \"success\",\n    \"message\": \"Expert found\",\n    \"data\": {\n        \"expert\": {\n            \"_id\": \"67541a90e7c581b24e348179\",\n            \"name\": \"Sneha Kapoor\",\n            \"gender\": \"female\",\n            \"email\": \"sneha.kapoor@gmail.com\",\n            \"mobileNo\": \"9988776655\",\n            \"dateOfBirth\": \"1992-11-05T00:00:00.000Z\",\n            \"skills\": [\n                \"UI/UX Design\",\n                \"HTML\",\n                \"CSS\",\n                \"JavaScript\",\n                \"Adobe Photoshop\",\n                \"Figma\"\n            ],\n            \"currentPosition\": \"Product Designer\",\n            \"currentDepartment\": \"Design\",\n            \"subjects\": [],\n            \"feedbacks\": [],\n            \"applications\": [],\n            \"createdAt\": \"2024-12-07T09:51:12.611Z\",\n            \"updatedAt\": \"2024-12-07T09:51:12.611Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				},
+				{
+					"name": "with query",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/expert/:id?education=true&experience=true",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"expert",
+								":id"
+							],
+							"query": [
+								{
+									"key": "education",
+									"value": "true"
+								},
+								{
+									"key": "experience",
+									"value": "true"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67541a90e7c581b24e348179"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1721"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6b9-9AD9SNPdium0/bt6gMFacpCVsoI\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 10:04:46 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Expert found\",\n    \"data\": {\n        \"expert\": {\n            \"_id\": \"67541a90e7c581b24e348179\",\n            \"name\": \"Sneha Kapoor\",\n            \"gender\": \"female\",\n            \"email\": \"sneha.kapoor@gmail.com\",\n            \"mobileNo\": \"9988776655\",\n            \"dateOfBirth\": \"1992-11-05T00:00:00.000Z\",\n            \"skills\": [\n                \"UI/UX Design\",\n                \"HTML\",\n                \"CSS\",\n                \"JavaScript\",\n                \"Adobe Photoshop\",\n                \"Figma\"\n            ],\n            \"currentPosition\": \"Product Designer\",\n            \"currentDepartment\": \"Design\",\n            \"experience\": [\n                {\n                    \"department\": \"Web Development\",\n                    \"position\": \"Junior UI Designer\",\n                    \"startDate\": \"2015-03-20T00:00:00.000Z\",\n                    \"endDate\": \"2018-04-30T00:00:00.000Z\",\n                    \"companyName\": \"Wipro\",\n                    \"_id\": \"67541a90e7c581b24e34817a\"\n                },\n                {\n                    \"department\": \"Mobile Applications\",\n                    \"position\": \"UX Designer\",\n                    \"startDate\": \"2018-06-15T00:00:00.000Z\",\n                    \"endDate\": \"2022-08-31T00:00:00.000Z\",\n                    \"companyName\": \"Accenture\",\n                    \"_id\": \"67541a90e7c581b24e34817b\"\n                },\n                {\n                    \"department\": \"E-Commerce\",\n                    \"position\": \"Lead Product Designer\",\n                    \"startDate\": \"2022-09-01T00:00:00.000Z\",\n                    \"endDate\": \"2024-12-07T00:00:00.000Z\",\n                    \"companyName\": \"Flipkart\",\n                    \"_id\": \"67541a90e7c581b24e34817c\"\n                }\n            ],\n            \"education\": [\n                {\n                    \"degree\": \"BA\",\n                    \"field\": \"Visual Communication\",\n                    \"startDate\": \"2010-08-01T00:00:00.000Z\",\n                    \"endDate\": \"2013-05-10T00:00:00.000Z\",\n                    \"institute\": \"Loyola College\",\n                    \"_id\": \"67541a90e7c581b24e34817d\"\n                },\n                {\n                    \"degree\": \"MA\",\n                    \"field\": \"Interaction Design\",\n                    \"startDate\": \"2014-09-01T00:00:00.000Z\",\n                    \"endDate\": \"2016-06-30T00:00:00.000Z\",\n                    \"institute\": \"National Institute of Design\",\n                    \"_id\": \"67541a90e7c581b24e34817e\"\n                },\n                {\n                    \"degree\": \"Certification\",\n                    \"field\": \"Human-Computer Interaction\",\n                    \"startDate\": \"2020-01-15T00:00:00.000Z\",\n                    \"endDate\": \"2020-06-15T00:00:00.000Z\",\n                    \"institute\": \"Stanford University\",\n                    \"_id\": \"67541a90e7c581b24e34817f\"\n                }\n            ],\n            \"subjects\": [],\n            \"feedbacks\": [],\n            \"applications\": [],\n            \"createdAt\": \"2024-12-07T09:51:12.611Z\",\n            \"updatedAt\": \"2024-12-07T09:51:12.611Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update expert",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"gender\": \"male\",\r\n            \"skills\": [\r\n                \"Cloud Computing\",\r\n                \"DevOps\",\r\n                \"Kubernetes\",\r\n                \"Docker\",\r\n                \"Java\",\r\n                \"SQL\"\r\n            ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/expert/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"expert",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "67541a90e7c581b24e348171"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"updated\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/expert/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"expert",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67541a90e7c581b24e348171"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1753"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6d9-lrv/7Bdb0q0PyIbDra9zPkys6tk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 10:08:30 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Expert updated successfully\",\n    \"data\": {\n        \"expert\": {\n            \"_id\": \"67541a90e7c581b24e348171\",\n            \"name\": \"Updated\",\n            \"gender\": \"male\",\n            \"email\": \"arjun.mehta@outlook.com\",\n            \"mobileNo\": \"9123456789\",\n            \"dateOfBirth\": \"1985-03-28T00:00:00.000Z\",\n            \"skills\": [\n                \"Cloud Computing\",\n                \"DevOps\",\n                \"Kubernetes\",\n                \"Docker\",\n                \"Java\",\n                \"SQL\"\n            ],\n            \"currentPosition\": \"Senior DevOps Engineer\",\n            \"currentDepartment\": \"Infrastructure\",\n            \"experience\": [\n                {\n                    \"department\": \"IT\",\n                    \"position\": \"System Administrator\",\n                    \"startDate\": \"2008-01-15T00:00:00.000Z\",\n                    \"endDate\": \"2012-06-30T00:00:00.000Z\",\n                    \"companyName\": \"Tata Consultancy Services\",\n                    \"_id\": \"67541a90e7c581b24e348172\"\n                },\n                {\n                    \"department\": \"Cloud Solutions\",\n                    \"position\": \"Cloud Engineer\",\n                    \"startDate\": \"2013-02-01T00:00:00.000Z\",\n                    \"endDate\": \"2018-09-15T00:00:00.000Z\",\n                    \"companyName\": \"HCL Technologies\",\n                    \"_id\": \"67541a90e7c581b24e348173\"\n                },\n                {\n                    \"department\": \"Engineering\",\n                    \"position\": \"DevOps Lead\",\n                    \"startDate\": \"2019-01-10T00:00:00.000Z\",\n                    \"endDate\": \"2023-11-30T00:00:00.000Z\",\n                    \"companyName\": \"Amazon Web Services\",\n                    \"_id\": \"67541a90e7c581b24e348174\"\n                }\n            ],\n            \"education\": [\n                {\n                    \"degree\": \"BTech\",\n                    \"field\": \"Information Technology\",\n                    \"startDate\": \"2003-07-10T00:00:00.000Z\",\n                    \"endDate\": \"2007-05-20T00:00:00.000Z\",\n                    \"institute\": \"VIT University\",\n                    \"_id\": \"67541a90e7c581b24e348175\"\n                },\n                {\n                    \"degree\": \"MTech\",\n                    \"field\": \"Software Engineering\",\n                    \"startDate\": \"2008-08-05T00:00:00.000Z\",\n                    \"endDate\": \"2010-06-15T00:00:00.000Z\",\n                    \"institute\": \"Anna University\",\n                    \"_id\": \"67541a90e7c581b24e348176\"\n                },\n                {\n                    \"degree\": \"Postgraduate Diploma\",\n                    \"field\": \"Cloud Computing\",\n                    \"startDate\": \"2011-01-10T00:00:00.000Z\",\n                    \"endDate\": \"2012-12-10T00:00:00.000Z\",\n                    \"institute\": \"University of Melbourne\",\n                    \"_id\": \"67541a90e7c581b24e348177\"\n                }\n            ],\n            \"subjects\": [],\n            \"feedbacks\": [],\n            \"applications\": [],\n            \"createdAt\": \"2024-12-07T09:51:12.609Z\",\n            \"updatedAt\": \"2024-12-07T10:08:30.558Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete expert",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/expert/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"expert",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "675751e33c1901ed26609dc9"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/expert/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"expert",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67541a90e7c581b24e348179"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1736"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6c8-e6Fkqhvu6DVRykya1W0Fc9imheA\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 10:41:49 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Expert deleted successfully\",\n    \"data\": {\n        \"expert\": {\n            \"_id\": \"67541a90e7c581b24e348179\",\n            \"name\": \"Sneha Kapoor\",\n            \"gender\": \"female\",\n            \"email\": \"sneha.kapoor@gmail.com\",\n            \"mobileNo\": \"9988776655\",\n            \"dateOfBirth\": \"1992-11-05T00:00:00.000Z\",\n            \"skills\": [\n                \"UI/UX Design\",\n                \"HTML\",\n                \"CSS\",\n                \"JavaScript\",\n                \"Adobe Photoshop\",\n                \"Figma\"\n            ],\n            \"currentPosition\": \"Product Designer\",\n            \"currentDepartment\": \"Design\",\n            \"experience\": [\n                {\n                    \"department\": \"Web Development\",\n                    \"position\": \"Junior UI Designer\",\n                    \"startDate\": \"2015-03-20T00:00:00.000Z\",\n                    \"endDate\": \"2018-04-30T00:00:00.000Z\",\n                    \"companyName\": \"Wipro\",\n                    \"_id\": \"67541a90e7c581b24e34817a\"\n                },\n                {\n                    \"department\": \"Mobile Applications\",\n                    \"position\": \"UX Designer\",\n                    \"startDate\": \"2018-06-15T00:00:00.000Z\",\n                    \"endDate\": \"2022-08-31T00:00:00.000Z\",\n                    \"companyName\": \"Accenture\",\n                    \"_id\": \"67541a90e7c581b24e34817b\"\n                },\n                {\n                    \"department\": \"E-Commerce\",\n                    \"position\": \"Lead Product Designer\",\n                    \"startDate\": \"2022-09-01T00:00:00.000Z\",\n                    \"endDate\": \"2024-12-07T00:00:00.000Z\",\n                    \"companyName\": \"Flipkart\",\n                    \"_id\": \"67541a90e7c581b24e34817c\"\n                }\n            ],\n            \"education\": [\n                {\n                    \"degree\": \"BA\",\n                    \"field\": \"Visual Communication\",\n                    \"startDate\": \"2010-08-01T00:00:00.000Z\",\n                    \"endDate\": \"2013-05-10T00:00:00.000Z\",\n                    \"institute\": \"Loyola College\",\n                    \"_id\": \"67541a90e7c581b24e34817d\"\n                },\n                {\n                    \"degree\": \"MA\",\n                    \"field\": \"Interaction Design\",\n                    \"startDate\": \"2014-09-01T00:00:00.000Z\",\n                    \"endDate\": \"2016-06-30T00:00:00.000Z\",\n                    \"institute\": \"National Institute of Design\",\n                    \"_id\": \"67541a90e7c581b24e34817e\"\n                },\n                {\n                    \"degree\": \"Certification\",\n                    \"field\": \"Human-Computer Interaction\",\n                    \"startDate\": \"2020-01-15T00:00:00.000Z\",\n                    \"endDate\": \"2020-06-15T00:00:00.000Z\",\n                    \"institute\": \"Stanford University\",\n                    \"_id\": \"67541a90e7c581b24e34817f\"\n                }\n            ],\n            \"subjects\": [],\n            \"feedbacks\": [],\n            \"applications\": [],\n            \"createdAt\": \"2024-12-07T09:51:12.611Z\",\n            \"updatedAt\": \"2024-12-07T09:51:12.611Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				},
+				{
+					"name": "Not found",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/expert/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"expert",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67541a90e7c581b24e348179"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "88"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"58-2Bt4/vKsoul7KbyGDObdamvbUrE\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 10:42:20 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"EXPERT_NOT_FOUND\",\n    \"message\": \"Expert not found\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "Signin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "radhika.sharma@example.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "RADHIKA@1990",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/expert/signin",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"expert",
+						"signin"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "radhika.sharma@example.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "RADHIKA@1990",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/expert/signin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"expert",
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "375"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"177-32rMc4veG6RUE9bgp+7p7aUmuTg\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 10:45:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Successfully logged in\",\n    \"data\": {\n        \"userToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTQxYjU2ZTdjNTgxYjI0ZTM0ODE5NiIsInJvbGUiOiJleHBlcnQiLCJpYXQiOjE3MzM1NjgzNTksImV4cCI6MTczMzU4OTk1OX0.u6u0v2SFA8wroV5djO69l4nDMqVTNe6HAhKaWgKg4N0\",\n        \"expert\": {\n            \"id\": \"67541b56e7c581b24e348196\",\n            \"email\": \"radhika.sharma@example.com\",\n            \"name\": \"Radhika Sharma\"\n        }\n    }\n}"
+				}
+			]
+		}
+	]
+}

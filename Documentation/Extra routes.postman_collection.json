@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "3bc39739-df1f-4a42-97cd-9189c702cf0f",
+		"name": "Extra routes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32444618",
+		"_collection_link": "https://black-swan-team.postman.co/workspace/Black-Swan-Backend~8bab9768-95f8-4af9-8c5b-fc37ab0d465d/collection/32444618-3bc39739-df1f-4a42-97cd-9189c702cf0f?action=share&source=collection_link&creator=32444618"
+	},
+	"item": [
+		{
+			"name": "Parse resume",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "resume",
+							"type": "file",
+							"src": "/C:/Users/parth/Desktop/blackSwan/API testing data/candidate/bonga.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/parse",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"parse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/home",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"home"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

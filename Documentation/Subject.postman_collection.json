@@ -1,0 +1,1174 @@
+{
+	"info": {
+		"_postman_id": "3f42cb04-3068-4b50-a006-b608bd5396df",
+		"name": "Subject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32444618",
+		"_collection_link": "https://black-swan-team.postman.co/workspace/Black-Swan-Backend~8bab9768-95f8-4af9-8c5b-fc37ab0d465d/collection/32444618-3f42cb04-3068-4b50-a006-b608bd5396df?action=share&source=collection_link&creator=32444618"
+	},
+	"item": [
+		{
+			"name": "Get all subjects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/subject",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"subject"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "None found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subject",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "90"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5a-5liuMzvB3izw40p9oBYO8lC3mAI\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 03:25:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"NO_SUBJECTS_FOUND\",\n    \"message\": \"No subjects found\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "Add new subject",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"title\": \"Frontend Developer\",\r\n        \"description\": \"Frontend Developer needed with 3 years of experience, proficient in React, JavaScript, and CSS.\",\r\n        \"department\": \"Ministry of Education\",\r\n        \"type\": \"full-time\",\r\n        \"locationType\": \"remote\",\r\n        \"location\": \"New Delhi, India\",\r\n        \"duration\": \"6 months\",\r\n        \"recommendedSkills\": [\r\n            {\r\n                \"skill\": \"React\",\r\n                \"description\": \"React is a JavaScript library for building user interfaces.\"\r\n            },\r\n            {\r\n                \"skill\": \"JavaScript\",\r\n                \"description\": \"JavaScript is a programming language that enables interactive web pages.\"\r\n            },\r\n            {\r\n                \"skill\": \"CSS\",\r\n                \"description\": \"CSS is a style sheet language used for describing the presentation of a document written in HTML.\"\r\n            },\r\n            {\r\n                \"skill\": \"HTML\",\r\n                \"description\": \"HTML is a markup language used for creating web pages.\"\r\n            },\r\n            {\r\n                \"skill\": \"UI/UX Design\",\r\n                \"description\": \"UI/UX Design focuses on user experience and interface design.\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/subject",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"subject"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Backend Developer\",\r\n    \"description\": \"Backend Developer needed with 5 years of experience preferably experienced in Java, springboot, kafka, docker.\",\r\n    \"department\": \"Ministry of Defense\",\r\n    \"type\": \"Internship\",\r\n    \"locationType\": \"hybrid\",\r\n    \"location\": \"Bengaluru, Karnataka\",\r\n    \"recommendedSkills\":[\r\n        \"Java\",\r\n        \"Sping\",\r\n        \"Springboot\",\r\n        \"kafka\",\r\n        \"Docker\",\r\n        \"AWS\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/subject",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "620"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"26c-IXGapu02wobjos9eGqWhvoGNUig\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 03:55:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Subject successfully created\",\n    \"data\": {\n        \"subject\": {\n            \"title\": \"Backend Developer\",\n            \"description\": \"Backend Developer needed with 5 years of experience preferably experienced in Java, springboot, kafka, docker.\",\n            \"department\": \"Ministry of Defense\",\n            \"type\": \"internship\",\n            \"locationType\": \"hybrid\",\n            \"location\": \"Bengaluru, Karnataka\",\n            \"recommendedSkills\": [\n                \"Java\",\n                \"Sping\",\n                \"Springboot\",\n                \"kafka\",\n                \"Docker\",\n                \"AWS\"\n            ],\n            \"status\": \"open\",\n            \"applicants\": [],\n            \"experts\": [],\n            \"applications\": [],\n            \"feedbacks\": [],\n            \"_id\": \"675518c0db93a2daf06c5578\",\n            \"createdAt\": \"2024-12-08T03:55:44.886Z\",\n            \"updatedAt\": \"2024-12-08T03:55:44.886Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete all subjects",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/subject",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"subject"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subject",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1205"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4b5-bUNHlLQ/dGXJ0QvOhOjPLlFvDzo\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 04:38:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"All subjects successfully deleted\",\n    \"data\": {\n        \"subjects\": [\n            {\n                \"_id\": \"67551e44ff8e461d43b10bc0\",\n                \"title\": \"Data Scientist\",\n                \"description\": \"Data Scientist required to work on machine learning projects with a focus on Python, pandas, and scikit-learn.\",\n                \"department\": \"Ministry of Health\",\n                \"type\": \"project\",\n                \"locationType\": \"onsite\",\n                \"location\": \"Mumbai, Maharashtra\",\n                \"duration\": \"12 months\",\n                \"recommendedSkills\": [\n                    \"Python\",\n                    \"pandas\",\n                    \"scikit-learn\",\n                    \"TensorFlow\",\n                    \"SQL\",\n                    \"Data Visualization\"\n                ],\n                \"status\": \"open\",\n                \"applicants\": [],\n                \"experts\": [],\n                \"applications\": [],\n                \"feedbacks\": [],\n                \"createdAt\": \"2024-12-08T04:19:16.746Z\",\n                \"updatedAt\": \"2024-12-08T04:34:06.473Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"67551e4bff8e461d43b10bc2\",\n                \"title\": \"Backend Developer\",\n                \"description\": \"Backend Developer needed with 5 years of experience preferably experienced in Java, springboot, kafka, docker.\",\n                \"department\": \"Ministry of Defense\",\n                \"type\": \"internship\",\n                \"locationType\": \"hybrid\",\n                \"location\": \"Bengaluru, Karnataka\",\n                \"recommendedSkills\": [\n                    \"Java\",\n                    \"Sping\",\n                    \"Springboot\",\n                    \"kafka\",\n                    \"Docker\",\n                    \"AWS\"\n                ],\n                \"status\": \"open\",\n                \"applicants\": [],\n                \"experts\": [],\n                \"applications\": [],\n                \"feedbacks\": [],\n                \"createdAt\": \"2024-12-08T04:19:23.965Z\",\n                \"updatedAt\": \"2024-12-08T04:34:06.473Z\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get single subject",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/subject/:id?applications=true&candidates=true&experts=true&feedbacks=true",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"subject",
+						":id"
+					],
+					"query": [
+						{
+							"key": "applications",
+							"value": "true"
+						},
+						{
+							"key": "candidates",
+							"value": "true"
+						},
+						{
+							"key": "experts",
+							"value": "true"
+						},
+						{
+							"key": "feedbacks",
+							"value": "true"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "675528691affdfdb711f15ef"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Simple request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subject/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject",
+								":id"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "675528691affdfdb711f15ef"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "578"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"242-D9kwFeKFZYcgIASq251nSMrc9Vk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 05:03:20 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Subject found\",\n    \"data\": {\n        \"subject\": {\n            \"_id\": \"675528691affdfdb711f15ef\",\n            \"title\": \"Android Developer\",\n            \"description\": \"Android Developer needed to build scalable mobile applications for e-commerce platforms.\",\n            \"department\": \"Ministry of Commerce\",\n            \"type\": \"internship\",\n            \"locationType\": \"remote\",\n            \"duration\": \"6 months\",\n            \"recommendedSkills\": [\n                \"Android\",\n                \"Java\",\n                \"Kotlin\",\n                \"UI/UX\",\n                \"Firebase\",\n                \"REST APIs\"\n            ],\n            \"status\": \"open\",\n            \"candidates\": [],\n            \"experts\": [],\n            \"applications\": [],\n            \"feedbacks\": [],\n            \"createdAt\": \"2024-12-08T05:02:33.561Z\",\n            \"updatedAt\": \"2024-12-08T05:02:33.561Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				},
+				{
+					"name": "With queries",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subject/:id?applications=true&candidates=true&experts=true&feedbacks=true",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject",
+								":id"
+							],
+							"query": [
+								{
+									"key": "applications",
+									"value": "true"
+								},
+								{
+									"key": "candidates",
+									"value": "true"
+								},
+								{
+									"key": "experts",
+									"value": "true"
+								},
+								{
+									"key": "feedbacks",
+									"value": "true"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "675528691affdfdb711f15ef"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "578"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"242-D9kwFeKFZYcgIASq251nSMrc9Vk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 05:07:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Subject found\",\n    \"data\": {\n        \"subject\": {\n            \"_id\": \"675528691affdfdb711f15ef\",\n            \"title\": \"Android Developer\",\n            \"description\": \"Android Developer needed to build scalable mobile applications for e-commerce platforms.\",\n            \"department\": \"Ministry of Commerce\",\n            \"type\": \"internship\",\n            \"locationType\": \"remote\",\n            \"duration\": \"6 months\",\n            \"recommendedSkills\": [\n                \"Android\",\n                \"Java\",\n                \"Kotlin\",\n                \"UI/UX\",\n                \"Firebase\",\n                \"REST APIs\"\n            ],\n            \"status\": \"open\",\n            \"candidates\": [],\n            \"experts\": [],\n            \"applications\": [],\n            \"feedbacks\": [],\n            \"createdAt\": \"2024-12-08T05:02:33.561Z\",\n            \"updatedAt\": \"2024-12-08T05:02:33.561Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update subject",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Cloud Solutions Architect\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/subject/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"subject",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "675528691affdfdb711f15cb"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Your mom\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/subject/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "675528691affdfdb711f15cb"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "596"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"254-w0UWmROEi5vYPrsEieUgQRQxiCE\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 05:58:52 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Subject updated successfully\",\n    \"data\": {\n        \"subject\": {\n            \"_id\": \"675528691affdfdb711f15cb\",\n            \"title\": \"Your mom\",\n            \"description\": \"Cloud Solutions Architect with expertise in designing scalable cloud-based solutions required.\",\n            \"department\": \"Ministry of IT\",\n            \"type\": \"internship\",\n            \"locationType\": \"remote\",\n            \"duration\": \"6 months\",\n            \"recommendedSkills\": [\n                \"AWS\",\n                \"Azure\",\n                \"Cloud Security\",\n                \"DevOps\",\n                \"Microservices\",\n                \"Networking\"\n            ],\n            \"status\": \"open\",\n            \"candidates\": [],\n            \"experts\": [],\n            \"applications\": [],\n            \"feedbacks\": [],\n            \"createdAt\": \"2024-12-08T05:02:33.513Z\",\n            \"updatedAt\": \"2024-12-08T05:58:52.470Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete single subject",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/subject/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"subject",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "675751f23c1901ed2660bcd3"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subject/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "675528691affdfdb711f15b7"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "629"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"275-Izu/68Wtf4dd83m2x1aFDmXvd7g\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 06:11:38 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Subject deleted successfully\",\n    \"data\": {\n        \"subject\": {\n            \"_id\": \"675528691affdfdb711f15b7\",\n            \"title\": \"Frontend Developer\",\n            \"description\": \"Frontend Developer needed with 3 years of experience, proficient in React, JavaScript, and CSS.\",\n            \"department\": \"Ministry of Education\",\n            \"type\": \"full-time\",\n            \"locationType\": \"remote\",\n            \"location\": \"New Delhi, India\",\n            \"duration\": \"6 months\",\n            \"recommendedSkills\": [\n                \"React\",\n                \"JavaScript\",\n                \"CSS\",\n                \"HTML\",\n                \"Redux\",\n                \"TypeScript\"\n            ],\n            \"status\": \"open\",\n            \"candidates\": [],\n            \"experts\": [],\n            \"applications\": [],\n            \"feedbacks\": [],\n            \"createdAt\": \"2024-12-08T05:02:33.476Z\",\n            \"updatedAt\": \"2024-12-08T05:02:33.476Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get all candidates of a subject",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/subject/:id/candidate",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"subject",
+						":id",
+						"candidate"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "675528691affdfdb711f15b9"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subject/:id/candidate",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject",
+								":id",
+								"candidate"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "675528691affdfdb711f15b9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "82"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"52-1SH/tw+aRIKFQ7AKlVd+0vl2zvs\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 06:43:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"All candidates retrieved\",\n    \"data\": {\n        \"candidates\": []\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get all experts of a subject",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/subject/:id/expert",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"subject",
+						":id",
+						"expert"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "6759dec07f5c01a59850caf5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subject/:id/expert",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject",
+								":id",
+								"expert"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "675528691affdfdb711f15b9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "76"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4c-8p5fEqycLkRBdtANqaiyxY4o6bo\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 06:44:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"All experts retrieved\",\n    \"data\": {\n        \"experts\": []\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Add a new candidate to subject / Create new application",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "candidateId",
+							"value": "675521a15369beebdc1f5780",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/subject/:id/candidate",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"subject",
+						":id",
+						"candidate"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "675528691affdfdb711f15b9"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "candidateId",
+									"value": "675521a15369beebdc1f577a",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/subject/:id/candidate",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject",
+								":id",
+								"candidate"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "675528691affdfdb711f15b9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1223"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4c7-Mz59HfWBvFEBO88nn3h26WPGU98\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 10:48:22 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Successfully applied\",\n    \"data\": {\n        \"subject\": {\n            \"_id\": \"675528691affdfdb711f15b9\",\n            \"title\": \"Data Scientist\",\n            \"description\": \"Data Scientist required to work on machine learning projects with a focus on Python, pandas, and scikit-learn.\",\n            \"department\": \"Ministry of Health\",\n            \"type\": \"project\",\n            \"locationType\": \"onsite\",\n            \"location\": \"Mumbai, Maharashtra\",\n            \"duration\": \"12 months\",\n            \"recommendedSkills\": [\n                \"Python\",\n                \"pandas\",\n                \"scikit-learn\",\n                \"TensorFlow\",\n                \"SQL\",\n                \"Data Visualization\"\n            ],\n            \"status\": \"open\",\n            \"candidates\": [\n                {\n                    \"relevancyScore\": 0,\n                    \"id\": \"675521a15369beebdc1f577a\",\n                    \"_id\": \"67557976eb379494a4060fe8\"\n                }\n            ],\n            \"experts\": [\n                {\n                    \"profileScore\": 1,\n                    \"relevancyScore\": 2,\n                    \"id\": \"675521ca5369beebdc1f586a\",\n                    \"_id\": \"67555ce80835a837669481e3\"\n                }\n            ],\n            \"applications\": [\n                \"67557976eb379494a4060fe9\"\n            ],\n            \"feedbacks\": [],\n            \"createdAt\": \"2024-12-08T05:02:33.484Z\",\n            \"updatedAt\": \"2024-12-08T10:48:22.583Z\",\n            \"__v\": 4\n        },\n        \"application\": {\n            \"candidate\": \"675521a15369beebdc1f577a\",\n            \"subject\": \"675528691affdfdb711f15b9\",\n            \"status\": \"pending\",\n            \"interviewDetails\": {\n                \"link\": null,\n                \"venue\": null,\n                \"conducted\": false,\n                \"expertNotes\": []\n            },\n            \"_id\": \"67557976eb379494a4060fe9\",\n            \"panel\": [],\n            \"appliedOn\": \"2024-12-08T10:48:22.475Z\",\n            \"createdAt\": \"2024-12-08T10:48:22.480Z\",\n            \"updatedAt\": \"2024-12-08T10:48:22.480Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				},
+				{
+					"name": "Already applied",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "candidateId",
+									"value": "675521a15369beebdc1f577a",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/subject/:id/candidate",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject",
+								":id",
+								"candidate"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "675528691affdfdb711f15b9"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "86"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"56-2a3SHtMpOvVxagtAfgbBJ95qB2U\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 10:54:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"ALREADY_APPLIED\",\n    \"message\": \"Already applied\",\n    \"data\": {}\n}"
+				},
+				{
+					"name": "Not found",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "candidateId",
+									"value": "675521a15369beebdc1f5780",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/subject/:id/candidate",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject",
+								":id",
+								"candidate"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "675528691affdfdb711f15b9"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "94"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5e-xa7Nej4Hvr4GismBT1P0ERXuBto\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 10:54:20 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"CANDIDATE_NOT_FOUND\",\n    \"message\": \"Candidate not found\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "Add a new expert to subject",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "expertId",
+							"value": "675521ca5369beebdc1f586a",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/subject/:id/expert",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"subject",
+						":id",
+						"expert"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "675528691affdfdb711f15b9"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "expertId",
+									"value": "675521ca5369beebdc1f586a",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/subject/:id/expert",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subject",
+								":id",
+								"expert"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "675528691affdfdb711f15b9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "771"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"303-EQ87y4CcSh7Xrt9MMQYYkalvz2c\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 08:46:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Expert successfully added to the subject\",\n    \"data\": {\n        \"subject\": {\n            \"_id\": \"675528691affdfdb711f15b9\",\n            \"title\": \"Data Scientist\",\n            \"description\": \"Data Scientist required to work on machine learning projects with a focus on Python, pandas, and scikit-learn.\",\n            \"department\": \"Ministry of Health\",\n            \"type\": \"project\",\n            \"locationType\": \"onsite\",\n            \"location\": \"Mumbai, Maharashtra\",\n            \"duration\": \"12 months\",\n            \"recommendedSkills\": [\n                \"Python\",\n                \"pandas\",\n                \"scikit-learn\",\n                \"TensorFlow\",\n                \"SQL\",\n                \"Data Visualization\"\n            ],\n            \"status\": \"open\",\n            \"candidates\": [],\n            \"experts\": [\n                {\n                    \"profileScore\": 0,\n                    \"relevancyScore\": 0,\n                    \"id\": \"675521ca5369beebdc1f586a\",\n                    \"_id\": \"67555ce80835a837669481e3\"\n                }\n            ],\n            \"applications\": [],\n            \"feedbacks\": [],\n            \"createdAt\": \"2024-12-08T05:02:33.484Z\",\n            \"updatedAt\": \"2024-12-08T08:46:32.863Z\",\n            \"__v\": 3\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Sorted data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.black-swan.tech/subject/:id/sorteddata",
+					"protocol": "https",
+					"host": [
+						"api",
+						"black-swan",
+						"tech"
+					],
+					"path": [
+						"subject",
+						":id",
+						"sorteddata"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "6759dec07f5c01a59850caf5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

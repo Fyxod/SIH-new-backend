@@ -1,0 +1,1009 @@
+{
+	"info": {
+		"_postman_id": "adb58096-5df4-4c89-8175-04831bf0ea81",
+		"name": "Candidate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32444618",
+		"_collection_link": "https://black-swan-team.postman.co/workspace/Black-Swan-Backend~8bab9768-95f8-4af9-8c5b-fc37ab0d465d/collection/32444618-adb58096-5df4-4c89-8175-04831bf0ea81?action=share&source=collection_link&creator=32444618"
+	},
+	"item": [
+		{
+			"name": "Get all candidates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/candidate/",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"candidate",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "None found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/candidate/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								""
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "97"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"61-XxLua6/H00q5URyVWnkur360BrQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 19:06:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"NO_CANDIDATES_FOUND\",\n    \"message\": \"No candidate was found\",\n    \"data\": {}\n}"
+				},
+				{
+					"name": "Admin only",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Priya Mehta\",\r\n    \"email\": \"priya.mehta@gmail.com\",\r\n    \"password\": \"Pass@123\",\r\n    \"confirmPassword\": \"Pass@123\",\r\n    \"mobileNo\": \"9876543298\",\r\n    \"dateOfBirth\": \"1997-03-17\",\r\n    \"gender\": \"female\",\r\n    \"skills\": [\r\n        \"react\",\r\n        \"node.js\",\r\n        \"mongodb\"\r\n    ],\r\n    \"experience\": [\r\n        {\r\n            \"position\": \"Full-Stack Developer\",\r\n            \"department\": \"Technology\",\r\n            \"startDate\": \"2020-06-01\",\r\n            \"endDate\": \"2022-12-31\",\r\n            \"companyName\": \"Flipkart\"\r\n        }\r\n    ],\r\n    \"education\": [\r\n        {\r\n            \"degree\": \"BCA\",\r\n            \"field\": \"Computer Applications\",\r\n            \"startDate\": \"2015-07-01\",\r\n            \"endDate\": \"2018-06-30\",\r\n            \"institute\": \"Amity University\"\r\n        },\r\n        {\r\n            \"degree\": \"MCA\",\r\n            \"field\": \"Software Engineering\",\r\n            \"startDate\": \"2018-08-01\",\r\n            \"endDate\": \"2021-07-30\",\r\n            \"institute\": \"BITS Pilani\"\r\n        }\r\n    ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/candidate/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								""
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "92"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5c-R+p/2/csNl58GCEOQbYq6hIJ0hM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 05:12:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"UNAUTHORIZED\",\n    \"message\": \"Invalid or expired token\",\n    \"data\": {}\n}"
+				},
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/candidate/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5162"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"142a-K2MaoNCKa5w/BQASDGRYxnBbVTI\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 05:16:13 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"All candidates successfully retrieved\",\n    \"data\": {\n        \"candidates\": [\n            {\n                \"_id\": \"6753d79b194e34dc69992d9e\",\n                \"name\": \"Devansh\",\n                \"gender\": \"male\",\n                \"email\": \"devansh@gmail.com\",\n                \"mobileNo\": \"9125984473\",\n                \"dateOfBirth\": \"2004-11-04T00:00:00.000Z\",\n                \"skills\": [\n                    \"javascript\",\n                    \"react\"\n                ],\n                \"experience\": [\n                    {\n                        \"position\": \"Junior Developer\",\n                        \"department\": \"Frontend\",\n                        \"startDate\": \"2023-04-25T00:00:00.000Z\",\n                        \"endDate\": \"2023-08-24T00:00:00.000Z\",\n                        \"companyName\": \"Google\",\n                        \"_id\": \"6753d79b194e34dc69992d9f\"\n                    },\n                    {\n                        \"position\": \"Senior Developer\",\n                        \"department\": \"Backend\",\n                        \"startDate\": \"2023-10-20T00:00:00.000Z\",\n                        \"endDate\": \"2024-02-15T00:00:00.000Z\",\n                        \"companyName\": \"Microsoft\",\n                        \"_id\": \"6753d79b194e34dc69992da0\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BE\",\n                        \"field\": \"Civil Engineering\",\n                        \"startDate\": \"2016-02-15T00:00:00.000Z\",\n                        \"endDate\": \"2020-02-16T00:00:00.000Z\",\n                        \"institute\": \"Thapar University\",\n                        \"_id\": \"6753d79b194e34dc69992da1\"\n                    },\n                    {\n                        \"degree\": \"MTech\",\n                        \"field\": \"Computer Science\",\n                        \"startDate\": \"2020-07-20T00:00:00.000Z\",\n                        \"endDate\": \"2022-06-19T00:00:00.000Z\",\n                        \"institute\": \"Chitkara University\",\n                        \"_id\": \"6753d79b194e34dc69992da2\"\n                    }\n                ],\n                \"subjects\": [],\n                \"feedbacks\": [],\n                \"applications\": [],\n                \"createdAt\": \"2024-12-07T05:05:31.299Z\",\n                \"updatedAt\": \"2024-12-07T05:05:31.299Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6753d7d7194e34dc69992da5\",\n                \"name\": \"Aarav Sharma\",\n                \"gender\": \"male\",\n                \"email\": \"aarav.sharma@gmail.com\",\n                \"mobileNo\": \"9876543210\",\n                \"dateOfBirth\": \"1998-07-15T00:00:00.000Z\",\n                \"skills\": [\n                    \"python\",\n                    \"django\",\n                    \"aws\"\n                ],\n                \"experience\": [\n                    {\n                        \"position\": \"Software Engineer\",\n                        \"department\": \"Backend\",\n                        \"startDate\": \"2021-03-01T00:00:00.000Z\",\n                        \"endDate\": \"2022-12-31T00:00:00.000Z\",\n                        \"companyName\": \"Microsoft\",\n                        \"_id\": \"6753d7d7194e34dc69992da6\"\n                    },\n                    {\n                        \"position\": \"DevOps Engineer\",\n                        \"department\": \"DevOps\",\n                        \"startDate\": \"2023-01-15T00:00:00.000Z\",\n                        \"endDate\": \"2024-06-30T00:00:00.000Z\",\n                        \"companyName\": \"Amazon\",\n                        \"_id\": \"6753d7d7194e34dc69992da7\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BTech\",\n                        \"field\": \"Information Technology\",\n                        \"startDate\": \"2015-08-10T00:00:00.000Z\",\n                        \"endDate\": \"2019-05-15T00:00:00.000Z\",\n                        \"institute\": \"Delhi Technological University\",\n                        \"_id\": \"6753d7d7194e34dc69992da8\"\n                    },\n                    {\n                        \"degree\": \"MTech\",\n                        \"field\": \"Data Science\",\n                        \"startDate\": \"2020-07-01T00:00:00.000Z\",\n                        \"endDate\": \"2022-06-30T00:00:00.000Z\",\n                        \"institute\": \"IIT Bombay\",\n                        \"_id\": \"6753d7d7194e34dc69992da9\"\n                    }\n                ],\n                \"subjects\": [],\n                \"feedbacks\": [],\n                \"applications\": [],\n                \"createdAt\": \"2024-12-07T05:06:31.595Z\",\n                \"updatedAt\": \"2024-12-07T05:06:31.595Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6753d86be67bc699edd5dfe7\",\n                \"name\": \"Isha Kapoor\",\n                \"gender\": \"female\",\n                \"email\": \"isha.kapoor@gmail.com\",\n                \"mobileNo\": \"9123456789\",\n                \"dateOfBirth\": \"2000-09-22T00:00:00.000Z\",\n                \"skills\": [\n                    \"java\",\n                    \"spring\",\n                    \"microservices\"\n                ],\n                \"experience\": [\n                    {\n                        \"position\": \"Backend Developer\",\n                        \"department\": \"Engineering\",\n                        \"startDate\": \"2022-01-10T00:00:00.000Z\",\n                        \"endDate\": \"2023-03-15T00:00:00.000Z\",\n                        \"companyName\": \"Infosys\",\n                        \"_id\": \"6753d86be67bc699edd5dfe8\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BTech\",\n                        \"field\": \"Computer Science\",\n                        \"startDate\": \"2018-08-01T00:00:00.000Z\",\n                        \"endDate\": \"2022-05-31T00:00:00.000Z\",\n                        \"institute\": \"VIT University\",\n                        \"_id\": \"6753d86be67bc699edd5dfe9\"\n                    }\n                ],\n                \"subjects\": [],\n                \"feedbacks\": [],\n                \"applications\": [],\n                \"createdAt\": \"2024-12-07T05:08:59.901Z\",\n                \"updatedAt\": \"2024-12-07T05:08:59.901Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6753d8a7755847956eb29cc5\",\n                \"name\": \"Rohan Verma\",\n                \"gender\": \"male\",\n                \"email\": \"rohan.verma@gmail.com\",\n                \"mobileNo\": \"9123456776\",\n                \"dateOfBirth\": \"1995-12-12T00:00:00.000Z\",\n                \"skills\": [\n                    \"c++\",\n                    \"algorithms\",\n                    \"data structures\"\n                ],\n                \"experience\": [\n                    {\n                        \"position\": \"Algorithm Specialist\",\n                        \"department\": \"R&D\",\n                        \"startDate\": \"2018-09-01T00:00:00.000Z\",\n                        \"endDate\": \"2021-12-31T00:00:00.000Z\",\n                        \"companyName\": \"TCS\",\n                        \"_id\": \"6753d8a7755847956eb29cc6\"\n                    },\n                    {\n                        \"position\": \"Lead Software Engineer\",\n                        \"department\": \"AI/ML\",\n                        \"startDate\": \"2022-01-10T00:00:00.000Z\",\n                        \"endDate\": \"2024-02-15T00:00:00.000Z\",\n                        \"companyName\": \"Google\",\n                        \"_id\": \"6753d8a7755847956eb29cc7\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BE\",\n                        \"field\": \"Electronics and Communication\",\n                        \"startDate\": \"2013-08-01T00:00:00.000Z\",\n                        \"endDate\": \"2017-06-30T00:00:00.000Z\",\n                        \"institute\": \"Anna University\",\n                        \"_id\": \"6753d8a7755847956eb29cc8\"\n                    },\n                    {\n                        \"degree\": \"MS\",\n                        \"field\": \"Artificial Intelligence\",\n                        \"startDate\": \"2018-01-10T00:00:00.000Z\",\n                        \"endDate\": \"2020-05-15T00:00:00.000Z\",\n                        \"institute\": \"Stanford University\",\n                        \"_id\": \"6753d8a7755847956eb29cc9\"\n                    }\n                ],\n                \"subjects\": [],\n                \"feedbacks\": [],\n                \"applications\": [],\n                \"createdAt\": \"2024-12-07T05:09:59.376Z\",\n                \"updatedAt\": \"2024-12-07T05:09:59.376Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6753d8e67b4d2b7139343420\",\n                \"name\": \"Priya Mehta\",\n                \"gender\": \"female\",\n                \"email\": \"priya.mehta@gmail.com\",\n                \"mobileNo\": \"9876543298\",\n                \"dateOfBirth\": \"1997-03-17T00:00:00.000Z\",\n                \"skills\": [\n                    \"react\",\n                    \"node.js\",\n                    \"mongodb\"\n                ],\n                \"experience\": [\n                    {\n                        \"position\": \"Full-Stack Developer\",\n                        \"department\": \"Technology\",\n                        \"startDate\": \"2020-06-01T00:00:00.000Z\",\n                        \"endDate\": \"2022-12-31T00:00:00.000Z\",\n                        \"companyName\": \"Flipkart\",\n                        \"_id\": \"6753d8e67b4d2b7139343421\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BCA\",\n                        \"field\": \"Computer Applications\",\n                        \"startDate\": \"2015-07-01T00:00:00.000Z\",\n                        \"endDate\": \"2018-06-30T00:00:00.000Z\",\n                        \"institute\": \"Amity University\",\n                        \"_id\": \"6753d8e67b4d2b7139343422\"\n                    },\n                    {\n                        \"degree\": \"MCA\",\n                        \"field\": \"Software Engineering\",\n                        \"startDate\": \"2018-08-01T00:00:00.000Z\",\n                        \"endDate\": \"2021-07-30T00:00:00.000Z\",\n                        \"institute\": \"BITS Pilani\",\n                        \"_id\": \"6753d8e67b4d2b7139343423\"\n                    }\n                ],\n                \"subjects\": [],\n                \"feedbacks\": [],\n                \"applications\": [],\n                \"createdAt\": \"2024-12-07T05:11:02.925Z\",\n                \"updatedAt\": \"2024-12-07T05:11:02.925Z\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Signup",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Rohan Verma\",\r\n    \"email\": \"rohan.verma@gmail.com\",\r\n    \"password\": \"Pass@123\",\r\n    \"confirmPassword\": \"Pass@123\",\r\n    \"mobileNo\": \"9123456776\",\r\n    \"dateOfBirth\": \"1995-12-12\",\r\n    \"gender\": \"male\",\r\n    \"skills\": [\r\n        {\r\n            \"skill\": \"c++\",\r\n            \"duration\": 31536000000\r\n        },\r\n        {\r\n            \"skill\": \"algorithms\",\r\n            \"duration\": 63072000000\r\n        },\r\n        {\r\n            \"skill\": \"data structures\",\r\n            \"duration\": 94608000000\r\n        }\r\n    ],\r\n    \"experience\": [\r\n        {\r\n            \"position\": \"Algorithm Specialist\",\r\n            \"department\": \"R&D\",\r\n            \"startDate\": \"2018-09-01\",\r\n            \"endDate\": \"2021-12-31\",\r\n            \"companyName\": \"TCS\"\r\n        },\r\n        {\r\n            \"position\": \"Lead Software Engineer\",\r\n            \"department\": \"AI/ML\",\r\n            \"startDate\": \"2022-01-10\",\r\n            \"endDate\": \"2024-02-15\",\r\n            \"companyName\": \"Google\"\r\n        }\r\n    ],\r\n    \"education\": [\r\n        {\r\n            \"degree\": \"BE\",\r\n            \"field\": \"Electronics and Communication\",\r\n            \"startDate\": \"2013-08-01\",\r\n            \"endDate\": \"2017-06-30\",\r\n            \"institute\": \"Anna University\"\r\n        },\r\n        {\r\n            \"degree\": \"MS\",\r\n            \"field\": \"Artificial Intelligence\",\r\n            \"startDate\": \"2018-01-10\",\r\n            \"endDate\": \"2020-05-15\",\r\n            \"institute\": \"Stanford University\"\r\n        }\r\n    ],\r\n    \"resumeToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdG5hbWUiLCJlbWFpbCI6InRlc3RlbWFpbEBnbWFpbC5jb20iLCJyZXN1bWVOYW1lIjoiYm9uZ2EucGRmLTE3MzM4MTU3NTQ4MTYucGRmIiwiaWF0IjoxNzMzODE1NzU0LCJleHAiOjE3MzM4MzczNTR9.iTuTaac7psEiXhywxQNNWNXu0KRYys0PY7kdB1VXmWU\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/candidate/",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"candidate",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"devansh\",\r\n    \"email\": \"devansh@gmail.com\",\r\n    \"password\": \"Pass@123\",\r\n    \"confirmPassword\": \"Pass@123\",\r\n    \"mobileNo\": \"9125984473\",\r\n    \"dateOfBirth\": \"2004-11-04\",\r\n    \"gender\": \"male\",\r\n    \"skills\": [\r\n        \"javascript\",\r\n        \"react\"\r\n    ],\r\n    \"experience\": [\r\n        {\r\n            \"position\": \"Junior Developer\",\r\n            \"department\": \"Frontend\",\r\n            \"startDate\": \"2023-04-25\",\r\n            \"endDate\": \"2023-08-24\",\r\n            \"companyName\": \"Google\"\r\n        },\r\n        {\r\n            \"position\": \"Senior Developer\",\r\n            \"department\": \"Backend\",\r\n            \"startDate\": \"2023-10-20\",\r\n            \"endDate\": \"2024-02-15\",\r\n            \"companyName\": \"Google\"\r\n        }\r\n    ],\r\n    \"education\": [\r\n        {\r\n            \"degree\": \"BE\",\r\n            \"field\": \"Civil Engineering\",\r\n            \"startDate\": \"2016-02-15\",\r\n            \"endDate\": \"2020-02-16\",\r\n            \"institute\": \"Thapar University\"\r\n        },\r\n        {\r\n            \"degree\": \"MTech\",\r\n            \"field\": \"Computer Science\",\r\n            \"startDate\": \"2020-07-20\",\r\n            \"endDate\": \"2022-06-19\",\r\n            \"institute\": \"Thapar University\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/candidate/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "163"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a3-TmZuEgKzHWPYTHBHlDqGsKW/yXA\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 04:35:44 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"candidate successfully created\",\n    \"data\": {\n        \"candidate\": {\n            \"id\": \"6753d0a0399769710b971350\",\n            \"email\": \"devansh@gmail.com\",\n            \"name\": \"Devansh\"\n        }\n    }\n}"
+				},
+				{
+					"name": "fail",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Aarav Sharma\",\r\n    \"email\": \"aarav.sharma@gmail.com\",\r\n    \"password\": \"Pass@123\",\r\n    \"confirmPassword\": \"pass@123\",\r\n    \"mobileNo\": \"9876543210\",\r\n    \"dateOfBirth\": \"1998-07-15\",\r\n    \"gender\": \"male\",\r\n    \"skills\": [\r\n        \"python\",\r\n        \"django\",\r\n        \"aws\"\r\n    ],\r\n    \"experience\": [\r\n        {\r\n            \"position\": \"Software Engineer\",\r\n            \"department\": \"Backend\",\r\n            \"startDate\": \"2021-03-01\",\r\n            \"endDate\": \"2022-12-31\",\r\n            \"companyName\": \"Microsoft\"\r\n        },\r\n        {\r\n            \"position\": \"DevOps Engineer\",\r\n            \"department\": \"DevOps\",\r\n            \"startDate\": \"2023-01-15\",\r\n            \"endDate\": \"2024-06-30\",\r\n            \"companyName\": \"Amazon\"\r\n        }\r\n    ],\r\n    \"education\": [\r\n        {\r\n            \"degree\": \"BTech\",\r\n            \"field\": \"Information Technology\",\r\n            \"startDate\": \"2015-08-10\",\r\n            \"endDate\": \"2019-05-15\",\r\n            \"institute\": \"Delhi Technological University\"\r\n        },\r\n        {\r\n            \"degree\": \"MTech\",\r\n            \"field\": \"Data Science\",\r\n            \"startDate\": \"2020-07-01\",\r\n            \"endDate\": \"2022-06-30\",\r\n            \"institute\": \"IIT Bombay\"\r\n        }\r\n    ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/candidate/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								""
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "185"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"b9-5m4LH0bvA7swTmQuiPPnuXdt92g\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 04:43:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"VALIDATION_ERROR\",\n    \"message\": \"Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character.\",\n    \"data\": {}\n}"
+				},
+				{
+					"name": "exists",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Arjun Patel\",\r\n    \"email\": \"arjun.patel@gmail.com\",\r\n    \"password\": \"Arjun@2024\",\r\n    \"confirmPassword\": \"Arjun@2024\",\r\n    \"mobileNo\": \"9876543212\",\r\n    \"dateOfBirth\": \"1999-05-18\",\r\n    \"gender\": \"male\",\r\n    \"skills\": [\r\n        \"typescript\",\r\n        \"node.js\",\r\n        \"graphql\",\r\n        \"docker\"\r\n    ],\r\n    \"experience\": [\r\n        {\r\n            \"position\": \"Frontend Developer\",\r\n            \"department\": \"Engineering\",\r\n            \"startDate\": \"2021-06-01\",\r\n            \"endDate\": \"2023-03-31\",\r\n            \"companyName\": \"Wipro\"\r\n        },\r\n        {\r\n            \"position\": \"Software Engineer\",\r\n            \"department\": \"Full Stack\",\r\n            \"startDate\": \"2023-04-15\",\r\n            \"endDate\": \"2024-11-30\",\r\n            \"companyName\": \"Adobe\"\r\n        }\r\n    ],\r\n    \"education\": [\r\n        {\r\n            \"degree\": \"BTech\",\r\n            \"field\": \"Software Engineering\",\r\n            \"startDate\": \"2017-08-01\",\r\n            \"endDate\": \"2021-06-30\",\r\n            \"institute\": \"SRM Institute of Science and Technology\"\r\n        }\r\n    ],\r\n        \"resumeToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdG5hbWUiLCJlbWFpbCI6InRlc3RlbWFpbEBnbWFpbC5jb20iLCJyZXN1bWVOYW1lIjoiZGV2IHJlc3VtZS5wZGYtMTczMzU1MDc1OTEyOS5wZGYiLCJpYXQiOjE3MzM1NTA3NTksImV4cCI6MTczMzU3MjM1OX0.YBVOVTPCkS6pEkFgblHXxyu8p55BCPzkJMWEO0184WU\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/candidate/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								""
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "120"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"78-i4V2JVAs1CQqll+W3ZIZQN6YNTg\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 05:52:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"CANDIDATE_ALREADY_EXISTS\",\n    \"message\": \"Candidate already exists with this Email\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete all candidates",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/candidate/",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"candidate",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/candidate/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5160"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1428-9DzfbnvT01GOBMHTx9aTQ9zWaWo\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 05:43:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"All candidates successfully deleted\",\n    \"data\": {\n        \"candidates\": [\n            {\n                \"_id\": \"6753e08668290ff5ce2df9aa\",\n                \"name\": \"Aarav Sharma\",\n                \"gender\": \"male\",\n                \"email\": \"aarav.sharma@gmail.com\",\n                \"mobileNo\": \"9876543210\",\n                \"dateOfBirth\": \"1998-07-15T00:00:00.000Z\",\n                \"skills\": [\n                    \"python\",\n                    \"django\",\n                    \"aws\"\n                ],\n                \"experience\": [\n                    {\n                        \"position\": \"Software Engineer\",\n                        \"department\": \"Backend\",\n                        \"startDate\": \"2021-03-01T00:00:00.000Z\",\n                        \"endDate\": \"2022-12-31T00:00:00.000Z\",\n                        \"companyName\": \"Microsoft\",\n                        \"_id\": \"6753e08668290ff5ce2df9ab\"\n                    },\n                    {\n                        \"position\": \"DevOps Engineer\",\n                        \"department\": \"DevOps\",\n                        \"startDate\": \"2023-01-15T00:00:00.000Z\",\n                        \"endDate\": \"2024-06-30T00:00:00.000Z\",\n                        \"companyName\": \"Amazon\",\n                        \"_id\": \"6753e08668290ff5ce2df9ac\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BTech\",\n                        \"field\": \"Information Technology\",\n                        \"startDate\": \"2015-08-10T00:00:00.000Z\",\n                        \"endDate\": \"2019-05-15T00:00:00.000Z\",\n                        \"institute\": \"Delhi Technological University\",\n                        \"_id\": \"6753e08668290ff5ce2df9ad\"\n                    },\n                    {\n                        \"degree\": \"MTech\",\n                        \"field\": \"Data Science\",\n                        \"startDate\": \"2020-07-01T00:00:00.000Z\",\n                        \"endDate\": \"2022-06-30T00:00:00.000Z\",\n                        \"institute\": \"IIT Bombay\",\n                        \"_id\": \"6753e08668290ff5ce2df9ae\"\n                    }\n                ],\n                \"subjects\": [],\n                \"feedbacks\": [],\n                \"applications\": [],\n                \"createdAt\": \"2024-12-07T05:43:34.659Z\",\n                \"updatedAt\": \"2024-12-07T05:43:34.659Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6753e08668290ff5ce2df9b0\",\n                \"name\": \"Isha Kapoor\",\n                \"gender\": \"female\",\n                \"email\": \"isha.kapoor@gmail.com\",\n                \"mobileNo\": \"9123456789\",\n                \"dateOfBirth\": \"2000-09-22T00:00:00.000Z\",\n                \"skills\": [\n                    \"java\",\n                    \"spring\",\n                    \"microservices\"\n                ],\n                \"experience\": [\n                    {\n                        \"position\": \"Backend Developer\",\n                        \"department\": \"Engineering\",\n                        \"startDate\": \"2022-01-10T00:00:00.000Z\",\n                        \"endDate\": \"2023-03-15T00:00:00.000Z\",\n                        \"companyName\": \"Infosys\",\n                        \"_id\": \"6753e08668290ff5ce2df9b1\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BTech\",\n                        \"field\": \"Computer Science\",\n                        \"startDate\": \"2018-08-01T00:00:00.000Z\",\n                        \"endDate\": \"2022-05-31T00:00:00.000Z\",\n                        \"institute\": \"VIT University\",\n                        \"_id\": \"6753e08668290ff5ce2df9b2\"\n                    }\n                ],\n                \"subjects\": [],\n                \"feedbacks\": [],\n                \"applications\": [],\n                \"createdAt\": \"2024-12-07T05:43:34.663Z\",\n                \"updatedAt\": \"2024-12-07T05:43:34.663Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6753e08668290ff5ce2df9b4\",\n                \"name\": \"Devansh\",\n                \"gender\": \"male\",\n                \"email\": \"devansh@gmail.com\",\n                \"mobileNo\": \"9125984473\",\n                \"dateOfBirth\": \"2004-11-04T00:00:00.000Z\",\n                \"skills\": [\n                    \"javascript\",\n                    \"react\"\n                ],\n                \"experience\": [\n                    {\n                        \"position\": \"Junior Developer\",\n                        \"department\": \"Frontend\",\n                        \"startDate\": \"2023-04-25T00:00:00.000Z\",\n                        \"endDate\": \"2023-08-24T00:00:00.000Z\",\n                        \"companyName\": \"Google\",\n                        \"_id\": \"6753e08668290ff5ce2df9b5\"\n                    },\n                    {\n                        \"position\": \"Senior Developer\",\n                        \"department\": \"Backend\",\n                        \"startDate\": \"2023-10-20T00:00:00.000Z\",\n                        \"endDate\": \"2024-02-15T00:00:00.000Z\",\n                        \"companyName\": \"Microsoft\",\n                        \"_id\": \"6753e08668290ff5ce2df9b6\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BE\",\n                        \"field\": \"Civil Engineering\",\n                        \"startDate\": \"2016-02-15T00:00:00.000Z\",\n                        \"endDate\": \"2020-02-16T00:00:00.000Z\",\n                        \"institute\": \"Thapar University\",\n                        \"_id\": \"6753e08668290ff5ce2df9b7\"\n                    },\n                    {\n                        \"degree\": \"MTech\",\n                        \"field\": \"Computer Science\",\n                        \"startDate\": \"2020-07-20T00:00:00.000Z\",\n                        \"endDate\": \"2022-06-19T00:00:00.000Z\",\n                        \"institute\": \"Chitkara University\",\n                        \"_id\": \"6753e08668290ff5ce2df9b8\"\n                    }\n                ],\n                \"subjects\": [],\n                \"feedbacks\": [],\n                \"applications\": [],\n                \"createdAt\": \"2024-12-07T05:43:34.665Z\",\n                \"updatedAt\": \"2024-12-07T05:43:34.665Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6753e08668290ff5ce2df9ba\",\n                \"name\": \"Rohan Verma\",\n                \"gender\": \"male\",\n                \"email\": \"rohan.verma@gmail.com\",\n                \"mobileNo\": \"9123456776\",\n                \"dateOfBirth\": \"1995-12-12T00:00:00.000Z\",\n                \"skills\": [\n                    \"c++\",\n                    \"algorithms\",\n                    \"data structures\"\n                ],\n                \"experience\": [\n                    {\n                        \"position\": \"Algorithm Specialist\",\n                        \"department\": \"R&D\",\n                        \"startDate\": \"2018-09-01T00:00:00.000Z\",\n                        \"endDate\": \"2021-12-31T00:00:00.000Z\",\n                        \"companyName\": \"TCS\",\n                        \"_id\": \"6753e08668290ff5ce2df9bb\"\n                    },\n                    {\n                        \"position\": \"Lead Software Engineer\",\n                        \"department\": \"AI/ML\",\n                        \"startDate\": \"2022-01-10T00:00:00.000Z\",\n                        \"endDate\": \"2024-02-15T00:00:00.000Z\",\n                        \"companyName\": \"Google\",\n                        \"_id\": \"6753e08668290ff5ce2df9bc\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BE\",\n                        \"field\": \"Electronics and Communication\",\n                        \"startDate\": \"2013-08-01T00:00:00.000Z\",\n                        \"endDate\": \"2017-06-30T00:00:00.000Z\",\n                        \"institute\": \"Anna University\",\n                        \"_id\": \"6753e08668290ff5ce2df9bd\"\n                    },\n                    {\n                        \"degree\": \"MS\",\n                        \"field\": \"Artificial Intelligence\",\n                        \"startDate\": \"2018-01-10T00:00:00.000Z\",\n                        \"endDate\": \"2020-05-15T00:00:00.000Z\",\n                        \"institute\": \"Stanford University\",\n                        \"_id\": \"6753e08668290ff5ce2df9be\"\n                    }\n                ],\n                \"subjects\": [],\n                \"feedbacks\": [],\n                \"applications\": [],\n                \"createdAt\": \"2024-12-07T05:43:34.667Z\",\n                \"updatedAt\": \"2024-12-07T05:43:34.667Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6753e08768290ff5ce2df9c0\",\n                \"name\": \"Priya Mehta\",\n                \"gender\": \"female\",\n                \"email\": \"priya.mehta@gmail.com\",\n                \"mobileNo\": \"9876543298\",\n                \"dateOfBirth\": \"1997-03-17T00:00:00.000Z\",\n                \"skills\": [\n                    \"react\",\n                    \"node.js\",\n                    \"mongodb\"\n                ],\n                \"experience\": [\n                    {\n                        \"position\": \"Full-Stack Developer\",\n                        \"department\": \"Technology\",\n                        \"startDate\": \"2020-06-01T00:00:00.000Z\",\n                        \"endDate\": \"2022-12-31T00:00:00.000Z\",\n                        \"companyName\": \"Flipkart\",\n                        \"_id\": \"6753e08768290ff5ce2df9c1\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BCA\",\n                        \"field\": \"Computer Applications\",\n                        \"startDate\": \"2015-07-01T00:00:00.000Z\",\n                        \"endDate\": \"2018-06-30T00:00:00.000Z\",\n                        \"institute\": \"Amity University\",\n                        \"_id\": \"6753e08768290ff5ce2df9c2\"\n                    },\n                    {\n                        \"degree\": \"MCA\",\n                        \"field\": \"Software Engineering\",\n                        \"startDate\": \"2018-08-01T00:00:00.000Z\",\n                        \"endDate\": \"2021-07-30T00:00:00.000Z\",\n                        \"institute\": \"BITS Pilani\",\n                        \"_id\": \"6753e08768290ff5ce2df9c3\"\n                    }\n                ],\n                \"subjects\": [],\n                \"feedbacks\": [],\n                \"applications\": [],\n                \"createdAt\": \"2024-12-07T05:43:35.053Z\",\n                \"updatedAt\": \"2024-12-07T05:43:35.053Z\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				},
+				{
+					"name": "None found",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/candidate/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								""
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "94"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5e-O44oJTC2Hp7rl8oU+2EJymBWEjw\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 05:45:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"NO_CANDIDATES_FOUND\",\n    \"message\": \"No candidates found\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "Get single candidate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/candidate/:detail?education=true&experience=true",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"candidate",
+						":detail"
+					],
+					"query": [
+						{
+							"key": "education",
+							"value": "true"
+						},
+						{
+							"key": "experience",
+							"value": "true"
+						}
+					],
+					"variable": [
+						{
+							"key": "detail",
+							"value": "id || email || mobileNo || linkedin"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Simple get",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/candidate/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								":id"
+							],
+							"query": [
+								{
+									"key": "education",
+									"value": "true",
+									"disabled": true
+								},
+								{
+									"key": "experience",
+									"value": "true",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6753e321b1fd49514ff9df37"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "408"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"198-0WakcHw9s7X8tPu1JZ3YFXHF1eQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 08:24:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{ // Normally you will not get education and experience along with the request\n//   You'll have to specify education = true and experience = true to get those fields as well\n    \"status\": \"success\",\n    \"message\": \"Candidate found\",\n    \"data\": {\n        \"candidate\": {\n            \"_id\": \"6753e321b1fd49514ff9df37\",\n            \"name\": \"Aarav Sharma\",\n            \"gender\": \"male\",\n            \"email\": \"aarav.sharma@gmail.com\",\n            \"mobileNo\": \"9876543210\",\n            \"dateOfBirth\": \"1998-07-15T00:00:00.000Z\",\n            \"skills\": [\n                \"python\",\n                \"django\",\n                \"aws\"\n            ],\n            \"subjects\": [],\n            \"feedbacks\": [],\n            \"applications\": [],\n            \"createdAt\": \"2024-12-07T05:54:41.643Z\",\n            \"updatedAt\": \"2024-12-07T05:54:41.643Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				},
+				{
+					"name": "with query",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/candidate/:id?education=true&experience=true",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								":id"
+							],
+							"query": [
+								{
+									"key": "education",
+									"value": "true"
+								},
+								{
+									"key": "experience",
+									"value": "true"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6753e321b1fd49514ff9df37"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1195"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4ab-2lDeL/IWZf4iBFAJfZRncxcEmko\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 08:24:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Candidate found\",\n    \"data\": {\n        \"candidate\": {\n            \"_id\": \"6753e321b1fd49514ff9df37\",\n            \"name\": \"Aarav Sharma\",\n            \"gender\": \"male\",\n            \"email\": \"aarav.sharma@gmail.com\",\n            \"mobileNo\": \"9876543210\",\n            \"dateOfBirth\": \"1998-07-15T00:00:00.000Z\",\n            \"skills\": [\n                \"python\",\n                \"django\",\n                \"aws\"\n            ],\n            \"experience\": [\n                {\n                    \"position\": \"Software Engineer\",\n                    \"department\": \"Backend\",\n                    \"startDate\": \"2021-03-01T00:00:00.000Z\",\n                    \"endDate\": \"2022-12-31T00:00:00.000Z\",\n                    \"companyName\": \"Microsoft\",\n                    \"_id\": \"6753e321b1fd49514ff9df38\"\n                },\n                {\n                    \"position\": \"DevOps Engineer\",\n                    \"department\": \"DevOps\",\n                    \"startDate\": \"2023-01-15T00:00:00.000Z\",\n                    \"endDate\": \"2024-06-30T00:00:00.000Z\",\n                    \"companyName\": \"Amazon\",\n                    \"_id\": \"6753e321b1fd49514ff9df39\"\n                }\n            ],\n            \"education\": [\n                {\n                    \"degree\": \"BTech\",\n                    \"field\": \"Information Technology\",\n                    \"startDate\": \"2015-08-10T00:00:00.000Z\",\n                    \"endDate\": \"2019-05-15T00:00:00.000Z\",\n                    \"institute\": \"Delhi Technological University\",\n                    \"_id\": \"6753e321b1fd49514ff9df3a\"\n                },\n                {\n                    \"degree\": \"MTech\",\n                    \"field\": \"Data Science\",\n                    \"startDate\": \"2020-07-01T00:00:00.000Z\",\n                    \"endDate\": \"2022-06-30T00:00:00.000Z\",\n                    \"institute\": \"IIT Bombay\",\n                    \"_id\": \"6753e321b1fd49514ff9df3b\"\n                }\n            ],\n            \"subjects\": [],\n            \"feedbacks\": [],\n            \"applications\": [],\n            \"createdAt\": \"2024-12-07T05:54:41.643Z\",\n            \"updatedAt\": \"2024-12-07T05:54:41.643Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Candidate",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "kerito",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/candidate/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"candidate",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "6753e321b1fd49514ff9df3d"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "kerito",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/candidate/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6753e321b1fd49514ff9df3d"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1190"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4a6-Zk58jgXi3v4e6dMUqR5U/DRZpIQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 06:23:08 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Candidate updated successfully\",\n    \"data\": {\n        \"candidate\": {\n            \"_id\": \"6753e321b1fd49514ff9df3d\",\n            \"name\": \"Kerito\",\n            \"gender\": \"male\",\n            \"email\": \"devansh@gmail.com\",\n            \"mobileNo\": \"9125984473\",\n            \"dateOfBirth\": \"2004-11-04T00:00:00.000Z\",\n            \"skills\": [\n                \"javascript\",\n                \"react\"\n            ],\n            \"experience\": [\n                {\n                    \"position\": \"Junior Developer\",\n                    \"department\": \"Frontend\",\n                    \"startDate\": \"2023-04-25T00:00:00.000Z\",\n                    \"endDate\": \"2023-08-24T00:00:00.000Z\",\n                    \"companyName\": \"Google\",\n                    \"_id\": \"6753e321b1fd49514ff9df3e\"\n                },\n                {\n                    \"position\": \"Senior Developer\",\n                    \"department\": \"Backend\",\n                    \"startDate\": \"2023-10-20T00:00:00.000Z\",\n                    \"endDate\": \"2024-02-15T00:00:00.000Z\",\n                    \"companyName\": \"Microsoft\",\n                    \"_id\": \"6753e321b1fd49514ff9df3f\"\n                }\n            ],\n            \"education\": [\n                {\n                    \"degree\": \"BE\",\n                    \"field\": \"Civil Engineering\",\n                    \"startDate\": \"2016-02-15T00:00:00.000Z\",\n                    \"endDate\": \"2020-02-16T00:00:00.000Z\",\n                    \"institute\": \"Thapar University\",\n                    \"_id\": \"6753e321b1fd49514ff9df40\"\n                },\n                {\n                    \"degree\": \"MTech\",\n                    \"field\": \"Computer Science\",\n                    \"startDate\": \"2020-07-20T00:00:00.000Z\",\n                    \"endDate\": \"2022-06-19T00:00:00.000Z\",\n                    \"institute\": \"Chitkara University\",\n                    \"_id\": \"6753e321b1fd49514ff9df41\"\n                }\n            ],\n            \"subjects\": [],\n            \"feedbacks\": [],\n            \"applications\": [],\n            \"createdAt\": \"2024-12-07T05:54:41.644Z\",\n            \"updatedAt\": \"2024-12-07T06:23:08.209Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete single candidate",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/candidate/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"candidate",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "6757e35a75ebad35df255baa"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/candidate/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6753ec21b5dd52c10138932d"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1191"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4a7-n0uwmHrKEVLULu6cG4Kqxd1TOoA\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 06:33:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Candidate deleted successfully\",\n    \"data\": {\n        \"candidate\": {\n            \"_id\": \"6753ec21b5dd52c10138932d\",\n            \"name\": \"Devansh\",\n            \"gender\": \"male\",\n            \"email\": \"devansh@gmail.com\",\n            \"mobileNo\": \"9125984473\",\n            \"dateOfBirth\": \"2004-11-04T00:00:00.000Z\",\n            \"skills\": [\n                \"javascript\",\n                \"react\"\n            ],\n            \"experience\": [\n                {\n                    \"position\": \"Junior Developer\",\n                    \"department\": \"Frontend\",\n                    \"startDate\": \"2023-04-25T00:00:00.000Z\",\n                    \"endDate\": \"2023-08-24T00:00:00.000Z\",\n                    \"companyName\": \"Google\",\n                    \"_id\": \"6753ec21b5dd52c10138932e\"\n                },\n                {\n                    \"position\": \"Senior Developer\",\n                    \"department\": \"Backend\",\n                    \"startDate\": \"2023-10-20T00:00:00.000Z\",\n                    \"endDate\": \"2024-02-15T00:00:00.000Z\",\n                    \"companyName\": \"Microsoft\",\n                    \"_id\": \"6753ec21b5dd52c10138932f\"\n                }\n            ],\n            \"education\": [\n                {\n                    \"degree\": \"BE\",\n                    \"field\": \"Civil Engineering\",\n                    \"startDate\": \"2016-02-15T00:00:00.000Z\",\n                    \"endDate\": \"2020-02-16T00:00:00.000Z\",\n                    \"institute\": \"Thapar University\",\n                    \"_id\": \"6753ec21b5dd52c101389330\"\n                },\n                {\n                    \"degree\": \"MTech\",\n                    \"field\": \"Computer Science\",\n                    \"startDate\": \"2020-07-20T00:00:00.000Z\",\n                    \"endDate\": \"2022-06-19T00:00:00.000Z\",\n                    \"institute\": \"Chitkara University\",\n                    \"_id\": \"6753ec21b5dd52c101389331\"\n                }\n            ],\n            \"subjects\": [],\n            \"feedbacks\": [],\n            \"applications\": [],\n            \"createdAt\": \"2024-12-07T06:33:05.317Z\",\n            \"updatedAt\": \"2024-12-07T06:33:05.317Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Signin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/candidate/signin",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"candidate",
+						"signin"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "devansh@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Pass@123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/candidate/signin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"candidate",
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "userToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTNmODgwOGQwZmIwYmU4M2Q5Y2JkMiIsInJvbGUiOiJjYW5kaWRhdGUiLCJpYXQiOjE3MzM1NTY0MjcsImV4cCI6MTczMzU3ODAyN30.5UpWynsocnq7pAYn-rqlKrKsSpwgGF6MuoE_ST943Cg; Path=/; HttpOnly"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "366"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"16e-obkHEdZucV01C1LBMQjg8PrrKHI\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Dec 2024 07:27:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Successfully logged in\",\n    \"data\": {\n        \"userToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTNmODgwOGQwZmIwYmU4M2Q5Y2JkMiIsInJvbGUiOiJjYW5kaWRhdGUiLCJpYXQiOjE3MzM1NTY0MjcsImV4cCI6MTczMzU3ODAyN30.5UpWynsocnq7pAYn-rqlKrKsSpwgGF6MuoE_ST943Cg\",\n        \"candidate\": {\n            \"id\": \"6753f8808d0fb0be83d9cbd2\",\n            \"email\": \"devansh@gmail.com\",\n            \"name\": \"Devansh\"\n        }\n    }\n}"
+				}
+			]
+		}
+	]
+}

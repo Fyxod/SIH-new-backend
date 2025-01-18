@@ -1,0 +1,1535 @@
+{
+	"info": {
+		"_postman_id": "13b2954e-307a-4350-9ba6-11e42d8f8f1b",
+		"name": "Application",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32444618",
+		"_collection_link": "https://black-swan-team.postman.co/workspace/Black-Swan-Backend~8bab9768-95f8-4af9-8c5b-fc37ab0d465d/collection/32444618-13b2954e-307a-4350-9ba6-11e42d8f8f1b?action=share&source=collection_link&creator=32444618"
+	},
+	"item": [
+		{
+			"name": "Get all applications",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/application?candidate=true&subject=true&panel=true&feedback=true",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application"
+					],
+					"query": [
+						{
+							"key": "candidate",
+							"value": "true"
+						},
+						{
+							"key": "subject",
+							"value": "true"
+						},
+						{
+							"key": "panel",
+							"value": "true"
+						},
+						{
+							"key": "feedback",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "With query",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/application?candidate=true&subject=true&panel=true&feedback=true",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application"
+							],
+							"query": [
+								{
+									"key": "candidate",
+									"value": "true"
+								},
+								{
+									"key": "subject",
+									"value": "true"
+								},
+								{
+									"key": "panel",
+									"value": "true"
+								},
+								{
+									"key": "feedback",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4969"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1369-D81DBO5cni+bE72cXxRtm6nxNR8\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 20:59:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Applications fetched successfully\",\n    \"data\": {\n        \"applications\": [\n            {\n                \"interviewDetails\": {\n                    \"link\": null,\n                    \"venue\": null,\n                    \"conducted\": false,\n                    \"expertNotes\": []\n                },\n                \"_id\": \"67557976eb379494a4060fe9\",\n                \"candidate\": {\n                    \"_id\": \"675521a15369beebdc1f577a\",\n                    \"name\": \"Devansh\",\n                    \"gender\": \"male\",\n                    \"email\": \"devansh@gmail.com\",\n                    \"mobileNo\": \"9125984473\",\n                    \"password\": \"$2b$10$Y14pyuq3iqJwOkxe.Fa9pOa85fY1WePaD/0NG7LQdSJyIAgW2D1Bq\",\n                    \"dateOfBirth\": \"2004-11-04T00:00:00.000Z\",\n                    \"skills\": [\n                        \"javascript\",\n                        \"react\"\n                    ],\n                    \"experience\": [\n                        {\n                            \"position\": \"Junior Developer\",\n                            \"department\": \"Frontend\",\n                            \"startDate\": \"2023-04-25T00:00:00.000Z\",\n                            \"endDate\": \"2023-08-24T00:00:00.000Z\",\n                            \"companyName\": \"Google\",\n                            \"_id\": \"675521a15369beebdc1f577b\"\n                        },\n                        {\n                            \"position\": \"Senior Developer\",\n                            \"department\": \"Backend\",\n                            \"startDate\": \"2023-10-20T00:00:00.000Z\",\n                            \"endDate\": \"2024-02-15T00:00:00.000Z\",\n                            \"companyName\": \"Microsoft\",\n                            \"_id\": \"675521a15369beebdc1f577c\"\n                        }\n                    ],\n                    \"education\": [\n                        {\n                            \"degree\": \"BE\",\n                            \"field\": \"Civil Engineering\",\n                            \"startDate\": \"2016-02-15T00:00:00.000Z\",\n                            \"endDate\": \"2020-02-16T00:00:00.000Z\",\n                            \"institute\": \"Thapar University\",\n                            \"_id\": \"675521a15369beebdc1f577d\"\n                        },\n                        {\n                            \"degree\": \"MTech\",\n                            \"field\": \"Computer Science\",\n                            \"startDate\": \"2020-07-20T00:00:00.000Z\",\n                            \"endDate\": \"2022-06-19T00:00:00.000Z\",\n                            \"institute\": \"Chitkara University\",\n                            \"_id\": \"675521a15369beebdc1f577e\"\n                        }\n                    ],\n                    \"subjects\": [\n                        \"675528691affdfdb711f15b9\"\n                    ],\n                    \"feedbacks\": [],\n                    \"applications\": [\n                        \"67557976eb379494a4060fe9\"\n                    ],\n                    \"createdAt\": \"2024-12-08T04:33:37.694Z\",\n                    \"updatedAt\": \"2024-12-08T10:48:22.584Z\",\n                    \"__v\": 1\n                },\n                \"subject\": {\n                    \"_id\": \"675528691affdfdb711f15b9\",\n                    \"title\": \"Data Scientist\",\n                    \"description\": \"Data Scientist required to work on machine learning projects with a focus on Python, pandas, and scikit-learn.\",\n                    \"department\": \"Ministry of Health\",\n                    \"type\": \"project\",\n                    \"locationType\": \"onsite\",\n                    \"location\": \"Mumbai, Maharashtra\",\n                    \"duration\": \"12 months\",\n                    \"recommendedSkills\": [\n                        \"Python\",\n                        \"pandas\",\n                        \"scikit-learn\",\n                        \"TensorFlow\",\n                        \"SQL\",\n                        \"Data Visualization\"\n                    ],\n                    \"status\": \"open\",\n                    \"candidates\": [\n                        {\n                            \"relevancyScore\": 5,\n                            \"id\": \"675521a15369beebdc1f577a\",\n                            \"_id\": \"67557976eb379494a4060fe8\"\n                        },\n                        {\n                            \"relevancyScore\": 5,\n                            \"id\": \"675521a15369beebdc1f5780\",\n                            \"_id\": \"67557b0ed94fd3afc5c3a6b1\"\n                        }\n                    ],\n                    \"experts\": [\n                        {\n                            \"profileScore\": 2,\n                            \"relevancyScore\": 4,\n                            \"id\": \"675521ca5369beebdc1f586a\",\n                            \"_id\": \"67555ce80835a837669481e3\"\n                        }\n                    ],\n                    \"applications\": [\n                        \"67557976eb379494a4060fe9\",\n                        \"67557b0ed94fd3afc5c3a6b2\"\n                    ],\n                    \"feedbacks\": [],\n                    \"createdAt\": \"2024-12-08T05:02:33.484Z\",\n                    \"updatedAt\": \"2024-12-08T10:55:10.349Z\",\n                    \"__v\": 5\n                },\n                \"status\": \"pending\",\n                \"panel\": [],\n                \"appliedOn\": \"2024-12-08T10:48:22.475Z\",\n                \"createdAt\": \"2024-12-08T10:48:22.480Z\",\n                \"updatedAt\": \"2024-12-08T10:48:22.480Z\",\n                \"__v\": 0\n            },\n            {\n                \"interviewDetails\": {\n                    \"link\": null,\n                    \"venue\": null,\n                    \"conducted\": false,\n                    \"expertNotes\": []\n                },\n                \"_id\": \"67557b0ed94fd3afc5c3a6b2\",\n                \"candidate\": {\n                    \"_id\": \"675521a15369beebdc1f5780\",\n                    \"name\": \"Aarav Sharma\",\n                    \"gender\": \"male\",\n                    \"email\": \"aarav.sharma@gmail.com\",\n                    \"mobileNo\": \"9876543210\",\n                    \"password\": \"$2b$10$3quZGD9uqqtwrRc0y7s5/Oi716LGn9abnlLsiWbIQn.fWntSCJ7mG\",\n                    \"dateOfBirth\": \"1998-07-15T00:00:00.000Z\",\n                    \"skills\": [\n                        \"python\",\n                        \"django\",\n                        \"aws\"\n                    ],\n                    \"experience\": [\n                        {\n                            \"position\": \"Software Engineer\",\n                            \"department\": \"Backend\",\n                            \"startDate\": \"2021-03-01T00:00:00.000Z\",\n                            \"endDate\": \"2022-12-31T00:00:00.000Z\",\n                            \"companyName\": \"Microsoft\",\n                            \"_id\": \"675521a15369beebdc1f5781\"\n                        },\n                        {\n                            \"position\": \"DevOps Engineer\",\n                            \"department\": \"DevOps\",\n                            \"startDate\": \"2023-01-15T00:00:00.000Z\",\n                            \"endDate\": \"2024-06-30T00:00:00.000Z\",\n                            \"companyName\": \"Amazon\",\n                            \"_id\": \"675521a15369beebdc1f5782\"\n                        }\n                    ],\n                    \"education\": [\n                        {\n                            \"degree\": \"BTech\",\n                            \"field\": \"Information Technology\",\n                            \"startDate\": \"2015-08-10T00:00:00.000Z\",\n                            \"endDate\": \"2019-05-15T00:00:00.000Z\",\n                            \"institute\": \"Delhi Technological University\",\n                            \"_id\": \"675521a15369beebdc1f5783\"\n                        },\n                        {\n                            \"degree\": \"MTech\",\n                            \"field\": \"Data Science\",\n                            \"startDate\": \"2020-07-01T00:00:00.000Z\",\n                            \"endDate\": \"2022-06-30T00:00:00.000Z\",\n                            \"institute\": \"IIT Bombay\",\n                            \"_id\": \"675521a15369beebdc1f5784\"\n                        }\n                    ],\n                    \"subjects\": [\n                        \"675528691affdfdb711f15b9\"\n                    ],\n                    \"feedbacks\": [],\n                    \"applications\": [\n                        \"67557b0ed94fd3afc5c3a6b2\"\n                    ],\n                    \"createdAt\": \"2024-12-08T04:33:37.698Z\",\n                    \"updatedAt\": \"2024-12-08T10:55:10.170Z\",\n                    \"__v\": 1\n                },\n                \"subject\": {\n                    \"_id\": \"675528691affdfdb711f15b9\",\n                    \"title\": \"Data Scientist\",\n                    \"description\": \"Data Scientist required to work on machine learning projects with a focus on Python, pandas, and scikit-learn.\",\n                    \"department\": \"Ministry of Health\",\n                    \"type\": \"project\",\n                    \"locationType\": \"onsite\",\n                    \"location\": \"Mumbai, Maharashtra\",\n                    \"duration\": \"12 months\",\n                    \"recommendedSkills\": [\n                        \"Python\",\n                        \"pandas\",\n                        \"scikit-learn\",\n                        \"TensorFlow\",\n                        \"SQL\",\n                        \"Data Visualization\"\n                    ],\n                    \"status\": \"open\",\n                    \"candidates\": [\n                        {\n                            \"relevancyScore\": 5,\n                            \"id\": \"675521a15369beebdc1f577a\",\n                            \"_id\": \"67557976eb379494a4060fe8\"\n                        },\n                        {\n                            \"relevancyScore\": 5,\n                            \"id\": \"675521a15369beebdc1f5780\",\n                            \"_id\": \"67557b0ed94fd3afc5c3a6b1\"\n                        }\n                    ],\n                    \"experts\": [\n                        {\n                            \"profileScore\": 2,\n                            \"relevancyScore\": 4,\n                            \"id\": \"675521ca5369beebdc1f586a\",\n                            \"_id\": \"67555ce80835a837669481e3\"\n                        }\n                    ],\n                    \"applications\": [\n                        \"67557976eb379494a4060fe9\",\n                        \"67557b0ed94fd3afc5c3a6b2\"\n                    ],\n                    \"feedbacks\": [],\n                    \"createdAt\": \"2024-12-08T05:02:33.484Z\",\n                    \"updatedAt\": \"2024-12-08T10:55:10.349Z\",\n                    \"__v\": 5\n                },\n                \"status\": \"pending\",\n                \"panel\": [],\n                \"appliedOn\": \"2024-12-08T10:55:10.081Z\",\n                \"createdAt\": \"2024-12-08T10:55:10.086Z\",\n                \"updatedAt\": \"2024-12-08T10:55:10.086Z\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				},
+				{
+					"name": "Simple get",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/application?candidate=&subject=&panel=&feedback=",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application"
+							],
+							"query": [
+								{
+									"key": "candidate",
+									"value": ""
+								},
+								{
+									"key": "subject",
+									"value": ""
+								},
+								{
+									"key": "panel",
+									"value": ""
+								},
+								{
+									"key": "feedback",
+									"value": ""
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "786"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"312-CYsqU7YgnWpRlC1CifsgHT8Slbw\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 20:59:44 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Applications fetched successfully\",\n    \"data\": {\n        \"applications\": [\n            {\n                \"interviewDetails\": {\n                    \"link\": null,\n                    \"venue\": null,\n                    \"conducted\": false,\n                    \"expertNotes\": []\n                },\n                \"_id\": \"67557976eb379494a4060fe9\",\n                \"candidate\": \"675521a15369beebdc1f577a\",\n                \"subject\": \"675528691affdfdb711f15b9\",\n                \"status\": \"pending\",\n                \"panel\": [],\n                \"appliedOn\": \"2024-12-08T10:48:22.475Z\",\n                \"createdAt\": \"2024-12-08T10:48:22.480Z\",\n                \"updatedAt\": \"2024-12-08T10:48:22.480Z\",\n                \"__v\": 0\n            },\n            {\n                \"interviewDetails\": {\n                    \"link\": null,\n                    \"venue\": null,\n                    \"conducted\": false,\n                    \"expertNotes\": []\n                },\n                \"_id\": \"67557b0ed94fd3afc5c3a6b2\",\n                \"candidate\": \"675521a15369beebdc1f5780\",\n                \"subject\": \"675528691affdfdb711f15b9\",\n                \"status\": \"pending\",\n                \"panel\": [],\n                \"appliedOn\": \"2024-12-08T10:55:10.081Z\",\n                \"createdAt\": \"2024-12-08T10:55:10.086Z\",\n                \"updatedAt\": \"2024-12-08T10:55:10.086Z\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create new application / Add a candidate to subject",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "subjectId",
+							"value": "675528691affdfdb711f15bb",
+							"type": "text"
+						},
+						{
+							"key": "candidateId",
+							"value": "675521a15369beebdc1f5786",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/application",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "subjectId",
+									"value": "675528691affdfdb711f15bb",
+									"type": "text"
+								},
+								{
+									"key": "candidateId",
+									"value": "675521a15369beebdc1f5786",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/application",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "435"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1b3-+UVnIJwJgJuKYBYMWq/RsJGHeCk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 21:14:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Application created successfully\",\n    \"data\": {\n        \"application\": {\n            \"candidate\": \"675521a15369beebdc1f5786\",\n            \"subject\": \"675528691affdfdb711f15bb\",\n            \"status\": \"pending\",\n            \"interviewDetails\": {\n                \"link\": null,\n                \"venue\": null,\n                \"conducted\": false,\n                \"expertNotes\": []\n            },\n            \"_id\": \"67560c30d5045e16b5ff8a80\",\n            \"panel\": [],\n            \"appliedOn\": \"2024-12-08T21:14:24.119Z\",\n            \"createdAt\": \"2024-12-08T21:14:24.124Z\",\n            \"updatedAt\": \"2024-12-08T21:14:24.124Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get single application",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/application/:id?candidate=true&subject=true",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application",
+						":id"
+					],
+					"query": [
+						{
+							"key": "candidate",
+							"value": "true"
+						},
+						{
+							"key": "subject",
+							"value": "true"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "67557976eb379494a4060fe9"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Simple get",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/application/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67557976eb379494a4060fe9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "435"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1b3-rk2BY+2UPVNyOo/ZfhfZEkW2EO8\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 21:17:27 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Application fetched successfully\",\n    \"data\": {\n        \"application\": {\n            \"interviewDetails\": {\n                \"link\": null,\n                \"venue\": null,\n                \"conducted\": false,\n                \"expertNotes\": []\n            },\n            \"_id\": \"67557976eb379494a4060fe9\",\n            \"candidate\": \"675521a15369beebdc1f577a\",\n            \"subject\": \"675528691affdfdb711f15b9\",\n            \"status\": \"pending\",\n            \"panel\": [],\n            \"appliedOn\": \"2024-12-08T10:48:22.475Z\",\n            \"createdAt\": \"2024-12-08T10:48:22.480Z\",\n            \"updatedAt\": \"2024-12-08T10:48:22.480Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				},
+				{
+					"name": "Invalid id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/application/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67557976eb379494a4060fe"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "88"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"58-73lu9I7bgOP1bZCX1r4u56sZ6ZM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 21:17:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"INVALID_ID\",\n    \"message\": \"Invalid application id\",\n    \"data\": {}\n}"
+				},
+				{
+					"name": "With query",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/application/:id?candidate=true&subject=true",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application",
+								":id"
+							],
+							"query": [
+								{
+									"key": "candidate",
+									"value": "true"
+								},
+								{
+									"key": "subject",
+									"value": "true"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67557976eb379494a4060fe9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2517"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"9d5-QcdQNHuMXwzMRRpdNDO7mdEzGpA\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 21:20:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Application fetched successfully\",\n    \"data\": {\n        \"application\": {\n            \"interviewDetails\": {\n                \"link\": null,\n                \"venue\": null,\n                \"conducted\": false,\n                \"expertNotes\": []\n            },\n            \"_id\": \"67557976eb379494a4060fe9\",\n            \"candidate\": {\n                \"_id\": \"675521a15369beebdc1f577a\",\n                \"name\": \"Devansh\",\n                \"gender\": \"male\",\n                \"email\": \"devansh@gmail.com\",\n                \"mobileNo\": \"9125984473\",\n                \"password\": \"$2b$10$Y14pyuq3iqJwOkxe.Fa9pOa85fY1WePaD/0NG7LQdSJyIAgW2D1Bq\",\n                \"dateOfBirth\": \"2004-11-04T00:00:00.000Z\",\n                \"skills\": [\n                    \"javascript\",\n                    \"react\"\n                ],\n                \"experience\": [\n                    {\n                        \"position\": \"Junior Developer\",\n                        \"department\": \"Frontend\",\n                        \"startDate\": \"2023-04-25T00:00:00.000Z\",\n                        \"endDate\": \"2023-08-24T00:00:00.000Z\",\n                        \"companyName\": \"Google\",\n                        \"_id\": \"675521a15369beebdc1f577b\"\n                    },\n                    {\n                        \"position\": \"Senior Developer\",\n                        \"department\": \"Backend\",\n                        \"startDate\": \"2023-10-20T00:00:00.000Z\",\n                        \"endDate\": \"2024-02-15T00:00:00.000Z\",\n                        \"companyName\": \"Microsoft\",\n                        \"_id\": \"675521a15369beebdc1f577c\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BE\",\n                        \"field\": \"Civil Engineering\",\n                        \"startDate\": \"2016-02-15T00:00:00.000Z\",\n                        \"endDate\": \"2020-02-16T00:00:00.000Z\",\n                        \"institute\": \"Thapar University\",\n                        \"_id\": \"675521a15369beebdc1f577d\"\n                    },\n                    {\n                        \"degree\": \"MTech\",\n                        \"field\": \"Computer Science\",\n                        \"startDate\": \"2020-07-20T00:00:00.000Z\",\n                        \"endDate\": \"2022-06-19T00:00:00.000Z\",\n                        \"institute\": \"Chitkara University\",\n                        \"_id\": \"675521a15369beebdc1f577e\"\n                    }\n                ],\n                \"subjects\": [\n                    \"675528691affdfdb711f15b9\"\n                ],\n                \"feedbacks\": [],\n                \"applications\": [\n                    \"67557976eb379494a4060fe9\"\n                ],\n                \"createdAt\": \"2024-12-08T04:33:37.694Z\",\n                \"updatedAt\": \"2024-12-08T10:48:22.584Z\",\n                \"__v\": 1\n            },\n            \"subject\": {\n                \"_id\": \"675528691affdfdb711f15b9\",\n                \"title\": \"Data Scientist\",\n                \"description\": \"Data Scientist required to work on machine learning projects with a focus on Python, pandas, and scikit-learn.\",\n                \"department\": \"Ministry of Health\",\n                \"type\": \"project\",\n                \"locationType\": \"onsite\",\n                \"location\": \"Mumbai, Maharashtra\",\n                \"duration\": \"12 months\",\n                \"recommendedSkills\": [\n                    \"Python\",\n                    \"pandas\",\n                    \"scikit-learn\",\n                    \"TensorFlow\",\n                    \"SQL\",\n                    \"Data Visualization\"\n                ],\n                \"status\": \"open\",\n                \"candidates\": [\n                    {\n                        \"relevancyScore\": 5,\n                        \"id\": \"675521a15369beebdc1f577a\",\n                        \"_id\": \"67557976eb379494a4060fe8\"\n                    },\n                    {\n                        \"relevancyScore\": 5,\n                        \"id\": \"675521a15369beebdc1f5780\",\n                        \"_id\": \"67557b0ed94fd3afc5c3a6b1\"\n                    }\n                ],\n                \"experts\": [\n                    {\n                        \"profileScore\": 2,\n                        \"relevancyScore\": 4,\n                        \"id\": \"675521ca5369beebdc1f586a\",\n                        \"_id\": \"67555ce80835a837669481e3\"\n                    }\n                ],\n                \"applications\": [\n                    \"67557976eb379494a4060fe9\",\n                    \"67557b0ed94fd3afc5c3a6b2\"\n                ],\n                \"feedbacks\": [],\n                \"createdAt\": \"2024-12-08T05:02:33.484Z\",\n                \"updatedAt\": \"2024-12-08T10:55:10.349Z\",\n                \"__v\": 5\n            },\n            \"status\": \"pending\",\n            \"panel\": [],\n            \"appliedOn\": \"2024-12-08T10:48:22.475Z\",\n            \"createdAt\": \"2024-12-08T10:48:22.480Z\",\n            \"updatedAt\": \"2024-12-08T10:48:22.480Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update status of application",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "status",
+							"value": "pending || rejected || shorlisted || accepted",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/application/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "67560c30d5045e16b5ff8a80"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "status",
+									"value": "accepted",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/application/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67560c30d5045e16b5ff8a80"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "436"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1b4-NLGgIb+qVyOZYcVFEskjj+TBias\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 21:40:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Application updated successfully\",\n    \"data\": {\n        \"application\": {\n            \"interviewDetails\": {\n                \"link\": null,\n                \"venue\": null,\n                \"conducted\": false,\n                \"expertNotes\": []\n            },\n            \"_id\": \"67560c30d5045e16b5ff8a80\",\n            \"candidate\": \"675521a15369beebdc1f5786\",\n            \"subject\": \"675528691affdfdb711f15bb\",\n            \"status\": \"accepted\",\n            \"panel\": [],\n            \"appliedOn\": \"2024-12-08T21:14:24.119Z\",\n            \"createdAt\": \"2024-12-08T21:14:24.124Z\",\n            \"updatedAt\": \"2024-12-08T21:40:33.601Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete an application/remove candidate from subject",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/application/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "67557b0ed94fd3afc5c3a6b2"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/application/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67557b0ed94fd3afc5c3a6b2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "435"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1b3-OqerZpJFw5HoxQEexyTEYpdlkgA\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Dec 2024 22:22:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Application deleted successfully\",\n    \"data\": {\n        \"application\": {\n            \"interviewDetails\": {\n                \"link\": null,\n                \"venue\": null,\n                \"conducted\": false,\n                \"expertNotes\": []\n            },\n            \"_id\": \"67557b0ed94fd3afc5c3a6b2\",\n            \"candidate\": \"675521a15369beebdc1f5780\",\n            \"subject\": \"675528691affdfdb711f15b9\",\n            \"status\": \"pending\",\n            \"panel\": [],\n            \"appliedOn\": \"2024-12-08T10:55:10.081Z\",\n            \"createdAt\": \"2024-12-08T10:55:10.086Z\",\n            \"updatedAt\": \"2024-12-08T10:55:10.086Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get the experts panel of the application",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/application/:id/panel",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application",
+						":id",
+						"panel"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "67560c30d5045e16b5ff8a80"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/application/:id/panel",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application",
+								":id",
+								"panel"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67560c30d5045e16b5ff8a80"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3532"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"dcc-qyeFjP9J3uPXeBWIqebxJwr3S18\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 Dec 2024 12:15:11 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Panel fetched successfully\",\n    \"data\": {\n        \"panel\": [\n            {\n                \"expert\": {\n                    \"_id\": \"675521ca5369beebdc1f586a\",\n                    \"name\": \"Radhika Sharma\",\n                    \"gender\": \"female\",\n                    \"email\": \"radhika.sharma@example.com\",\n                    \"mobileNo\": \"9876543210\",\n                    \"password\": \"$2b$10$CDoi483sh5gPVXQXDdiofuPaHVtq2AnuQMU9TdOUT9a/WRzUP26ou\",\n                    \"dateOfBirth\": \"1990-05-12T00:00:00.000Z\",\n                    \"skills\": [\n                        \"Machine Learning\",\n                        \"Data Analysis\",\n                        \"React\",\n                        \"Node.js\",\n                        \"PostgreSQL\",\n                        \"AWS\"\n                    ],\n                    \"currentPosition\": \"Data Scientist\",\n                    \"currentDepartment\": \"Analytics\",\n                    \"experience\": [\n                        {\n                            \"department\": \"Business Intelligence\",\n                            \"position\": \"Data Analyst\",\n                            \"startDate\": \"2018-06-01T00:00:00.000Z\",\n                            \"endDate\": \"2020-12-31T00:00:00.000Z\",\n                            \"companyName\": \"Infosys\",\n                            \"_id\": \"675521ca5369beebdc1f586b\"\n                        },\n                        {\n                            \"department\": \"R&D\",\n                            \"position\": \"Machine Learning Engineer\",\n                            \"startDate\": \"2021-01-15T00:00:00.000Z\",\n                            \"endDate\": \"2023-06-30T00:00:00.000Z\",\n                            \"companyName\": \"Tech Solutions Inc.\",\n                            \"_id\": \"675521ca5369beebdc1f586c\"\n                        }\n                    ],\n                    \"education\": [\n                        {\n                            \"degree\": \"BSc\",\n                            \"field\": \"Computer Science\",\n                            \"startDate\": \"2008-07-15T00:00:00.000Z\",\n                            \"endDate\": \"2011-05-10T00:00:00.000Z\",\n                            \"institute\": \"Delhi University\",\n                            \"_id\": \"675521ca5369beebdc1f586d\"\n                        },\n                        {\n                            \"degree\": \"MSc\",\n                            \"field\": \"Data Science\",\n                            \"startDate\": \"2012-08-10T00:00:00.000Z\",\n                            \"endDate\": \"2014-07-25T00:00:00.000Z\",\n                            \"institute\": \"IIT Delhi\",\n                            \"_id\": \"675521ca5369beebdc1f586e\"\n                        },\n                        {\n                            \"degree\": \"PhD\",\n                            \"field\": \"Artificial Intelligence\",\n                            \"startDate\": \"2015-09-01T00:00:00.000Z\",\n                            \"endDate\": \"2019-05-30T00:00:00.000Z\",\n                            \"institute\": \"MIT\",\n                            \"_id\": \"675521ca5369beebdc1f586f\"\n                        }\n                    ],\n                    \"subjects\": [\n                        \"675528691affdfdb711f15b9\"\n                    ],\n                    \"feedbacks\": [],\n                    \"applications\": [\n                        \"67560c30d5045e16b5ff8a80\"\n                    ],\n                    \"createdAt\": \"2024-12-08T04:34:18.152Z\",\n                    \"updatedAt\": \"2024-12-09T12:11:56.497Z\",\n                    \"__v\": 4\n                },\n                \"feedback\": null,\n                \"_id\": \"6756de8c52fdd5e89b6e98e7\"\n            },\n            {\n                \"expert\": {\n                    \"_id\": \"675521ca5369beebdc1f5878\",\n                    \"name\": \"Arjun Mehta\",\n                    \"gender\": \"male\",\n                    \"email\": \"arjun.mehta@outlook.com\",\n                    \"mobileNo\": \"9123456789\",\n                    \"password\": \"$2b$10$R4mNSOsQOpVTkdfbzBDa4.2wE8ylGZeezOfDPMnakz9OQ/9v3dzUu\",\n                    \"dateOfBirth\": \"1985-03-28T00:00:00.000Z\",\n                    \"skills\": [\n                        \"Cloud Computing\",\n                        \"DevOps\",\n                        \"Kubernetes\",\n                        \"Docker\",\n                        \"Java\",\n                        \"SQL\"\n                    ],\n                    \"currentPosition\": \"Senior DevOps Engineer\",\n                    \"currentDepartment\": \"Infrastructure\",\n                    \"experience\": [\n                        {\n                            \"department\": \"IT\",\n                            \"position\": \"System Administrator\",\n                            \"startDate\": \"2008-01-15T00:00:00.000Z\",\n                            \"endDate\": \"2012-06-30T00:00:00.000Z\",\n                            \"companyName\": \"Tata Consultancy Services\",\n                            \"_id\": \"675521ca5369beebdc1f5879\"\n                        },\n                        {\n                            \"department\": \"Cloud Solutions\",\n                            \"position\": \"Cloud Engineer\",\n                            \"startDate\": \"2013-02-01T00:00:00.000Z\",\n                            \"endDate\": \"2018-09-15T00:00:00.000Z\",\n                            \"companyName\": \"HCL Technologies\",\n                            \"_id\": \"675521ca5369beebdc1f587a\"\n                        },\n                        {\n                            \"department\": \"Engineering\",\n                            \"position\": \"DevOps Lead\",\n                            \"startDate\": \"2019-01-10T00:00:00.000Z\",\n                            \"endDate\": \"2023-11-30T00:00:00.000Z\",\n                            \"companyName\": \"Amazon Web Services\",\n                            \"_id\": \"675521ca5369beebdc1f587b\"\n                        }\n                    ],\n                    \"education\": [\n                        {\n                            \"degree\": \"BTech\",\n                            \"field\": \"Information Technology\",\n                            \"startDate\": \"2003-07-10T00:00:00.000Z\",\n                            \"endDate\": \"2007-05-20T00:00:00.000Z\",\n                            \"institute\": \"VIT University\",\n                            \"_id\": \"675521ca5369beebdc1f587c\"\n                        },\n                        {\n                            \"degree\": \"MTech\",\n                            \"field\": \"Software Engineering\",\n                            \"startDate\": \"2008-08-05T00:00:00.000Z\",\n                            \"endDate\": \"2010-06-15T00:00:00.000Z\",\n                            \"institute\": \"Anna University\",\n                            \"_id\": \"675521ca5369beebdc1f587d\"\n                        },\n                        {\n                            \"degree\": \"Postgraduate Diploma\",\n                            \"field\": \"Cloud Computing\",\n                            \"startDate\": \"2011-01-10T00:00:00.000Z\",\n                            \"endDate\": \"2012-12-10T00:00:00.000Z\",\n                            \"institute\": \"University of Melbourne\",\n                            \"_id\": \"675521ca5369beebdc1f587e\"\n                        }\n                    ],\n                    \"subjects\": [],\n                    \"feedbacks\": [],\n                    \"applications\": [\n                        \"67560c30d5045e16b5ff8a80\"\n                    ],\n                    \"createdAt\": \"2024-12-08T04:34:18.158Z\",\n                    \"updatedAt\": \"2024-12-09T12:15:05.797Z\",\n                    \"__v\": 1\n                },\n                \"feedback\": null,\n                \"_id\": \"6756df4952fdd5e89b6e98fb\"\n            }\n        ]\n    }\n}"
+				},
+				{
+					"name": "Empty panel",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/application/:id/panel",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application",
+								":id",
+								"panel"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67560c30d5045e16b5ff8a80"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "79"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4f-HGb+maBJQsMaiH/fbREn44p2yrY\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 Dec 2024 11:57:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Panel fetched successfully\",\n    \"data\": {\n        \"panel\": []\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Add expert to interview panel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "expertId",
+							"value": "675521ca5369beebdc1f5878",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/application/:id/panel",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application",
+						":id",
+						"panel"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "67560c30d5045e16b5ff8a80"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "expertId",
+									"value": "675521ca5369beebdc1f586a",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/application/:id/panel",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application",
+								":id",
+								"panel"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67560c30d5045e16b5ff8a80"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "170"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"aa-uMDR7jkAMTYS+Jw0pZn9Ro1ftVQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 Dec 2024 12:11:56 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Panel member added successfully\",\n    \"data\": {\n        \"panel\": [\n            {\n                \"expert\": \"675521ca5369beebdc1f586a\",\n                \"feedback\": null,\n                \"_id\": \"6756de8c52fdd5e89b6e98e7\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Remove expert from panel",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "expertId",
+							"value": "675521ca5369beebdc1f5878",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/application/:id/panel",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application",
+						":id",
+						"panel"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "67560c30d5045e16b5ff8a80"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "expertId",
+									"value": "675521ca5369beebdc1f5878",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/application/:id/panel",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application",
+								":id",
+								"panel"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67560c30d5045e16b5ff8a80"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "172"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ac-GOryYVK5rdSyn6BiHqAL77seVoc\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 Dec 2024 12:20:20 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Panel member removed successfully\",\n    \"data\": {\n        \"panel\": [\n            {\n                \"expert\": \"675521ca5369beebdc1f586a\",\n                \"feedback\": null,\n                \"_id\": \"6756de8c52fdd5e89b6e98e7\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get single expert of panel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/application/:id/panel/:expertId",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application",
+						":id",
+						"panel",
+						":expertId"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "67560c30d5045e16b5ff8a80"
+						},
+						{
+							"key": "expertId",
+							"value": "675521ca5369beebdc1f586a"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/application/:id/panel/:expertId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application",
+								":id",
+								"panel",
+								":expertId"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67560c30d5045e16b5ff8a80"
+								},
+								{
+									"key": "expertId",
+									"value": "675521ca5369beebdc1f586a"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1704"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6a8-QLGPMRibW1NiOznKiT97u5mfhsg\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 Dec 2024 12:39:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Panel member fetched successfully\",\n    \"data\": {\n        \"panelMember\": {\n            \"expert\": {\n                \"_id\": \"675521ca5369beebdc1f586a\",\n                \"name\": \"Radhika Sharma\",\n                \"gender\": \"female\",\n                \"email\": \"radhika.sharma@example.com\",\n                \"mobileNo\": \"9876543210\",\n                \"password\": \"$2b$10$CDoi483sh5gPVXQXDdiofuPaHVtq2AnuQMU9TdOUT9a/WRzUP26ou\",\n                \"dateOfBirth\": \"1990-05-12T00:00:00.000Z\",\n                \"skills\": [\n                    \"Machine Learning\",\n                    \"Data Analysis\",\n                    \"React\",\n                    \"Node.js\",\n                    \"PostgreSQL\",\n                    \"AWS\"\n                ],\n                \"currentPosition\": \"Data Scientist\",\n                \"currentDepartment\": \"Analytics\",\n                \"experience\": [\n                    {\n                        \"department\": \"Business Intelligence\",\n                        \"position\": \"Data Analyst\",\n                        \"startDate\": \"2018-06-01T00:00:00.000Z\",\n                        \"endDate\": \"2020-12-31T00:00:00.000Z\",\n                        \"companyName\": \"Infosys\",\n                        \"_id\": \"675521ca5369beebdc1f586b\"\n                    },\n                    {\n                        \"department\": \"R&D\",\n                        \"position\": \"Machine Learning Engineer\",\n                        \"startDate\": \"2021-01-15T00:00:00.000Z\",\n                        \"endDate\": \"2023-06-30T00:00:00.000Z\",\n                        \"companyName\": \"Tech Solutions Inc.\",\n                        \"_id\": \"675521ca5369beebdc1f586c\"\n                    }\n                ],\n                \"education\": [\n                    {\n                        \"degree\": \"BSc\",\n                        \"field\": \"Computer Science\",\n                        \"startDate\": \"2008-07-15T00:00:00.000Z\",\n                        \"endDate\": \"2011-05-10T00:00:00.000Z\",\n                        \"institute\": \"Delhi University\",\n                        \"_id\": \"675521ca5369beebdc1f586d\"\n                    },\n                    {\n                        \"degree\": \"MSc\",\n                        \"field\": \"Data Science\",\n                        \"startDate\": \"2012-08-10T00:00:00.000Z\",\n                        \"endDate\": \"2014-07-25T00:00:00.000Z\",\n                        \"institute\": \"IIT Delhi\",\n                        \"_id\": \"675521ca5369beebdc1f586e\"\n                    },\n                    {\n                        \"degree\": \"PhD\",\n                        \"field\": \"Artificial Intelligence\",\n                        \"startDate\": \"2015-09-01T00:00:00.000Z\",\n                        \"endDate\": \"2019-05-30T00:00:00.000Z\",\n                        \"institute\": \"MIT\",\n                        \"_id\": \"675521ca5369beebdc1f586f\"\n                    }\n                ],\n                \"subjects\": [\n                    \"675528691affdfdb711f15b9\"\n                ],\n                \"feedbacks\": [],\n                \"applications\": [\n                    \"67560c30d5045e16b5ff8a80\"\n                ],\n                \"createdAt\": \"2024-12-08T04:34:18.152Z\",\n                \"updatedAt\": \"2024-12-09T12:11:56.497Z\",\n                \"__v\": 4\n            },\n            \"feedback\": null,\n            \"_id\": \"6756de8c52fdd5e89b6e98e7\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Give feedback to expert",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"feedback\":{\r\n        \"content\":\"Expert was damn good\",\r\n        \"score\": 8\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/application/:id/panel/:expertId",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application",
+						":id",
+						"panel",
+						":expertId"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "67560c30d5045e16b5ff8a80"
+						},
+						{
+							"key": "expertId",
+							"value": "675521ca5369beebdc1f586a"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"feedback\":{\r\n        \"content\":\"Expert was damn good\",\r\n        \"score\": 8\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/application/:id/panel/:expertId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application",
+								":id",
+								"panel",
+								":expertId"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67560c30d5045e16b5ff8a80"
+								},
+								{
+									"key": "expertId",
+									"value": "675521ca5369beebdc1f586a"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "196"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"c4-A8yPBZM11j/psudtSdAITvkwDgI\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 Dec 2024 13:41:18 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Feedback added/updated successfully\",\n    \"data\": {\n        \"panel\": [\n            {\n                \"expert\": \"675521ca5369beebdc1f586a\",\n                \"feedback\": \"6756f37ed5ed2bfe7f55789a\",\n                \"_id\": \"6756de8c52fdd5e89b6e98e7\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Feedback of a particular expert",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/application/:id/panel/:expertId",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application",
+						":id",
+						"panel",
+						":expertId"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						},
+						{
+							"key": "expertId",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete feedback of a particular expert",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/application/:id/panel/:expertId",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"application",
+						":id",
+						"panel",
+						":expertId"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						},
+						{
+							"key": "expertId",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get the note of a particular expert for a specific candidate application",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/:id/panel/:expertId/note",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						":id",
+						"panel",
+						":expertId",
+						"note"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						},
+						{
+							"key": "expertId",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add note of an expert for a particular candidate application",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{host}}/:id/panel/:expertIdP/note",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						":id",
+						"panel",
+						":expertIdP",
+						"note"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						},
+						{
+							"key": "expertIdP",
+							"value": "optional"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get the interview details of an application",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/:id/interviewdetails",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						":id",
+						"interviewdetails"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update the interview details of a particular subject",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/:id/interviewdetails",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						":id",
+						"interviewdetails"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,995 @@
+{
+	"info": {
+		"_postman_id": "0fe45c64-e87e-448f-9804-bc4960e77f23",
+		"name": "Admin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32444618",
+		"_collection_link": "https://black-swan-team.postman.co/workspace/Black-Swan-Backend~8bab9768-95f8-4af9-8c5b-fc37ab0d465d/collection/32444618-0fe45c64-e87e-448f-9804-bc4960e77f23?action=share&source=collection_link&creator=32444618"
+	},
+	"item": [
+		{
+			"name": "Get all admins",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{host}}/admin",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"admin"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successful",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{host}}/admin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "564"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"234-n+JrqIn69e2EedkyiWBMHaqssPA\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 18:26:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"All admins successfully retrieved\",\n    \"data\": {\n        \"admins\": [\n            {\n                \"_id\": \"67533ae8c89ab8d4341a72f6\",\n                \"username\": \"parth\",\n                \"role\": \"admin\",\n                \"createdAt\": \"2024-12-06T17:56:56.191Z\",\n                \"updatedAt\": \"2024-12-06T17:56:56.191Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"67533af9c89ab8d4341a72f9\",\n                \"username\": \"superadmin\",\n                \"role\": \"superadmin\",\n                \"createdAt\": \"2024-12-06T17:57:13.540Z\",\n                \"updatedAt\": \"2024-12-06T17:57:13.540Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"67533bb5c89ab8d4341a72fd\",\n                \"username\": \"omrajpal\",\n                \"role\": \"admin\",\n                \"createdAt\": \"2024-12-06T18:00:21.202Z\",\n                \"updatedAt\": \"2024-12-06T18:00:21.202Z\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				},
+				{
+					"name": "Invalid token",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{host}}/admin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "92"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5c-R+p/2/csNl58GCEOQbYq6hIJ0hM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 18:27:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"UNAUTHORIZED\",\n    \"message\": \"Invalid or expired token\",\n    \"data\": {}\n}"
+				},
+				{
+					"name": "Superadmins only",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{host}}/admin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "84"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"54-OJ/XZQ8aFvIFe3FalSmg6FlC3dk\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 18:30:30 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"FORBIDDEN\",\n    \"message\": \"Unauthorized access\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "Signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "superadmin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Pass@123",
+							"type": "text"
+						},
+						{
+							"key": "confirmPassword",
+							"value": "Pass@123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/admin/signup",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"admin",
+						"signup"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Admin exists",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "parth",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Pass@123",
+									"type": "text"
+								},
+								{
+									"key": "confirmPassword",
+									"value": "Pass@123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/admin/signup",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"signup"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "88"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"58-HLv+EIPPqjwMUw+Qah73bPxScTs\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 17:57:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"ADMIN_EXISTS\",\n    \"message\": \"Admin already exists\",\n    \"data\": {}\n}"
+				},
+				{
+					"name": "Admin Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "omrajpal",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Pass@123",
+									"type": "text"
+								},
+								{
+									"key": "confirmPassword",
+									"value": "Pass@123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/admin/signup",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"signup"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "90"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5a-ifP+mW7oMpEMXiNb7QVQOka9nD0\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 18:00:21 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Admin created successfully\",\n    \"data\": {\n        \"username\": \"omrajpal\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Sign In",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "superadmin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Pass@123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/admin/signin",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"admin",
+						"signin"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successful",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "superadmin",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Pass@123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/admin/signin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "userToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTMzYWY5Yzg5YWI4ZDQzNDFhNzJmOSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzMzNTA4MTYyLCJleHAiOjE3MzM1MDkwNjJ9._i2PxnNbg1MbEOjC3K1QP35kBOwrfOzeHSuxni09RvQ; Path=/; HttpOnly"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "276"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"114-nYdZQor5JqkfZwkY9x33rgqnafs\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 18:02:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Successfully logged in\",\n    \"data\": {\n        \"userToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTMzYWY5Yzg5YWI4ZDQzNDFhNzJmOSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzMzNTA4MTYyLCJleHAiOjE3MzM1MDkwNjJ9._i2PxnNbg1MbEOjC3K1QP35kBOwrfOzeHSuxni09RvQ\",\n        \"id\": \"jo bhi mongo user id hogi, save karva lena\"\n    }\n}"
+				},
+				{
+					"name": "Error",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "superadmin",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Pass@12",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/admin/signin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"signin"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "100"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"64-tm3DynT3JNu8CGPriboAJRQTIl0\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 18:03:30 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"INVALID_CREDENTIALS\",\n    \"message\": \"Invalid email or password\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "Get single admin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/admin/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"admin",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "67533bb5c89ab8d4341a72fe"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successful",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67533bb5c89ab8d4341a72fd"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "293"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"125-bkjo/Q7v1SpgCYzwYHHOzDqWYr4\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 18:47:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Admin found\",\n    \"data\": {\n        \"admin\": {\n            \"_id\": \"67533bb5c89ab8d4341a72fd\",\n            \"username\": \"omrajpal\",\n            \"role\": \"admin\",\n            \"createdAt\": \"2024-12-06T18:00:21.202Z\",\n            \"updatedAt\": \"2024-12-06T18:00:21.202Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				},
+				{
+					"name": "Invalid Id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67533bb5c89ab8d4341a72fj"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "82"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"52-9Q6A71NuYz6tlqGWWZPhfABHzwc\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 18:48:30 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"INVALID_ID\",\n    \"message\": \"Invalid admin ID\",\n    \"data\": {}\n}"
+				},
+				{
+					"name": "Not found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67533bb5c89ab8d4341a72fe"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "86"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"56-rFM4Co7EEx8WW0XWJu2/ZBJ/Ctc\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 18:48:53 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"ADMIN_NOT_FOUND\",\n    \"message\": \"Admin not found\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "Update admin",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "newomrajpal",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "confirmPassword",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/admin/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"admin",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "67533bb5c89ab8d4341a72fd"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successful",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "newomrajpal",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "confirmPassword",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/admin/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "67533bb5c89ab8d4341a72fd"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "93"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5d-WPPqHR5IuKG21HLw/nzncAg1O6g\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 18:57:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Admin updated successfully\",\n    \"data\": {\n        \"username\": \"newomrajpal\"\n    }\n}\n//bas vo data enter kar dena jo update karna ho - har patch route mein aisa hi hai"
+				}
+			]
+		},
+		{
+			"name": "Delete Admin",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/admin/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"admin",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "daal dio idhar value"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Invalid Id",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "daal dio idhar value"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "82"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"52-9Q6A71NuYz6tlqGWWZPhfABHzwc\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Dec 2024 19:00:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"errorCode\": \"INVALID_ID\",\n    \"message\": \"Invalid admin ID\",\n    \"data\": {}\n}"
+				}
+			]
+		},
+		{
+			"name": "extra",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"college\":  \"IIT Delhi\",\r\n    \"department\": \"Computer Science\",\r\n    \"expertise\": \"Machine Learning, Management\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4139/extraexperts/search/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4139",
+					"path": [
+						"extraexperts",
+						"search",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
